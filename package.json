@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "edoc2022.github.io",
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Grayscale by startbootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
+    "url": "git+https://github.com/edoc2022/edoc2022.github.io.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Claudenir Fonseca",
+    "email": "cmoraisfonseca@unibz.it"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
