@@ -17,8 +17,8 @@ const People = {
   workshopChairs: {
     name: "Workshop Chairs",
     members: [
-      { name: "Henderik A. Proper", institution: "Luxembourg Institute of Science and Technology - Luxembourg" },
       { name: "Tiago Prince Sales", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Henderik A. Proper", institution: "Luxembourg Institute of Science and Technology - Luxembourg" },
     ]
   },
   proceedingsChair: {
