@@ -6,10 +6,10 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/2022/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/images/edoc2022-globe-white-circle.png',
+  // pathPrefix: `/2022/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'EDOC 2022',
-  subHeading: 'Bolzano-Bozen, Italy, Fall of 2022',
+  subHeading: '03-07 October, 2022, Bolzano-Bozen, Italy',
 
   // social
   socialLinks: [
@@ -34,7 +34,7 @@ module.exports = {
     //   url: 'https://facebook.com/theanubhav',
     // },
   ],
-  email: 'cmoraisfonseca@unibz.it',
+  email: 'edoc2022@unibz.it',
   // phone: '000-00000',
   address: `Dominikanerplatz 3 - piazza Domenicani, 3
   Bozen-Bolzano, Italy - 39100`,

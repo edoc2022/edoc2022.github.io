@@ -7,7 +7,7 @@ import { Link } from 'gatsby';
 const NotFoundPage = () => (
   <Layout>
     <Header />
-    <header className="masthead">
+    <header className="secondaryhead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">Page not found</h1>
