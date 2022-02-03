@@ -2,16 +2,16 @@ const People = {
   chairs: {
     name: "General Chairs",
     members: [
-      { name: "Fabrizio Maria Maggi", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Giancarlo Guizzardi", institution: "Free University of Bozen-Bolzano - Italy, University of Twente - The Netherlands" },
       { name: "Marco Montali", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Fabrizio Maria Maggi", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },
   programChairs: {
     name: "Program Chairs",
     members: [
-      { name: "Dimka Karastoyanova", institution: "University of Groningen - The Netherlands" },
       { name: "João Paulo A. Almeida", institution: "Federal University of Espírito Santo - Brazil" },
+      { name: "Dimka Karastoyanova", institution: "University of Groningen - The Netherlands" },
     ]
   },
   workshopChairs: {
@@ -30,8 +30,8 @@ const People = {
   organizationChairs: {
     name: "Local Organization Chairs",
     members: [
-      { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Tiago Prince Sales", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },
   steeringCommittee: {
