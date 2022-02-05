@@ -13,7 +13,9 @@ const {
   chairs,
   programChairs,
   workshopChairs,
+  industrialChair,
   proceedingsChair,
+  financialChairs,
   organizationChairs,
   steeringCommittee,
   programCommittee,
@@ -84,6 +86,30 @@ const OrganizationPage = () => (
                   <li><b>{member.name}</b>, {member.institution}</li>
                 ))
               }
+            </ul>
+
+            <br/><br/>
+
+            <h2 className="text-black mb-4">{industrialChair.name}</h2>
+
+            <ul className='text-black text-justify'>
+              {
+                industrialChair.members.map(member => (
+                  <li><b>{member.name}</b>, {member.institution}</li>
+                ))
+              }
+            </ul>
+
+            <br/><br/>
+
+            <h2 className="text-black mb-4">{financialChairs.name}</h2>
+
+            <ul className='text-black text-justify'>
+              {
+                financialChairs.members.map(member => (
+                  <li><b>{member.name}</b>, {member.institution}</li>
+                  ))
+                }
             </ul>
 
             <br/><br/>
