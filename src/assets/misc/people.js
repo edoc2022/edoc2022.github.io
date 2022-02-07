@@ -21,10 +21,11 @@ const People = {
       { name: "Henderik A. Proper", institution: "Luxembourg Institute of Science and Technology - Luxembourg" },
     ]
   },
-  industrialChair: {
-    name: "Industrial Chair",
+  industrialChairs: {
+    name: "Industrial Chairs",
     members: [
       { name: "Zoran Milosevic", institution: "Deontik - Australia" },
+      { name: "Flavia Santoro", institution: "Rio de Janeiro State University - Brazil" },
     ]
   },
   proceedingsChair: {

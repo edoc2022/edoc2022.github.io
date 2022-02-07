@@ -13,7 +13,7 @@ const {
   chairs,
   programChairs,
   workshopChairs,
-  industrialChair,
+  industrialChairs,
   proceedingsChair,
   financialChairs,
   organizationChairs,
@@ -91,11 +91,11 @@ const OrganizationPage = () => (
 
             <br/><br/>
 
-            <h2 className="text-black mb-4">{industrialChair.name}</h2>
+            <h2 className="text-black mb-4">{industrialChairs.name}</h2>
 
             <ul className='text-black text-justify'>
               {
-                industrialChair.members.map(member => (
+                industrialChairs.members.map(member => (
                   <li><b>{member.name}</b>, {member.institution}</li>
                 ))
               }
