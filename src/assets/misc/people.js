@@ -48,6 +48,14 @@ const People = {
       { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },
+  organizationCommittee: {
+    name: "Local Organization Committee",
+    members: [
+      { name: "Riccardo Baratella", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "João Carlos Gonçalves", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Isadora Valle Sousa", institution: "Free University of Bozen-Bolzano - Italy" },
+    ]
+  },
   steeringCommittee: {
     name: "Steering Committee",
     chair: { name: "Selmin Nurcan", institution: "University Paris 1 Panthéon-Sorbonne - France" },

@@ -17,6 +17,7 @@ const {
   proceedingsChair,
   financialChairs,
   organizationChairs,
+  organizationCommittee,
   steeringCommittee,
   programCommittee,
 } = People;
@@ -119,6 +120,18 @@ const OrganizationPage = () => (
             <ul className='text-black text-justify'>
               {
                 organizationChairs.members.map(member => (
+                  <li><b>{member.name}</b>, {member.institution}</li>
+                  ))
+                }
+            </ul>
+
+            <br/><br/>
+
+            <h2 className="text-black mb-4">{organizationCommittee.name}</h2>
+
+            <ul className='text-black text-justify'>
+              {
+                organizationCommittee.members.map(member => (
                   <li><b>{member.name}</b>, {member.institution}</li>
                   ))
                 }
