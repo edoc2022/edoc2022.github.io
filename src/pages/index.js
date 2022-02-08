@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
@@ -7,18 +6,11 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 
-import edocLogoWhite from '../assets/images/edoc2022-tyrol-date-place-white-contour-large-2.png';
+import edocLogoWhite from '../assets/images/edoc2022-tyrol-date-place-white-contour-large.png';
 import ipad from '../assets/images/unibz-main-building.jpg';
 
 const IndexPage = () => (
-  <Layout>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <meta httpEquiv='Cache-Control' content='no-store'/>
-      {/* <title>My Title</title>
-      <link rel="canonical" href="http://mysite.com/example" /> */}
-    </Helmet>
-    
+  <Layout>    
     <Header />
 
     <header className="masthead">
