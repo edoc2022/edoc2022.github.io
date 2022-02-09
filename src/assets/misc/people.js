@@ -32,7 +32,7 @@ const People = {
     name: "Publicity Chairs",
     members: [
       { name: "Dominik Bork", institution: "TU Wien - Austria" },
-      // { name: "Estefanía Serral", institution: "KU Leuven - Belgium" },
+      { name: "Estefanía Serral", institution: "KU Leuven - Belgium" },
     ]
   },
   proceedingsChair: {
