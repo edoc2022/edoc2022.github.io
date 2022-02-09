@@ -28,6 +28,13 @@ const People = {
       { name: "Flavia Santoro", institution: "Rio de Janeiro State University - Brazil" },
     ]
   },
+  publicityChairs: {
+    name: "Publicity Chairs",
+    members: [
+      { name: "Dominik Bork", institution: "TU Wien - Austria" },
+      // { name: "Estefanía Serral", institution: "KU Leuven - Belgium" },
+    ]
+  },
   proceedingsChair: {
     name: "Proceedings and Website Chair",
     members: [

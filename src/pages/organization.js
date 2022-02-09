@@ -20,6 +20,7 @@ const {
   organizationCommittee,
   steeringCommittee,
   programCommittee,
+  publicityChairs,
 } = People;
 
 const OrganizationPage = () => (
@@ -79,18 +80,6 @@ const OrganizationPage = () => (
 
             <br/><br/>
 
-            <h2 className="text-black mb-4">{proceedingsChair.name}</h2>
-
-            <ul className='text-black text-justify'>
-              {
-                proceedingsChair.members.map(member => (
-                  <li><b>{member.name}</b>, {member.institution}</li>
-                ))
-              }
-            </ul>
-
-            <br/><br/>
-
             <h2 className="text-black mb-4">{industrialChairs.name}</h2>
 
             <ul className='text-black text-justify'>
@@ -103,11 +92,35 @@ const OrganizationPage = () => (
 
             <br/><br/>
 
+            <h2 className="text-black mb-4">{proceedingsChair.name}</h2>
+
+            <ul className='text-black text-justify'>
+              {
+                proceedingsChair.members.map(member => (
+                  <li><b>{member.name}</b>, {member.institution}</li>
+                ))
+              }
+            </ul>
+
+            <br/><br/>
+
             <h2 className="text-black mb-4">{financialChairs.name}</h2>
 
             <ul className='text-black text-justify'>
               {
                 financialChairs.members.map(member => (
+                  <li><b>{member.name}</b>, {member.institution}</li>
+                  ))
+                }
+            </ul>
+
+            <br/><br/>
+
+            <h2 className="text-black mb-4">{publicityChairs.name}</h2>
+
+            <ul className='text-black text-justify'>
+              {
+                publicityChairs.members.map(member => (
                   <li><b>{member.name}</b>, {member.institution}</li>
                   ))
                 }
