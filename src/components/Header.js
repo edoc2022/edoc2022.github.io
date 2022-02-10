@@ -66,14 +66,22 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link to='/organization'>Organization</Link>
+                <a className="nav-link" href="/call-for-papers">
+                  Call for Papers
+                </a>
               </li>
-              {/*<li className="nav-item">
+              <li className="nav-item">
+                <a className="nav-link" href="/organization">
+                  Organization
+                </a>
+              </li>
+              {/*
+              <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
                   element="about"
-                >
+                  >
                   <a className="nav-link" href="#about">
                     About
                   </a>
@@ -84,7 +92,7 @@ export default class Header extends Component {
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
                   element="projects"
-                >
+                  >
                   <a className="nav-link" href="#projects">
                     Projects
                   </a>
@@ -100,7 +108,8 @@ export default class Header extends Component {
                     Contact
                   </a>
                 </Scroll>
-              </li> */}
+              </li>
+              */}
             </ul>
           </div>
         </div>
