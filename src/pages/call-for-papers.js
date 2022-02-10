@@ -206,7 +206,17 @@ const CallForPapersPage = () => (
 
               <br/><br/>
 
-              *If you are a returning contributor to EDOC, please note the paper format change as well as the adoption of a strict deadline policy and mandatory abstract submission.*
+              <div className="bg-light-warning">
+                <br/>
+                <div className="d-flex justify-content-center">
+                
+                <div className="col-lg-11">
+                  <b>*If you are a returning contributor to EDOC, please note the paper format change as well as the adoption of a strict deadline policy and mandatory abstract submission.*</b>
+                </div>
+                
+                </div>
+                <br/>
+              </div>
             </p>
           </div>
         </div>

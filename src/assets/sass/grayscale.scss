@@ -47,3 +47,12 @@ a {
 footer {
   padding: 5rem 0;
 }
+
+.opacity-100 {
+  opacity: 1 !important;
+}
+
+.bg-light-warning {
+  --bs-bg-opacity: 1;
+  background-color: rgba(#ffc107, 0.75) !important;
+}
