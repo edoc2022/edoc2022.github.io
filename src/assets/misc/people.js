@@ -24,7 +24,7 @@ const People = {
   industrialChairs: {
     name: "Industrial Chairs",
     members: [
-      { name: "Zoran Milosevic", institution: "Deontik - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
       { name: "Flavia Santoro", institution: "Rio de Janeiro State University - Brazil" },
     ]
   },
@@ -76,7 +76,7 @@ const People = {
       { name: "Robert Lagerström", institution: "KTH - Sweden" },
       { name: "Stefanie Rinderle-Ma", institution: "University of Vienna - Austria" },
       { name: "Sylvain Hallé", institution: "Université du Québec à Chicoutimi - Canada" },
-      { name: "Zoran Milosevic", institution: "Deontik - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
     ]
   },
   programCommittee: {
@@ -135,6 +135,7 @@ const People = {
       { name: "Ljiljana Brankovic", institution: "University of Newcastle - Australia" },
       { name: "Luis Ferreira Pires", institution: "University of Twente - The Netherlands" },
       { name: "Luise Pufahl", institution: "TU Berlin - Germany" },
+      { name: "Madhushi Bandara", institution: "University of Technology Sydney - Australia" },
       { name: "Manfred Reichert", institution: "University of Ulm - Germany" },
       { name: "Marco Montali", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Maria Teresa Gómez López", institution: "University of Seville - Spain" },
@@ -144,7 +145,7 @@ const People = {
       { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Michael Schrefl", institution: "Deparment of Business Informatics, Data & Knowledge Engineering - Austria" },
       { name: "Michael Rosemann", institution: "Queensland University of Technology - Australia" },
-      { name: "Nathan Luong", institution: "Deontik - United Kingdom" },
+      { name: "Nathan Luong", institution: "Google - United Kingdom" },
       { name: "Nicolas Herbaut", institution: "Université Paris 1 Panthéon-Sorbonne - France" },
       { name: "Pankaj Telang", institution: "SAS Institute Inc. - United States" },
       { name: "Peter Bernus", institution: "Griffith University - Australia" },
@@ -173,7 +174,7 @@ const People = {
       { name: "Wolfgang Maass", institution: "Saarland University - Germany" },
       { name: "Wolfgang Mayer", institution: "University of South Australia - Australia" },
       { name: "Yigal Hoffner", institution: "Shenkar College of Engineering and Design - Israel" },
-      { name: "Zoran Milosevic", institution: "Deontik - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
     ]
   }
 }
