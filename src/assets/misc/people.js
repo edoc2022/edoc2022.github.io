@@ -24,7 +24,7 @@ const People = {
   industrialChairs: {
     name: "Industrial Chairs",
     members: [
-      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik/Best Practice Software - Australia" },
       { name: "Flavia Santoro", institution: "Rio de Janeiro State University - Brazil" },
     ]
   },
@@ -76,7 +76,7 @@ const People = {
       { name: "Robert Lagerström", institution: "KTH - Sweden" },
       { name: "Stefanie Rinderle-Ma", institution: "University of Vienna - Austria" },
       { name: "Sylvain Hallé", institution: "Université du Québec à Chicoutimi - Canada" },
-      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik/Best Practice Software - Australia" },
     ]
   },
   programCommittee: {
@@ -174,7 +174,7 @@ const People = {
       { name: "Wolfgang Maass", institution: "Saarland University - Germany" },
       { name: "Wolfgang Mayer", institution: "University of South Australia - Australia" },
       { name: "Yigal Hoffner", institution: "Shenkar College of Engineering and Design - Israel" },
-      { name: "Zoran Milosevic", institution: "Deontik, Best Practice Software - Australia" },
+      { name: "Zoran Milosevic", institution: "Deontik/Best Practice Software - Australia" },
     ]
   }
 }
