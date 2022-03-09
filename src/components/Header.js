@@ -6,7 +6,8 @@ export default class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      openMenu: false,
+      openMenu: true,
+      // openMenu: false,
       visibilityClass: '',
     };
   }
@@ -36,6 +37,7 @@ export default class Header extends Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
+  // TODO: use Scroll to move to the top of the page when clicking on "EDOC 2022" from the homepage
   render() {
     const { openMenu, visibilityClass } = this.state;
     return (
@@ -44,9 +46,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="/#page-top">
-            {config.siteTitle}
-          </a>
+          <Link className="navbar-brand" to="/">{config.siteTitle}</Link>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
@@ -57,8 +57,7 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu
-            <i className="fas fa-bars"></i>
+            Menu <i className="fas fa-bars"></i>
           </button>
           <div
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
@@ -66,14 +65,14 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/call-for-papers">
+                {/* <a className="nav-link" href="/call-for-papers">
                   Call for Papers
-                </a>
+                </a> */}
+                <Link className="nav-link" to="/call-for-papers">Call for Papers</Link>
+                {/* <Link to="http://edocconference.org/">EDOC series</Link> */}
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/organization">
-                  Organization
-                </a>
+                <Link className="nav-link" to="/organization">Organization</Link>
               </li>
               {/*
               <li className="nav-item">
@@ -84,28 +83,6 @@ export default class Header extends Component {
                   >
                   <a className="nav-link" href="#about">
                     About
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="projects"
-                  >
-                  <a className="nav-link" href="#projects">
-                    Projects
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="signup"
-                >
-                  <a className="nav-link" href="#signup">
-                    Contact
                   </a>
                 </Scroll>
               </li>

@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 
-import edocLogoWhite from '../assets/images/edoc2022-tyrol-date-place-white-contour-large.png';
-import ipad from '../assets/images/unibz-main-building.jpg';
+import edocLogoWhite from './../assets/images/edoc2022-tyrol-date-place-white-contour-large.png';
+import unibzBuilding from './../assets/images/unibz-main-building.jpg';
 
 const IndexPage = () => (
   <Layout>    
@@ -43,7 +43,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <img src={ipad} className="img-fluid" alt="Main building of the Free University of Bozen-Bolzano." />
+      <img src={unibzBuilding} className="img-fluid" alt="Main building of the Free University of Bozen-Bolzano." />
     </section>
 
     <section id="venue" className="content-section text-center">

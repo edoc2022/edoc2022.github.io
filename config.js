@@ -2,12 +2,12 @@ module.exports = {
   siteTitle: 'EDOC 2022', // <title>
   manifestName: 'EDOC 2022',
   manifestShortName: 'Landing', // max 12 characters
-  manifestStartUrl: '/',
+  manifestStartUrl: 'http://edocconference.org/test',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/edoc2022-globe-white-circle.png',
-  // pathPrefix: `/2022/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/2022`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'EDOC 2022',
   subHeading: '03-07 October, 2022, Bolzano-Bozen, Italy',
 
