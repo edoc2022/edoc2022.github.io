@@ -1,13 +1,12 @@
+// import Scroll from './Scroll';
 import React, { Component } from 'react';
-import Scroll from './Scroll';
 import config from '../../config';
 import { Link } from 'gatsby';
 export default class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      openMenu: true,
-      // openMenu: false,
+      openMenu: false,
       visibilityClass: '',
     };
   }
@@ -65,28 +64,14 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                {/* <a className="nav-link" href="/call-for-papers">
-                  Call for Papers
-                </a> */}
                 <Link className="nav-link" to="/call-for-papers">Call for Papers</Link>
-                {/* <Link to="http://edocconference.org/">EDOC series</Link> */}
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/organization">Organization</Link>
               </li>
-              {/*
               <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="about"
-                  >
-                  <a className="nav-link" href="#about">
-                    About
-                  </a>
-                </Scroll>
+                <Link className="nav-link" to="/tutorials">Tutorials</Link>
               </li>
-              */}
             </ul>
           </div>
         </div>
