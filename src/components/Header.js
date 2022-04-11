@@ -45,7 +45,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <Link className="navbar-brand" to="/">{config.siteTitle}</Link>
+          <Link className="navbar-brand" to="http://edocconference.org/2022/">{config.siteTitle}</Link>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
@@ -64,13 +64,13 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/call-for-papers">Call for Papers</Link>
+                <Link className="nav-link" to="http://edocconference.org/2022/call-for-papers">Call for Papers</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/organization">Organization</Link>
+                <Link className="nav-link" to="http://edocconference.org/2022/organization">Organization</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/tutorials">Tutorials</Link>
+                <Link className="nav-link" to="http://edocconference.org/2022/tutorials">Tutorials</Link>
               </li>
             </ul>
           </div>

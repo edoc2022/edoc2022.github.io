@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/edoc2022-globe-white-circle.png',
-  pathPrefix: `/2022`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'EDOC 2022',
   subHeading: '03-07 October, 2022, Bolzano-Bozen, Italy',
 
