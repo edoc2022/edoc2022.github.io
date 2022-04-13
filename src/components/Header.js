@@ -67,10 +67,13 @@ export default class Header extends Component {
                 <Link className="nav-link" to="/call-for-papers">Call for Papers</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/organization">Organization</Link>
+                <Link className="nav-link" to="/keynotes">Keynotes</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/tutorials">Tutorials</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/organization">Organization</Link>
               </li>
             </ul>
           </div>

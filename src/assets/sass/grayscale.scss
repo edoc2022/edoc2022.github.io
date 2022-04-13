@@ -56,3 +56,8 @@ footer {
   --bs-bg-opacity: 1;
   background-color: rgba(#ffc107, 0.75) !important;
 }
+
+.img-responsive {
+  width: auto;
+  max-height: 200px;
+}
