@@ -27,12 +27,12 @@ const IndexPage = () => (
             alt="The Enterprise Computing Conference"
           />
           <br /> <br /> <br /> <br />
-          <div className="btn mr-4 btn-primary">
+          <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
             <Link className="text-white" to="/call-for-papers">
               Call for Papers
             </Link>
           </div>
-          <div className="btn ml-4 btn-primary">
+          <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
             <Link className="text-white" to="https://coopisconference.org/">
               CoopIS 2022
             </Link>
@@ -157,32 +157,40 @@ const IndexPage = () => (
 
         <div className="row align-items-center">
           <div className="col">
-            <img
-              src={unibz}
-              className="img-fluid img-responsive"
-              alt="Unibz - logo"
-            />
+            <Link to="https://www.unibz.it/">
+              <img
+                src={unibz}
+                className="img-fluid img-responsive"
+                alt="Unibz - logo"
+              />
+            </Link>
           </div>
           <div className="col">
-            <img
-              src={twente}
-              className="img-fluid img-responsive"
-              alt="University of Twente - logo"
-            />
+            <Link to="https://www.utwente.nl/">
+              <img
+                src={twente}
+                className="img-fluid img-responsive"
+                alt="University of Twente - logo"
+              />
+            </Link>
           </div>
           <div className="col">
-            <img
-              src={noi}
-              className="img-fluid img-responsive"
-              alt="NOI Techpark - logo"
-            />
+            <Link to="https://noi.bz.it/en">
+              <img
+                src={noi}
+                className="img-fluid img-responsive"
+                alt="NOI Techpark - logo"
+              />
+            </Link>
           </div>
           <div className="col">
-            <img
-              src={springer}
-              className="img-fluid img-responsive"
-              alt="Springer - logo"
-            />
+            <Link to="https://www.springer.com/gp">
+              <img
+                src={springer}
+                className="img-fluid img-responsive"
+                alt="Springer - logo"
+              />
+            </Link>
           </div>
         </div>
       </div>

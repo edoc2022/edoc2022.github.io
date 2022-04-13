@@ -183,6 +183,10 @@ const KeynotesPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-10 mx-auto text-center">
             <h2 className="mx-auto my-0 text-uppercase">Stephen Mellor</h2>
+
+            <br />
+
+            <h4 className="mx-auto my-0">(Joint session with CoopIS 2022)</h4>
           </div>
         </div>
 

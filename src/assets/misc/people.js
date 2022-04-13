@@ -28,6 +28,13 @@ const People = {
       { name: "Flavia Santoro", institution: "Rio de Janeiro State University - Brazil" },
     ]
   },
+  doctoralChairs: {
+    name: "Doctoral Consortium Chairs",
+    members: [
+      { name: "Felix Mannhardt", institution: "Eindhoven University of Technology - The Netherlands" },
+      { name: "Chiara Di Francescomarino", institution: "Fondazione Bruno Kessler - Italy" },
+    ]
+  },
   publicityChairs: {
     name: "Publicity Chairs",
     members: [
