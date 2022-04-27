@@ -17,11 +17,13 @@ const TutorialsPage = () => (
     <header className="secondaryhead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <img
-            src={edocLogoWhite}
-            className="img-fluid"
-            alt="The Enterprise Computing Conference"
-          />
+          <Link to="/">
+            <img
+              src={edocLogoWhite}
+              className="img-fluid"
+              alt="The Enterprise Computing Conference"
+            />
+          </Link>
         </div>
       </div>
     </header>

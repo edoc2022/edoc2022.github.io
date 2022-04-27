@@ -42,6 +42,14 @@ const People = {
       { name: "Estefanía Serral", institution: "KU Leuven - Belgium" },
     ]
   },
+  demoChairs: {
+    name: "Demo Track Chairs",
+    members: [
+      { name: "Massimiliano de Leoni", institution: "University of Padua - Italy" },
+      { name: "Ivan Donadello", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Cristine Griffo", institution: "Free University of Bozen-Bolzano - Italy" },
+    ]
+  },
   proceedingsChair: {
     name: "Proceedings and Website Chair",
     members: [

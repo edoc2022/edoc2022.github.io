@@ -8,11 +8,13 @@ import Header from '../components/Header';
 
 import People from '../assets/misc/people';
 import edocLogoWhite from '../assets/images/edoc2022-tyrol-white-contour-large.png';
+import { Link } from 'gatsby';
 
 const {
   chairs,
   programChairs,
   workshopChairs,
+  demoChairs,
   industrialChairs,
   doctoralChairs,
   proceedingsChair,
@@ -31,11 +33,13 @@ const OrganizationPage = () => (
     <header className="secondaryhead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <img
-            src={edocLogoWhite}
-            className="img-fluid"
-            alt="The Enterprise Computing Conference"
-          />
+          <Link to="/">
+            <img
+              src={edocLogoWhite}
+              className="img-fluid"
+              alt="The Enterprise Computing Conference"
+            />
+          </Link>
         </div>
       </div>
     </header>
@@ -80,6 +84,19 @@ const OrganizationPage = () => (
 
             <ul className="text-black text-justify">
               {workshopChairs.members.map(member => (
+                <li>
+                  <b>{member.name}</b>, {member.institution}
+                </li>
+              ))}
+            </ul>
+
+            <br />
+            <br />
+
+            <h2 className="text-black mb-4">{demoChairs.name}</h2>
+
+            <ul className="text-black text-justify">
+              {demoChairs.members.map(member => (
                 <li>
                   <b>{member.name}</b>, {member.institution}
                 </li>

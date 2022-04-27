@@ -21,11 +21,13 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <img
-            src={edocLogoWhite}
-            className="img-fluid"
-            alt="The Enterprise Computing Conference"
-          />
+          <Link to="/">
+            <img
+              src={edocLogoWhite}
+              className="img-fluid"
+              alt="The Enterprise Computing Conference"
+            />
+          </Link>
           <br /> <br /> <br /> <br />
           <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
             <Link className="text-white" to="/call-for-papers">
