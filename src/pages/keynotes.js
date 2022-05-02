@@ -45,8 +45,44 @@ const KeynotesPage = () => (
         <br />
 
         <div className="row align-items-center">
-          <div className="col-lg-10 mx-auto text-center">
+          <div className="col-lg-8 mx-auto text-center">
             <h2 className="mx-auto my-0 text-uppercase">Carliss Y. Baldwin</h2>
+
+            <br />
+
+            <h3 className="mx-auto my-0 text-uppercase">
+              "We Are All Digital Now": Platform Systems and Flow Processes in
+              Modern Enterprises
+            </h3>
+
+            <br />
+            <br />
+            <br />
+
+            <p className="text-black text-justify">
+              In the last 25 years, modern enterprises have become centered on
+              digital systems. IT applications, knit together by enterprise
+              architectures, now pervade all business functions. But there is
+              still doubt and confusion as to how a firm's digital
+              infrastructure should be managed and maintained. On the one hand,
+              modern enterprises must be flexible, capable of generating a
+              stream of new products and providing customers with numerous
+              options. On the other hand, they must be efficient providing
+              timely solutions at low cost.
+            </p>
+
+            <p className="text-black text-justify">
+              These contrasting requirements are exemplified by two opposing
+              technical paradigms: flow processes and platform systems. In the
+              talk, I will characterize flow processes and platform systems in
+              terms of their innate properties and organizational implications.
+              I will also indicate when and why each patterns is more valuable.
+              In modern establishments, the two patterns are not mutually
+              exclusive: technologically sophisticated organizations must use
+              both. At the end of the talk, I will speculate on where each
+              pattern is likely to be needed and invite comments on the tensions
+              they are likely to cause within organizations.
+            </p>
           </div>
         </div>
 
@@ -56,7 +92,13 @@ const KeynotesPage = () => (
 
         <div className="row justify-content-center align-items-center no-gutters bg-black">
           <div className="col-lg-6 text-center">
-            <img className="img-fluid bg-black" src={carliss} alt="" />
+            <img
+              className="img-fluid bg-black"
+              src={carliss}
+              alt=""
+              width="400"
+              height="400"
+            />
           </div>
 
           <div className="col-lg-6 order-lg-first">
@@ -66,10 +108,10 @@ const KeynotesPage = () => (
                   <h4 className="text-white">Short Bio</h4>
                   <p className="mb-0 text-white-50">
                     Carliss Y. Baldwin is the William L. White Professor of
-                    Business Administration, Emerita, at the Harvard Business School. She
-                    studies the process of design and its impact of design
-                    architecture on firm strategy, platforms, and business
-                    ecosystems. With Kim Clark, she authored{' '}
+                    Business Administration, Emerita, at the Harvard Business
+                    School. She studies the process of design and its impact of
+                    design architecture on firm strategy, platforms, and
+                    business ecosystems. With Kim Clark, she authored{' '}
                     <Link to="http://www.amazon.com/exec/obidos/ASIN/0262024667/qid=986224094/sr=1-2/ref=sc_b_3/104-0738556-5238322">
                       Design Rules, Volume 1: The Power of Modularity
                     </Link>
@@ -81,7 +123,8 @@ const KeynotesPage = () => (
                     from the Technical University Munich in 2014, and in 2015
                     was named the Distinguished Scholar of the Technology and
                     Innovation Management (TIM) division of the Academy of
-                    Management. She is currently working on Design Rules, Volume 2: How Technology Shapes Organizations.
+                    Management. She is currently working on Design Rules, Volume
+                    2: How Technology Shapes Organizations.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -98,8 +141,50 @@ const KeynotesPage = () => (
         <br />
 
         <div className="row align-items-center">
-          <div className="col-lg-10 mx-auto text-center">
+          <div className="col-lg-8 mx-auto text-center">
             <h2 className="mx-auto my-0 text-uppercase">Jordi Cabot</h2>
+
+            <br />
+
+            <h3 className="mx-auto my-0 text-uppercase">
+              Smart modeling of smart software
+            </h3>
+
+            <br />
+            <br />
+            <br />
+
+            <p className="text-black text-justify">
+              There is an increasing demand for embedding intelligence in
+              software systems as part of its core set of features both in the
+              front-end (e.g. conversational user interfaces) and back-end (e.g.
+              prediction services). This combination is usually referred to as
+              AI-enhanced software or, simply, smart software.
+            </p>
+
+            <p className="text-black text-justify">
+              The development of smart software poses new engineering
+              challenges, as now we need to deal with the engineering of the
+              “traditional” components, the engineering of the “AI” ones but
+              also of the interaction between both types that need to co-exist
+              and collaborate.
+            </p>
+
+            <p className="text-black text-justify">
+              In this talk we'll see how modeling can help tame the complexity
+              of engineering smart software by enabling software engineers
+              specify and generate smart software systems starting from
+              higher-level and platform-independent modeling primitives.
+            </p>
+
+            <p className="text-black text-justify">
+              But, unavoidably, these models will be more diverse and complex
+              than our usual ones. Don't despair, we'll also see how some of
+              these same AI techniques that are making our modeling life
+              challenging can be turned into allies and be transformed into
+              modeling assistants to tackle the engineering of smart software
+              with a new breed of smart modeling tools.
+            </p>
           </div>
         </div>
 
@@ -183,12 +268,43 @@ const KeynotesPage = () => (
         <br />
 
         <div className="row align-items-center">
-          <div className="col-lg-10 mx-auto text-center">
+          <div className="col-lg-8 mx-auto text-center">
             <h2 className="mx-auto my-0 text-uppercase">Stephen Mellor</h2>
 
             <br />
 
+            <h3 className="mx-auto my-0 text-uppercase">
+              Smart modeling of smart software
+            </h3>
+
+            <br />
+
             <h4 className="mx-auto my-0">(Joint session with CoopIS 2022)</h4>
+
+            <br />
+            <br />
+            <br />
+
+            <p className="text-black text-justify">
+              Trustworthiness, the combination of security, privacy, resilience,
+              reliability and safety, is especially critical in industrial
+              systems. Life, limb and the environment are at risk.
+            </p>
+
+            <p className="text-black text-justify">
+              Unfortunately, these trustworthiness characteristics often
+              conflict. Security would suggest locking that door, but safety
+              demands it be able to be opened in case of emergency. This is
+              resolvable, but often further factors must then be considered. (A
+              bad actor could open the door from the inside. Now what?)
+            </p>
+
+            <p className="text-black text-justify">
+              The Industry IoT Consortium has published the Trustworthiness
+              Foundation, which outlines eleven principles to help guide you
+              through the maze. This presentation will show how these principles
+              can help you build a trustworthy system.
+            </p>
           </div>
         </div>
 

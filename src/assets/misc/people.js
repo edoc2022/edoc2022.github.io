@@ -95,7 +95,7 @@ const People = {
     ]
   },
   programCommittee: {
-    name: "Program Committee (tentative)",
+    name: "Program Committee",
     members: [
       { name: "Adina Aldea", institution: "University of Twente - The Netherlands" },
       { name: "Aditya Ghose", institution: "University of Wollongong - Australia" },

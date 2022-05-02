@@ -1,6 +1,6 @@
 # Keynotes
 
-## Someone
+## Carliss Baldwin
 
 - **Title**: "We Are All Digital Now": Platform Systems and Flow Processes in Modern Enterprises
 - **Abstract**:
@@ -21,3 +21,14 @@ The development of smart software poses new engineering challenges,  as now we n
 In this talk we’ll see how modeling can help tame the complexity of engineering smart software by enabling software engineers specify and generate smart software systems starting from higher-level and platform-independent modeling primitives.  
 
 But, unavoidably, these models will be more diverse and complex than our usual ones. Don’t despair, we’ll also see how some of these same AI techniques that are making our modeling life challenging can be turned into allies and be transformed into modeling assistants to tackle the engineering of smart software with a new breed of smart modeling tools.
+
+## Stephen Mellor
+
+- **Title**: Trustworthiness in Industrial IoT Systems: trends and issues for the future Collaborative and Computing Enterprise
+- **Abstract**:
+
+Trustworthiness, the combination of security, privacy, resilience, reliability and safety, is especially critical in industrial systems. Life, limb and the environment are at risk.
+
+Unfortunately, these trustworthiness characteristics often conflict. Security would suggest locking that door, but safety demands it be able to be opened in case of emergency. This is resolvable, but often further factors must then be considered. (A bad actor could open the door from the inside. Now what?)
+
+The Industry IoT Consortium has published the Trustworthiness Foundation, which outlines eleven principles to help guide you through the maze. This presentation will show how these principles can help you build a trustworthy system.
