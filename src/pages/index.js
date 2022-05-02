@@ -26,6 +26,7 @@ const IndexPage = () => (
               src={edocLogoWhite}
               className="img-fluid"
               alt="The Enterprise Computing Conference"
+              style={{ maxHeight: '45vh' }}
             />
           </Link>
         </div>

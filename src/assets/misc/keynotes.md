@@ -22,6 +22,11 @@ In this talk we’ll see how modeling can help tame the complexity of engineerin
 
 But, unavoidably, these models will be more diverse and complex than our usual ones. Don’t despair, we’ll also see how some of these same AI techniques that are making our modeling life challenging can be turned into allies and be transformed into modeling assistants to tackle the engineering of smart software with a new breed of smart modeling tools.
 
+## Giovanni Sartor
+
+- **Title**: Modelling ethical and legal norms/explaining compliance and violation.
+- **Abstract**:
+
 ## Stephen Mellor
 
 - **Title**: Trustworthiness in Industrial IoT Systems: trends and issues for the future Collaborative and Computing Enterprise

@@ -105,7 +105,6 @@ const KeynotesPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Short Bio</h4>
                   <p className="mb-0 text-white-50">
                     Carliss Y. Baldwin is the William L. White Professor of
                     Business Administration, Emerita, at the Harvard Business
@@ -201,7 +200,6 @@ const KeynotesPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Short Bio</h4>
                   <p className="mb-0 text-white-50">
                     I'm an <Link to="https://www.icrea.cat/">ICREA</Link>{' '}
                     Research Professor at{' '}
@@ -224,6 +222,8 @@ const KeynotesPage = () => (
                     University of Toronto, Politecnico di Milano and the
                     Technical University of Catalonia.
                   </p>
+
+                  <br />
 
                   <p className="mb-0 text-white-50">
                     My research falls into the broad area of{' '}
@@ -274,7 +274,8 @@ const KeynotesPage = () => (
             <br />
 
             <h3 className="mx-auto my-0 text-uppercase">
-              Smart modeling of smart software
+              Trustworthiness in Industrial IoT Systems: trends and issues for
+              the future Collaborative and Computing Enterprise
             </h3>
 
             <br />
@@ -321,13 +322,14 @@ const KeynotesPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Short Bio</h4>
                   <p className="mb-0 text-white-50">
                     Stephen Mellor is the Chief Technical Officer for the
                     Industry IoT Consortium, where he aligns groups for
                     business, technology, trustworthiness and industry for the
                     Industrial Internet.
                   </p>
+
+                  <br />
 
                   <p className="mb-0 text-white-50">
                     He is a well-known technology consultant on methods for the
@@ -338,6 +340,8 @@ const KeynotesPage = () => (
                     for Real-Time Systems, Object Lifecycles, Executable UML,
                     MDA Distilled and Models to Code.
                   </p>
+
+                  <br />
 
                   <p className="mb-0 text-white-50">
                     Stephen was Chief Scientist of the Embedded Software
