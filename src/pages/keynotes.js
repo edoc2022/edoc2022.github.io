@@ -66,7 +66,7 @@ const KeynotesPage = () => (
                   <h4 className="text-white">Short Bio</h4>
                   <p className="mb-0 text-white-50">
                     Carliss Y. Baldwin is the William L. White Professor of
-                    Business Administration at the Harvard Business School. She
+                    Business Administration, Emerita, at the Harvard Business School. She
                     studies the process of design and its impact of design
                     architecture on firm strategy, platforms, and business
                     ecosystems. With Kim Clark, she authored{' '}
@@ -81,7 +81,7 @@ const KeynotesPage = () => (
                     from the Technical University Munich in 2014, and in 2015
                     was named the Distinguished Scholar of the Technology and
                     Innovation Management (TIM) division of the Academy of
-                    Management.
+                    Management. She is currently working on Design Rules, Volume 2: How Technology Shapes Organizations.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>

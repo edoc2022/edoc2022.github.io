@@ -28,24 +28,36 @@ const IndexPage = () => (
               alt="The Enterprise Computing Conference"
             />
           </Link>
-          <br /> <br /> <br /> <br />
-          <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
-            <Link className="text-white" to="/call-for-papers">
-              Call for Papers
-            </Link>
-          </div>
-          <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
-            <Link className="text-white" to="https://coopisconference.org/">
-              CoopIS 2022
-            </Link>
-          </div>
         </div>
       </div>
     </header>
 
+    <section id="supporters" className="content-section text-center">
+      <div className="container">
+        <div className="row justify-content-around">
+          <div className="col-2" />
+          <div className="col-4">
+            <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
+              <Link className="text-white" to="https://coopisconference.org/">
+                CoopIS 2022
+              </Link>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
+              <Link className="text-white" to="/call-for-papers">
+                Call for Papers
+              </Link>
+            </div>
+          </div>
+          <div className="col-2" />
+        </div>
+      </div>
+    </section>
+
     <section id="about" className="content-section text-center">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-8 mx-auto">
             <p className="text-black text-justify">
               EDOC 2022 is the 26<sup>th</sup> conference in the{' '}
