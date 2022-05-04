@@ -10,6 +10,7 @@ import Header from '../components/Header';
 import edocLogoWhite from '../assets/images/edoc2022-tyrol-white-contour-large.png';
 import carliss from '../assets/images/keynote-carliss-baldwin.jpeg';
 import jordi from '../assets/images/keynote-jordi-cabot.jpeg';
+import sartor from '../assets/images/keynote-giovanni-sartor.jpeg';
 import stephen from '../assets/images/keynote-stephen-mellor.jpeg';
 
 const KeynotesPage = () => (
@@ -30,7 +31,7 @@ const KeynotesPage = () => (
       </div>
     </header>
 
-    <section id="keynote-1" className="projects-section bg-light">
+    <section id="keynotes" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-10 mx-auto text-center">
@@ -46,7 +47,7 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 className="mx-auto my-0 text-uppercase">Carliss Y. Baldwin</h2>
+            <h2 id="baldwin" className="mx-auto my-0 text-uppercase">Carliss Y. Baldwin</h2>
 
             <br />
 
@@ -104,7 +105,7 @@ const KeynotesPage = () => (
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="project-text w-100 my-auto text-justify">
                   <p className="mb-0 text-white-50">
                     Carliss Y. Baldwin is the William L. White Professor of
                     Business Administration, Emerita, at the Harvard Business
@@ -141,7 +142,7 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 className="mx-auto my-0 text-uppercase">Jordi Cabot</h2>
+            <h2 id="cabot" className="mx-auto my-0 text-uppercase">Jordi Cabot</h2>
 
             <br />
 
@@ -199,7 +200,7 @@ const KeynotesPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="project-text w-100 my-auto text-justify">
                   <p className="mb-0 text-white-50">
                     I'm an <Link to="https://www.icrea.cat/">ICREA</Link>{' '}
                     Research Professor at{' '}
@@ -243,6 +244,8 @@ const KeynotesPage = () => (
                     .
                   </p>
 
+                  <br />
+
                   <p className="mb-0 text-white-50">
                     Beyond scientific publications, the results of our research
                     are available as{' '}
@@ -269,7 +272,89 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 className="mx-auto my-0 text-uppercase">Stephen Mellor</h2>
+            <h2 id="sartor" className="mx-auto my-0 text-uppercase">Giovanni Sartor</h2>
+
+            <br />
+
+            <h3 className="mx-auto my-0 text-uppercase">
+              Modelling ethical and legal norms/explaining compliance and
+              violation
+            </h3>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <div className="row justify-content-center align-items-center no-gutters bg-black">
+          <div className="col-lg-6 text-center">
+            <img
+              className="img-fluid bg-black"
+              src={sartor}
+              alt=""
+              width="400"
+              height="400"
+            />
+          </div>
+
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-justify">
+                  <p className="mb-0 text-white-50">
+                    Giovanni Sartor is professor in Legal Informatics at the
+                    University of Bologna, professor in Legal informatics and
+                    Legal Theory at the European University Institute of
+                    Florence, visiting professor of Artificial Intelligence and
+                    Law at the University of Surrey. He coordinates the
+                    CIRSFID-AI for Law and Governance unit at the Alma-AI
+                    research center of the University of Bologna. He holds the
+                    ERC-advanced grant (2018) for the project Compulaw (2019 -
+                    2024).
+                  </p>
+
+                  <br />
+
+                  <p className="mb-0 text-white-50">
+                    He obtained a PhD at the European University Institute
+                    (Florence), was a researcher at the Italian National Council
+                    of Research (ITTIG, Florence), held the chair in
+                    Jurisprudence at Queen's University of Belfast, and was
+                    Marie-Curie professor at the European University of
+                    Florence. He has been President of the International
+                    Association for Artificial Intelligence and Law.
+                  </p>
+
+                  <br />
+
+                  <p className="mb-0 text-white-50">
+                    He has published widely in legal philosophy, computational
+                    logic, and computer law, AI {'&'} law. He is co-director of
+                    the Artificial Intelligence and Law Journal and co-editor of
+                    the Ratio Juris Journal. His research interests include
+                    legal theory, early modern legal philosophy, logic,
+                    argumentation theory, modal and deontic logics, logic
+                    programming, multiagent systems, computer and Internet law,
+                    data protection, e-commerce, law and technology.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div className="row align-items-center">
+          <div className="col-lg-8 mx-auto text-center">
+            <h2 id="mellor" className="mx-auto my-0 text-uppercase">Stephen Mellor</h2>
 
             <br />
 
@@ -318,10 +403,10 @@ const KeynotesPage = () => (
             <img className="img-fluid bg-black" src={stephen} alt="" />
           </div>
 
-          <div className="col-lg-6 order-lg-first">
+          <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="project-text w-100 my-auto text-justify">
                   <p className="mb-0 text-white-50">
                     Stephen Mellor is the Chief Technical Officer for the
                     Industry IoT Consortium, where he aligns groups for
@@ -354,7 +439,7 @@ const KeynotesPage = () => (
                     the Advisory Board to IEEE Software for ten years and a
                     two-time Guest Editor of the magazine.
                   </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>

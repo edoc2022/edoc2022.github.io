@@ -24,7 +24,7 @@ But, unavoidably, these models will be more diverse and complex than our usual o
 
 ## Giovanni Sartor
 
-- **Title**: Modelling ethical and legal norms/explaining compliance and violation.
+- **Title**: Modelling ethical and legal norms/explaining compliance and violation
 - **Abstract**:
 
 ## Stephen Mellor
