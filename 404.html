@@ -13,7 +13,7 @@
                     "https://edoc2022.github.io",
                     "http://edocconference.org/2022"
                 );
-                document.getElementById("body").innerHTML = "Mega-Linter has moved into an organization repository for its V5 !<br/><br/>Redirecting to " + redirectLocation + " ...";
+                document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
                 window.location.href = redirectLocation;
             }
             else if (window.location.href.includes("edoc2022.github.io")) {
@@ -21,7 +21,15 @@
                     "edoc2022.github.io",
                     "edocconference.org/2022"
                 );
-                document.getElementById("body").innerHTML = "Mega-Linter has moved into an organization repository for its V5 !<br/><br/>Redirecting to " + redirectLocation + " ...";
+                document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
+                window.location.href = redirectLocation;
+            }
+            else if (window.location.href.includes("www.edoc2022.github.io")) {
+                const redirectLocation = window.location.href.replace(
+                    "www.edoc2022.github.io",
+                    "www.edocconference.org/2022"
+                );
+                document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
                 window.location.href = redirectLocation;
             }
         }
