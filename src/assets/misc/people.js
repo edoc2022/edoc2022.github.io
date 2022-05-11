@@ -75,7 +75,7 @@ const People = {
     name: "Local Organization Committee",
     members: [
       { name: "Riccardo Baratella", institution: "Free University of Bozen-Bolzano - Italy" },
-      { name: "João Carlos Gonçalves", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Pedro Paulo F. Barcelos", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Isadora Valle Sousa", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },

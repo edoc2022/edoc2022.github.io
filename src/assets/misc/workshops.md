@@ -38,7 +38,7 @@
 
 ### TEAR
 
-- **Title**: 17th TEAR 2022 – Connecting People in a Connected World
+- **Title**: Trends in Enterprise Architecture Research
 - **Chairs**:
 - **Important Dates**:
 - **Links**:
@@ -52,11 +52,15 @@
 
 Awaiting info Selmin.
 
-- **Title**:
+- **Title**: Service oriented Enterprise Architecture for Enterprise Engineering
 - **Chairs**:
 - **Important Dates**:
 - **Links**:
-- **Description**:
+
+  - Call for Papers [https://www.soea4ee.org/](https://www.soea4ee.org/)
+  - Submission Website [TBA](TBA)
+
+- **Description**: Enterprise Engineering (EE) is the application of engineering principles to the design of Enterprise Architectures. It enables deriving the Enterprise Architecture from the enterprise goals and strategy and aligning it with the enterprise resources. Enterprise architecture is used to map the enterprise goal and strategy to the enterprise’s resources (actors, assets, IT supports) and to support the evolution of this mapping. It also provides documentation on the assignment of enterprise resources to the enterprise goals and strategy. There are different paradigms for creating enterprise architecture. The most important is to encapsulate the functionalities of IT resources as services. By this means, it is possible to clearly describe the contributions of IT both in terms of functionality and quality and to define a service-oriented enterprise architecture (SoEA).
 
 ### FLPM
 
@@ -66,6 +70,10 @@ Awaiting info Andrea.
 - **Chairs**:
 - **Important Dates**:
 - **Links**:
+
+  - Call for Papers [https://flpm-workshop.github.io/](https://flpm-workshop.github.io/)
+  - Submission Website [https://easychair.org/conferences/?conf=flpm2022](https://easychair.org/conferences/?conf=flpm2022)
+
 - **Description**: Forward-looking techniques in process mining enable organizations to create their own digital twins. Process mining provides data-driven support for businesses to make their processes transparent. Most process mining techniques are backward-looking. They generate descriptive process models based on historical data and identify performance and compliance issues. Forward-looking process mining focuses on turning the results of backward-looking techniques into actions. Process mining is capable of providing insights into the future of processes given the provided insight, i.e., the currently discovered insights. The purpose of this workshop is to present and discuss the potential forward-looking process mining techniques where they play a role in an organization's digital twin. The scope of the workshop includes approaches such as data-driven process model generation, simulation, and prediction, as well as a human role in these approaches.
 
 ## Panels
