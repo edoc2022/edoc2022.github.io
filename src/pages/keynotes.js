@@ -6,8 +6,8 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
+import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import edocLogoWhite from '../assets/images/edoc2022-tyrol-white-contour-large.png';
 import carliss from '../assets/images/keynote-carliss-baldwin.jpeg';
 import jordi from '../assets/images/keynote-jordi-cabot.jpeg';
 import sartor from '../assets/images/keynote-giovanni-sartor.jpeg';
@@ -17,19 +17,7 @@ const KeynotesPage = () => (
   <Layout>
     <Header />
 
-    <header className="secondaryhead">
-      <div className="container d-flex h-100 align-items-center">
-        <div className="mx-auto text-center">
-          <Link to="/">
-            <img
-              src={edocLogoWhite}
-              className="img-fluid"
-              alt="The Enterprise Computing Conference"
-            />
-          </Link>
-        </div>
-      </div>
-    </header>
+    <SimpleLogoHeader />
 
     <section id="keynotes" className="projects-section bg-light">
       <div className="container">

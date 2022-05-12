@@ -10,24 +10,12 @@ import Header from '../components/Header';
 import edocLogoWhite from '../assets/images/edoc2022-tyrol-white-contour-large.png';
 import gerd from '../assets/images/tutorial-gerd-wagner.jpg';
 import Workshop from '../components/Workshop';
+import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
 const TutorialsPage = () => (
   <Layout>
     <Header />
-
-    <header className="secondaryhead">
-      <div className="container d-flex h-100 align-items-center">
-        <div className="mx-auto text-center">
-          <Link to="/">
-            <img
-              src={edocLogoWhite}
-              className="img-fluid"
-              alt="The Enterprise Computing Conference"
-            />
-          </Link>
-        </div>
-      </div>
-    </header>
+    <SimpleLogoHeader />
 
     <section className="projects-section bg-light">
       <div className="container">
