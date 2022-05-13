@@ -7,9 +7,9 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import funivia from  './../assets/images/funivia-del-renon.jpeg';
-import viaDeiProtici from  './../assets/images/via-dei-portici.jpeg';
-import otzi from  './../assets/images/otzi.jpeg';
+import funivia from './../assets/images/funivia-del-renon.jpeg';
+import viaDeiProtici from './../assets/images/via-dei-portici.jpeg';
+import otzi from './../assets/images/otzi.jpeg';
 
 const Venue = () => (
   <Layout>
@@ -64,7 +64,7 @@ const Venue = () => (
           src={funivia}
           className="img-fluid"
           alt="Funivia del Renon."
-          style={{maxWidth:"90%"}}
+          style={{ maxWidth: '90%' }}
         />
         {/* img funivia renon */}
 
@@ -92,7 +92,7 @@ const Venue = () => (
           src={viaDeiProtici}
           className="img-fluid"
           alt="Via dei Portici."
-          style={{maxWidth:"90%"}}
+          style={{ maxWidth: '90%' }}
         />
         {/* img via dei portici */}
 
@@ -118,7 +118,7 @@ const Venue = () => (
           src={otzi}
           className="img-fluid"
           alt="Statue of Otzi."
-          style={{maxWidth:"90%"}}
+          style={{ maxWidth: '90%' }}
         />
         {/* img otzi */}
 
@@ -172,7 +172,7 @@ const Venue = () => (
               <br />
               <b>From Verona:</b> the “Valerio Catullo Airport” airport of
               Verona is connected to the train station of Verona Porta Nuova,
-              via the
+              via the{' '}
               <Link to="https://www.aeroportoverona.it/en/transport/aerobus.html">
                 Aerobus 199
               </Link>{' '}
@@ -185,7 +185,7 @@ const Venue = () => (
                 Alto Adige Südtirol Bus
               </Link>{' '}
               offers airport shuttle services between the airport and Bolzano.
-              Tickets cost 50€ - 75€. Similar offers are by
+              Tickets cost 50€ - 75€. Similar offers are by{' '}
               <Link to="https://www.flixbus.co.uk/">Flixbus</Link>.
               <br />
               <br />
@@ -288,9 +288,9 @@ const Venue = () => (
               <br />
               For getting Bolzano <b>by bus</b>, please check out the following
               service providers:{' '}
-              <Link to="www.altoadigebus.com">www.altoadigebus.com</Link>,{' '}
-              <Link to="www.flixbus.it">www.flixbus.it</Link>,{' '}
-              <Link to="www.busgroup.eu">www.busgroup.eu</Link>.
+              <Link to="http://www.altoadigebus.com">www.altoadigebus.com</Link>
+              , <Link to="http://www.flixbus.it">www.flixbus.it</Link>,{' '}
+              <Link to="http://www.busgroup.eu">www.busgroup.eu</Link>.
             </p>
           </div>
         </div>
@@ -316,33 +316,33 @@ const Venue = () => (
               <ul>
                 <li>
                   <b>KOLPINGHAUS:</b>{' '}
-                  <Link to="mailto:info@kolpingbozen.it">
+                  <a href={`mailto:info@kolpingbozen.it`}>
                     info@kolpingbozen.it
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <b>YOUTHOSTEL:</b>{' '}
-                  <Link to="mailto:bolzano@ostello.bz">bolzano@ostello.bz</Link>
+                  <a href={`mailto:bolzano@ostello.bz`}>bolzano@ostello.bz</a>
                 </li>
                 <li>
                   <b>HOTEL FIGL:</b>{' '}
-                  <Link to="mailto:info@figl.net">info@figl.net</Link>
+                  <a href={`mailto:info@figl.net`}>info@figl.net</a>
                 </li>
                 <li>
                   <b>HOTEL FEICHTER:</b>{' '}
-                  <Link to="mailto:info@hotelfeichter.it">
+                  <a href={`mailto:info@hotelfeichter.it`}>
                     info@hotelfeichter.it
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <b>HOTEL GREIF:</b>{' '}
-                  <Link to="mailto:info@greif.it">info@greif.it</Link>
+                  <a href={`mailto:info@greif.it`}>info@greif.it</a>
                 </li>
                 <li>
                   <b>PARKHOTEL LUNA MONDSCHEIN:</b>{' '}
-                  <Link to="mailto:info@parkhotelmondschein.com">
+                  <a href={`mailto:info@parkhotelmondschein.com`}>
                     info@parkhotelmondschein.com
-                  </Link>
+                  </a>
                 </li>
               </ul>
               <br />
