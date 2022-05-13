@@ -29,7 +29,7 @@ const CallForPapersPage = () => (
               Enterprise Design, Operations and Computing
             </h3>
             <h3 className="text-black mb-4">
-              3-7 October 2022, Bozen-Bolzano, Italy
+              3-7 October 2022, Bozen-Bolzano, Italy <b>(on-site)</b>
             </h3>
           </div>
         </div>
