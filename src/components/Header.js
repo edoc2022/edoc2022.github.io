@@ -64,7 +64,8 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/call-for-papers">Call for Papers</Link>
+                {/* <Link className="nav-link" to="/call-for-papers">Call for Papers</Link> */}
+                <Link className="nav-link" to="/call-for-papers">Calls</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/keynotes">Keynotes</Link>
@@ -74,6 +75,9 @@ export default class Header extends Component {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/workshops">Workshops</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/venue">Venue</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/organization">Organization</Link>
