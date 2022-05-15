@@ -92,12 +92,9 @@ export default class Header extends Component {
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/about">About Bolzano</Link>
-                  <Link className="dropdown-item" to="/call-for-demos">How to get to Bolzano</Link>
+                  <Link className="dropdown-item" to="/how-to-get">How to get to Bolzano</Link>
                   <Link className="dropdown-item" to="/accommodation">Accommodation</Link>
                 </div>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/venue">Venue</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/organization">Organization</Link>
