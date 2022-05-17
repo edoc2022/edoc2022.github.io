@@ -20,7 +20,11 @@ const Venue = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-black mb-4">About Bolzano</h2>
+            <h1 className="text-black mb-4 text-uppercase">About Bolzano</h1>
+
+            <br />
+            <br />
+            <br />
 
             <p className="text-black text-justify">
               The conference will take place on-site in the charming town of

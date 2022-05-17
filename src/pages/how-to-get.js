@@ -7,10 +7,6 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import funivia from './../assets/images/funivia-del-renon.jpeg';
-import viaDeiProtici from './../assets/images/via-dei-portici.jpeg';
-import otzi from './../assets/images/otzi.jpeg';
-
 const Venue = () => (
   <Layout>
     <Header />
@@ -20,7 +16,13 @@ const Venue = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h3 className="text-black mb-4">How to get to Bolzano</h3>
+            <h1 className="text-black mb-4 text-uppercase">
+              How to get to Bolzano
+            </h1>
+
+            <br />
+            <br />
+            <br />
 
             <p className="text-black text-justify">
               Bolzano is located in the center of the Alps, next to the main
