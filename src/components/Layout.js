@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-import '../assets/sass/grayscale.scss';
-
 class Layout extends Component {
   render() {
     const { children } = this.props;

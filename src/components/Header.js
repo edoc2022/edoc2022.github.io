@@ -63,21 +63,37 @@ export default class Header extends Component {
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                {/* <Link className="nav-link" to="/call-for-papers">Call for Papers</Link> */}
-                <Link className="nav-link" to="/call-for-papers">Calls</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/keynotes">Keynotes</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/tutorials">Tutorials</Link>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Calls
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/call-for-papers">Papers</Link>
+                  {/* <Link className="dropdown-item" to="/call-doctoral-consortium">Doctoral Consortium</Link>
+                  <Link className="dropdown-item" to="/call-for-demos">Demonstrations</Link> */}
+                </div>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/workshops">Workshops</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/venue">Venue</Link>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Program
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/keynotes">Keynotes</Link>
+                  <Link className="dropdown-item" to="/tutorials">Tutorials</Link>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Venue
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/about">About Bolzano</Link>
+                  <Link className="dropdown-item" to="/how-to-get">How to get to Bolzano</Link>
+                  <Link className="dropdown-item" to="/accommodation">Accommodation</Link>
+                </div>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/organization">Organization</Link>
