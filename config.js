@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'EDOC 2022', // <title>
   manifestName: 'EDOC 2022',
   manifestShortName: 'Landing', // max 12 characters
-  manifestStartUrl: 'http://edocconference.org/test',
+  manifestStartUrl: 'https://edocconference.org/2022',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',

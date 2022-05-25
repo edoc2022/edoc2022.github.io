@@ -42,7 +42,7 @@ const CallForPapersPage = () => (
           <div className="col-lg-8 mx-auto">
             <p className="text-black text-justify">
               EDOC 2022 is the 26<sup>th</sup> conference in the{' '}
-              <Link to="http://edocconference.org/">EDOC series</Link> that
+              <Link to="https://edocconference.org/">EDOC series</Link> that
               provides a key forum for researchers and practitioners in the
               field of Enterprise Computing. EDOC addresses the full range of
               models, methodologies, and engineering technologies contributing
@@ -304,7 +304,7 @@ const CallForPapersPage = () => (
                     <b>
                       *If you are a returning contributor to EDOC, please note
                       the paper format change as well as the adoption of a
-                      strict deadline policy and mandatory abstract submission.*
+                      strict deadline policy.*
                     </b>
                   </div>
                 </div>
@@ -347,22 +347,32 @@ const CallForPapersPage = () => (
             </h3>
 
             <p className="text-black">
+              This year, EDOC will be collocated with CoopIS. We have opted to
+              align the deadlines of both conferences. The important dates below
+              have been adjusted accordingly.
+            </p>
+
+            <p className="text-black">
               <ul>
                 <li>
-                  Mandatory abstract submission{' '}
-                  <b>(strict deadline): 20 May 2022</b>
+                  Abstract submission: <s>May 20 2022</s>{' '}
+                  <b style={{ color: 'red' }}>June 06 2022 (optional)</b>
                 </li>
                 <li>
-                  Full paper submission <b>(strict deadline): 27 May 2022</b>
+                  Full paper submission: <s>May 27 2022</s>{' '}
+                  <b style={{ color: 'red' }}>June 15 2022 (strict deadline)</b>
                 </li>
-                <li>Full paper notification: 4 July 2022</li>
-                <li>Workshop paper submission deadline: 6 July 2022</li>
-                <li>Workshop paper notification: 10 August 2022</li>
                 <li>
-                  Camera ready paper & author registration (main conference and
-                  workshops): 15 August 2022
+                  Full paper notification: <s>July 4 2022</s>{' '}
+                  <b style={{ color: 'red' }}>July 20 2022</b>
                 </li>
-                <li>Conference dates: 3-7 October 2022</li>
+                <li>Workshop paper submission deadline: July 6 2022</li>
+                <li>Workshop paper notification: August 10 2022</li>
+                <li>
+                  Camera ready paper {'&'} author registration (main conference
+                  and workshops): August 15 2022
+                </li>
+                <li>Conference dates: October 3-7 2022</li>
               </ul>
             </p>
           </div>

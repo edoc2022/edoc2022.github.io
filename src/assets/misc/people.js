@@ -70,6 +70,7 @@ const People = {
       { name: "Tiago Prince Sales", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Pedro Paulo F. Barcelos", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Claudenir M. Fonseca", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },
   organizationCommittee: {

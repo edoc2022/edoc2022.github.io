@@ -69,7 +69,7 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <p className="text-black text-justify">
               EDOC 2022 is the 26<sup>th</sup> conference in the{' '}
-              <Link to="http://edocconference.org/">EDOC series</Link> that
+              <Link to="https://edocconference.org/">EDOC series</Link> that
               provides a key forum for researchers and practitioners in the
               field of Enterprise Computing. EDOC addresses the full range of
               models, methodologies, and engineering technologies contributing

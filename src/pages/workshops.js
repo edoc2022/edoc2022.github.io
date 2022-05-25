@@ -112,7 +112,9 @@ const TutorialsPage = () => (
           workshopLink={
             <Link to="https://www.soea4ee.org/">https://www.soea4ee.org/</Link>
           }
-          submissionLink="TBA"
+          submissionLink={
+            <Link to="https://www.soea4ee.org/submission">https://www.soea4ee.org/submission</Link>
+          }
         />
       </div>
     </section>

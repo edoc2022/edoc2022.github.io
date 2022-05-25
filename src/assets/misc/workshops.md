@@ -58,7 +58,7 @@ Awaiting info Selmin.
 - **Links**:
 
   - Call for Papers [https://www.soea4ee.org/](https://www.soea4ee.org/)
-  - Submission Website [TBA](TBA)
+  - Submission Website [https://www.soea4ee.org/submission](https://www.soea4ee.org/submission)
 
 - **Description**: Enterprise Engineering (EE) is the application of engineering principles to the design of Enterprise Architectures. It enables deriving the Enterprise Architecture from the enterprise goals and strategy and aligning it with the enterprise resources. Enterprise architecture is used to map the enterprise goal and strategy to the enterprise’s resources (actors, assets, IT supports) and to support the evolution of this mapping. It also provides documentation on the assignment of enterprise resources to the enterprise goals and strategy. There are different paradigms for creating enterprise architecture. The most important is to encapsulate the functionalities of IT resources as services. By this means, it is possible to clearly describe the contributions of IT both in terms of functionality and quality and to define a service-oriented enterprise architecture (SoEA).
 
