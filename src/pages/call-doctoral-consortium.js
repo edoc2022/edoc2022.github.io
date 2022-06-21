@@ -104,10 +104,10 @@ const CallDoctoralConsortiumPage = () => (
                 <li>A plan for the evaluation of results.</li>
               </ul>
               <br />
-              <b>
-                Doctoral Consortium papers will be submitted through EasyChair.
-                The link will be available soon.
-              </b>
+              Doctoral Consortium  papers should be submitted at{' '}
+              <Link to="https://easychair.org/my/conference?conf=edoc2022">
+                <i>https://easychair.org/my/conference?conf=edoc2022</i>
+              </Link>
             </p>
           </div>
         </div>

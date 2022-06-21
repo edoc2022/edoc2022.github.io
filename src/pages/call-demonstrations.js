@@ -152,10 +152,10 @@ const CallDemonstrationPage = () => (
               using a wide variety of media players.
               <br />
               <br />
-              <b>
-                Demonstration papers will be submitted via Easychair. The
-                submission link will be soon be published here.
-              </b>
+              Demonstration papers should be submitted at{' '}
+              <Link to="https://easychair.org/my/conference?conf=edoc2022">
+                <i>https://easychair.org/my/conference?conf=edoc2022</i>
+              </Link>
               <br />
               <br />
               At least one presenter of each accepted demonstration must
@@ -181,9 +181,10 @@ const CallDemonstrationPage = () => (
 
             <p className="text-black">
               <ul>
-                <li>Paper submission deadline: 16 July 2021</li>
-                <li>Notification of acceptance: 16 August 2021</li>
-                <li>Camera-ready paper submission: 27 August 2021</li>
+                <li>Paper submission deadline: 16 July 2022</li>
+                <li>Notification of acceptance: 16 August 2022</li>
+                <li>Camera-ready paper submission: 27 August 2022</li>
+                <li>Registration deadline: 2 September 2022</li>
                 <li>Conference dates: 3-7 October 2022</li>
               </ul>
             </p>
@@ -207,14 +208,29 @@ const CallDemonstrationPage = () => (
               <ul>
                 <li>
                   Massimiliano de Leoni, University of Padova, Padova, Italy
+                  <br />
+                  Email:{' '}
+                  <a href="mailto:deleoni@math.unipd.it">
+                    deleoni@math.unipd.it
+                  </a>
                 </li>
                 <li>
                   Cristine Griffo, Free University of Bozen-Bolzano, Bolzano,
                   Italy
+                  <br />
+                  Email:{' '}
+                  <a href="mailto:Cristine.Griffo@unibz.it">
+                    Cristine.Griffo@unibz.it
+                  </a>
                 </li>
                 <li>
                   Ivan Donadello, Free University of Bozen-Bolzano, Bolzano,
                   Italy
+                  <br />
+                  Email:{' '}
+                  <a href="mailto:Ivan.Donadello@unibz.it">
+                    Ivan.Donadello@unibz.it
+                  </a>
                 </li>
               </ul>
             </p>

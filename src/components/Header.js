@@ -71,6 +71,7 @@ export default class Header extends Component {
                   <Link className="dropdown-item" to="/call-for-papers">Papers</Link>
                   <Link className="dropdown-item" to="/call-doctoral-consortium">Doctoral Consortium</Link>
                   <Link className="dropdown-item" to="/call-demonstrations">Demonstrations</Link>
+                  <Link className="dropdown-item" to="/call-journal-first">Journal-First</Link>
                 </div>
               </li>
               <li className="nav-item">
