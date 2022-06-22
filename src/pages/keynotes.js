@@ -12,6 +12,7 @@ import carliss from '../assets/images/keynote-carliss-baldwin.jpeg';
 import jordi from '../assets/images/keynote-jordi-cabot.jpeg';
 import sartor from '../assets/images/keynote-giovanni-sartor.jpeg';
 import stephen from '../assets/images/keynote-stephen-mellor.jpeg';
+import isaacs from '../assets/images/keynote-daniel-isaacs.jpeg';
 
 const KeynotesPage = () => (
   <Layout>
@@ -35,7 +36,9 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="baldwin" className="mx-auto my-0 text-uppercase">Carliss Y. Baldwin</h2>
+            <h2 id="baldwin" className="mx-auto my-0 text-uppercase">
+              Carliss Y. Baldwin
+            </h2>
 
             <br />
 
@@ -130,7 +133,9 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="cabot" className="mx-auto my-0 text-uppercase">Jordi Cabot</h2>
+            <h2 id="cabot" className="mx-auto my-0 text-uppercase">
+              Jordi Cabot
+            </h2>
 
             <br />
 
@@ -260,7 +265,9 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="sartor" className="mx-auto my-0 text-uppercase">Giovanni Sartor</h2>
+            <h2 id="sartor" className="mx-auto my-0 text-uppercase">
+              Giovanni Sartor
+            </h2>
 
             <br />
 
@@ -342,7 +349,9 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="mellor" className="mx-auto my-0 text-uppercase">Stephen Mellor</h2>
+            <h2 id="mellor" className="mx-auto my-0 text-uppercase">
+              Stephen Mellor
+            </h2>
 
             <br />
 
@@ -426,6 +435,115 @@ const KeynotesPage = () => (
                     gateway for all OMG standards. Stephen was the Chairman of
                     the Advisory Board to IEEE Software for ten years and a
                     two-time Guest Editor of the magazine.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div className="row align-items-center">
+          <div className="col-lg-8 mx-auto text-center">
+            <h2 id="mellor" className="mx-auto my-0 text-uppercase">
+              Daniel R. Isaacs
+            </h2>
+
+            <br />
+
+            <h3 className="mx-auto my-0 text-uppercase">
+              Understanding the Nature of Digital Twin - Digital Twin Challenges{' '}
+              {'&'} Values; Empowering Businesses
+            </h3>
+
+            <br />
+
+            <h4 className="mx-auto my-0">(Keynote session of CoopIS 2022)</h4>
+
+            <br />
+            <br />
+            <br />
+
+            <p className="text-black text-justify">
+              The term digital twin is being used with increasing frequency, but
+              with little consistency, across multiple industries today. Digital
+              Twin Consortium is working to address this and help industries
+              better understand the advantages and value over the continum of
+              digital twins from discrete to complex.
+            </p>
+
+            <p className="text-black text-justify">
+              Learn about the challenges the Digital Twin Consortium membership
+              is working to address and its priorities. Gain a clear
+              understanding through real-world use cases how businesses are
+              recognizing value today through use of digital twins an enabling
+              technologies.
+            </p>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <div className="row justify-content-center align-items-center no-gutters bg-black">
+          <div className="col-lg-6 text-center">
+            <img
+              className="img-fluid bg-black"
+              src={isaacs}
+              alt=""
+              width="400"
+              height="400"
+            />
+          </div>
+
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-justify">
+                  <p className="mb-0 text-white-50">
+                    Dan Isaacs is Chief Technology Officer of Digital Twin
+                    Consortium, where he is responsible for setting the
+                    technical direction for the Member Consortium, liaison
+                    partnerships and business development support for new
+                    memberships.
+                  </p>
+
+                  <br />
+
+                  <p className="mb-0 text-white-50">
+                    Previously, Dan was Director of Strategic Marketing and
+                    Business Development at Xilinx where he was responsible for
+                    emerging technologies including AI/Machine Learning,
+                    including defining and executing the ecosystem strategy for
+                    the Industrial IoT. Prior to joining the Digital Twin
+                    Consortium, Dan was responsible for Automotive Business
+                    Development focused on Automated Driving and ADAS systems.
+                  </p>
+
+                  <br />
+
+                  <p className="mb-0 text-white-50">
+                    Dan represented Xilinx to the Industrial Internet Consortium
+                    (IIC). He has more than 25 years of experience working in
+                    automotive, Mil/Aerospace and consumer-based companies
+                    including Ford, NEC, LSI Logic and Hughes Aircraft.
+                  </p>
+                  <p className="mb-0 text-white-50">
+                    An accomplished speaker, Dan has delivered keynotes,
+                    presentations and served as panellist and moderator for IIC
+                    World Forums, Industrial IOT Global conferences, Embedded
+                    World, Embedded Systems, and FPGA Conferences. He is a
+                    member of international advisory boards and holds degrees in
+                    Computer Engineering: EE from Cal State University, B.S.
+                    Geophysics from ASU.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
