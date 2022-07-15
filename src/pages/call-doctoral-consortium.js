@@ -186,10 +186,10 @@ const CallDoctoralConsortiumPage = () => (
 
             <p className="text-black">
               <ul>
-                <li>Paper submission deadline: 1 July 2022</li>
-                <li>Notification of acceptance: 1 August 2022</li>
-                <li>Camera ready paper: 2 September 2022</li>
-                <li>Conference registration: 2 September 2022</li>
+                <li>Paper submission deadline: <s>1 July 2022</s> <s style={{color:"red"}}>15 July 2022</s> <b style={{color:"red"}}>22 July 2022</b></li>
+                <li>Notification of acceptance: <s>1 August 2022</s> <b style={{color:"red"}}>17 August 2022</b></li>
+                <li>Camera ready paper: <b>2 September 2022</b></li>
+                <li>Conference registration: <b>2 September 2022</b></li>
               </ul>
             </p>
           </div>
