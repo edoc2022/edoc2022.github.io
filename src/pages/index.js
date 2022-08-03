@@ -33,7 +33,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="supporters" className="content-section text-center">
+    <section id="links" className="content-section text-center">
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-1" />

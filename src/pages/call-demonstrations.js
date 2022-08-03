@@ -182,7 +182,7 @@ const CallDemonstrationPage = () => (
             <p className="text-black">
               <ul>
                 <li>Paper submission deadline: <s>16 July 2022</s>  <b style={{color:"red"}}>30 July 2022</b></li>
-                <li>Notification of acceptance: 16 August 2022</li>
+                <li>Notification of acceptance: <s>16 August 2022</s> <b style={{color:"red"}}>23 August 2022</b></li>
                 <li>Camera-ready paper submission: 27 August 2022</li>
                 <li>Registration deadline: 2 September 2022</li>
                 <li>Conference dates: 3-7 October 2022</li>
