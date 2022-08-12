@@ -7,6 +7,8 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
+import pagoPaLang from './../assets/images/pago-pa-language.png';
+
 const RegistrationPage = () => (
   <Layout>
     <Header />
@@ -28,10 +30,12 @@ const RegistrationPage = () => (
           <div className="row justify-content-around">
             <div className="col-5">
               <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary text-white">
-                Register here (TBA)
-                {/* <Link className="text-white" to="https://coopisconference.org/">
+                <Link
+                  className="text-white"
+                  to="https://www.conftool.com/edoc2022"
+                >
                   Register here
-                </Link> */}
+                </Link>
               </div>
             </div>
           </div>
@@ -59,24 +63,44 @@ const RegistrationPage = () => (
                   <b className="text-uppercase">Full Conference:</b> Gives
                   access to all week's activities, including EDOC, CoopIS,
                   workshops, demos, doctoral consortium, keynotes, panels,
-                  social events, and more.{' '}
-                  <br/>
+                  social events, and more. <br />
                   <b>Registration early-bird fee: EUR 750,00</b>
-                  <br/>
-                  <b>Registration late fee (after September 01, 2022): EUR 850,00</b>
+                  <br />
+                  <b>
+                    Registration late fee (after September 01, 2022): EUR 850,00
+                  </b>
                 </li>
-                <br/>
+                <br />
                 <li>
                   <b className="text-uppercase">Workshop-Only:</b> Gives access
                   to the first day of activities, which includes the workshops,
                   a tutorial, and a panel (TBC), as well as a social event.{' '}
-                  <br/>
+                  <br />
                   <b>Registration early-bird fee: EUR 300,00</b>
-                  <br/>
-                  <b>Registration late fee (after September 01, 2022): EUR 350,00</b>
+                  <br />
+                  <b>
+                    Registration late fee (after September 01, 2022): EUR 350,00
+                  </b>
                 </li>
               </ul>
             </p>
+
+            <p className="text-black">
+              When proceeding with the payment of your registration, please
+              notice that you can change the language of the interface, as shown
+              in the image below.
+            </p>
+
+            <img
+              src={pagoPaLang}
+              className="img-fluid"
+              alt="PagoPA payment system - interface language language selection."
+            />
+
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
 
@@ -118,14 +142,27 @@ const RegistrationPage = () => (
             </h3>
 
             <p className="text-black">
-              Registrations can be canceled up to four weeks before the
-              beginning of the conference, i.e., before September 05, 2022. If
-              the cancellation is requested, a processing fee of EUR 40,00 shall
-              be deducted. Registrations made by authors to secure the inclusion
-              of their works in the conference's proceedings shall not be
-              canceled. Non-attendance and non-participation in the social
-              events of the conference shall not be considered as a reason for
-              refund.
+              <ul>
+                <li>The registration of participation is binding.</li>
+                <li>
+                  If you have to cancel the registration, you get 90% back until
+                  30 days before the start of the event and 50% if you cancel
+                  within 15 days prior to the event. After that, no
+                  reimbursements will be possible anymore.
+                </li>
+                <li>The participation fees are owed upon registration.</li>
+                <li>
+                  Participation is not granted until full payment of the
+                  registration fee is received.
+                </li>
+                <li>The conference program is subject to changes.</li>
+                <li>
+                  Payments will be refunded if the conference will be canceled
+                  by the organizer. In that case, the organizer will have no
+                  further liability to the client. Registrations remain valid if
+                  the conference has to be postponed.
+                </li>
+              </ul>
             </p>
           </div>
         </div>

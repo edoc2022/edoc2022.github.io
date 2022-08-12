@@ -46,8 +46,8 @@ const IndexPage = () => (
           </div>
           <div className="col-3">
             <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
-              <Link className="text-white" to="/call-for-papers">
-                Call for Papers
+              <Link className="text-white" to="/registration">
+                Register here
               </Link>
             </div>
           </div>
