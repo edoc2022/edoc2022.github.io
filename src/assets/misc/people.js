@@ -17,7 +17,7 @@ const People = {
   workshopChairs: {
     name: "Workshop Chairs",
     members: [
-      { name: "Tiago Prince Sales", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Tiago Prince Sales", institution: "University of Twente - The Netherlands" },
       { name: "Henderik A. Proper", institution: "Luxembourg Institute of Science and Technology - Luxembourg" },
     ]
   },
@@ -53,7 +53,7 @@ const People = {
   proceedingsChair: {
     name: "Proceedings and Website Chair",
     members: [
-      { name: "Claudenir M. Fonseca", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Claudenir M. Fonseca", institution: "University of Twente - The Netherlands" },
     ]
   },
   financialChairs: {
@@ -67,10 +67,10 @@ const People = {
   organizationChairs: {
     name: "Local Organization Chairs",
     members: [
-      { name: "Tiago Prince Sales", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Tiago Prince Sales", institution: "University of Twente - The Netherlands" },
       { name: "Mattia Fumagalli", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Pedro Paulo F. Barcelos", institution: "Free University of Bozen-Bolzano - Italy" },
-      { name: "Claudenir M. Fonseca", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Claudenir M. Fonseca", institution: "University of Twente - The Netherlands" },
     ]
   },
   organizationCommittee: {
@@ -120,7 +120,7 @@ const People = {
       { name: "Carlos Azevedo", institution: "Federal Institute of Espírito Santo - Brazil" },
       { name: "Chiara Di Francescomarino", institution: "Fondazione Bruno Kessler-IRST - Italy" },
       { name: "Christian Zirpins", institution: "Karlsruhe University of Applied Sciences - Germany" },
-      { name: "Claudenir M. Fonseca", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Claudenir M. Fonseca", institution: "University of Twente - The Netherlands" },
       { name: "Claudio Di Ciccio", institution: "Sapienza University of Rome - Italy" },
       { name: "Colin Atkinson", institution: "University of Mannheim - Germany" },
       { name: "Cristine Griffo", institution: "Free University of Bozen-Bolzano - Italy" },
@@ -187,7 +187,7 @@ const People = {
       { name: "Stefan Tai", institution: "TU Berlin - Germany" },
       { name: "Stefanie Rinderle-Ma", institution: "Technical University of Munich - Germany" },
       { name: "Sylvain Hallé", institution: "Université du Québec à Chicoutimi - Canada" },
-      { name: "Tiago Sales", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Tiago Sales", institution: "University of Twente - The Netherlands" },
       { name: "Ulrich Frank", institution: "University of Duisburg Essen - Germany" },
       { name: "Ulrik Franke", institution: "RISE - Sweden" },
       { name: "Uwe Zdun", institution: "University of Vienna - Austria" },
