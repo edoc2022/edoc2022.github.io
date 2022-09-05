@@ -74,16 +74,16 @@ export default class Header extends Component {
                   <Link className="dropdown-item" to="/call-journal-first">Journal-First</Link>
                 </div>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/workshops">Workshops</Link>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Program
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/program-overview">Overview</Link>
                   <Link className="dropdown-item" to="/keynotes">Keynotes</Link>
+                  <Link className="dropdown-item" to="/panels">Panels</Link>
                   <Link className="dropdown-item" to="/tutorials">Tutorials</Link>
+                  <Link className="dropdown-item" to="/workshops">Workshops</Link>
                 </div>
               </li>
               <li class="nav-item dropdown">
