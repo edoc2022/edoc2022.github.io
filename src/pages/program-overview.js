@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import config from '../../config';
+
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
@@ -22,7 +24,7 @@ const ProgramOverviewPage = () => (
 
             <br />
 
-            <a href='./../EDOC-and-CoopIS-program-05-09-2022.pdf' >
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-05-09-2022.pdf'}>
               <img
                 src={unibzBuilding}
                 className="img-fluid"
