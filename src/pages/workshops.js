@@ -78,7 +78,7 @@ const TutorialsPage = () => (
         <br />
         <br />
 
-        <Workshop
+        {/* <Workshop
           id="flpm"
           title={<div>FLPM - Forward-Looking Process Mining</div>}
           description="Forward-looking techniques in process mining enable organizations to create their own digital twins. Process mining provides data-driven support for businesses to make their processes transparent. Most process mining techniques are backward-looking. They generate descriptive process models based on historical data and identify performance and compliance issues. Forward-looking process mining focuses on turning the results of backward-looking techniques into actions. Process mining is capable of providing insights into the future of processes given the provided insight, i.e., the currently discovered insights. The purpose of this workshop is to present and discuss the potential forward-looking process mining techniques where they play a role in an organization's digital twin. The scope of the workshop includes approaches such as data-driven process model generation, simulation, and prediction, as well as a human role in these approaches."
@@ -98,7 +98,7 @@ const TutorialsPage = () => (
         <br />
         <br />
         <br />
-        <br />
+        <br /> */}
 
         <Workshop
           id="soea4ee"

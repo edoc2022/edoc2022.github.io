@@ -36,7 +36,7 @@ const PanelsPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="baldwin" className="mx-auto my-0 text-uppercase">
+            <h2 id="digital-health-and=ethics-panel" className="mx-auto my-0 text-uppercase">
               Towards Flexible Digital Health Ecosystems
             </h2>
 

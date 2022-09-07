@@ -32,7 +32,7 @@ const TutorialsPage = () => (
 
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="mx-auto my-0 text-uppercase text-center">
+            <h2 id="wagner" className="mx-auto my-0 text-uppercase text-center">
               Gerd Wagner
             </h2>
 

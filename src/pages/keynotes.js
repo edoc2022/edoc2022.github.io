@@ -275,6 +275,26 @@ const KeynotesPage = () => (
               Modelling ethical and legal norms/explaining compliance and
               violation
             </h3>
+
+            <br />
+            <br />
+            <br />
+
+            <p className="text-black text-justify">
+              Automation-supported compliance checking has become necessary in increasingly automated socio-technical contexts. AI {'&'} law research, since the 70's has addressed ways to model ethical and legal knowledge, and has developed approaches that are relevant to compliance-checking.
+            </p>
+
+            <p className="text-black text-justify">
+              I will shortly review approaches to the modeling of legal content: Rules- and logic-based models; Argumentation-based models; Case-based reasoning models.
+            </p>
+
+            <p className="text-black text-justify">
+              I will the address some recent approaches aimed at providing logical models in a way which is understandable to non-technical people, and consider whether this idea may support developments in automated compliance checking. I will also consider the significance of argumentation-based models and ontologies to provide rationales for compliance assessments.
+            </p>
+
+            <p className="text-black text-justify">
+              I will argue for the construction of human-understandable models of law and ethics, to be used for the purpose of compliance checking, also over the functioning of machine-learning based systems. How to integrate logical modeling and machine learning, in eliciting and applying normative knowledge is a challenging task for the future.
+            </p>
           </div>
         </div>
 
@@ -452,7 +472,7 @@ const KeynotesPage = () => (
 
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
-            <h2 id="mellor" className="mx-auto my-0 text-uppercase">
+            <h2 id="isaacs" className="mx-auto my-0 text-uppercase">
               Daniel R. Isaacs
             </h2>
 
