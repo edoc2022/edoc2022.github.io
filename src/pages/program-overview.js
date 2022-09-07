@@ -46,64 +46,75 @@ const ProgramOverviewPage = () => (
             <p className="text-black text-justify">
               <b>09:00 - 10:30</b>
 
-              <br />
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 1</Link>
+                <div className="session-place">Room 2</div>
+              </div>
 
-              <ul>
-                <li><Link to='/workshops'>TEAR Workshop</Link> - Room 2</li>
-                <li><Link to='/workshops'>IDAMS Workshop</Link> - Room 3</li>
-              </ul>
-
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>Workshop: IDAMS Session 1</Link>
+                <div className="session-place">Room 3</div>
+              </div>
 
               <b>11:00 - 12:30</b>
 
-              <br />
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 2</Link>
+                <div className="session-place">Room 2</div>
+              </div>
 
-              <ul>
-                <li><Link to='/workshops'>TEAR Workshop</Link> - Room 2</li>
-                <li><Link to='/workshops'>IDAMS Workshop</Link> - Room 3</li>
-              </ul>
-
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>Workshop: IDAMS Session 2</Link>
+                <div className="session-place">Room 3</div>
+              </div>
 
               <b>13:30 - 15:00</b>
 
-              <br />
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 3</Link>
+                <div className="session-place">Room 2</div>
+              </div>
 
-              <ul>
-                <li><Link to='/workshops'>TEAR Workshop</Link> - Room 2</li>
-                <li><Link to='/workshops'>SoEA4EE Workshop</Link> - Room 3</li>
-                <li><Link to='/tutorials'>Tutorial with Prof. Gerd Wagner</Link> - Room 4</li>
-              </ul>
+              <div className="session">
+                <Link className="session-title-link" to='https://www.soea4ee.org'>Workshop: SoEA4EE Session 1</Link>
+                <div className="session-place">Room 3</div>
+              </div>
 
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>
+                  Tutorial: Business Process Modeling and Simulation with DPMN
+                </Link>
+                <div>with Prof. Gerd Wagner</div>
+                <div className="session-place">Room 4</div>
+              </div>
 
               <b>15:30 - 17:00</b>
 
-              <br />
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://www.soea4ee.org'>Workshop: SoEA4EE Session 2</Link>
+                <div className="session-place">Room 3</div>
+              </div>
 
-              <ul>
-                <li><Link to='/workshops'>SoEA4EE Workshop</Link> - Room 3</li>
-                <li><Link to='/tutorials'>Tutorial with Prof. Gerd Wagner</Link> - Room 4</li>
-              </ul>
-
-              <br />
+              <div className="session">
+                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>
+                  Tutorial: Business Process Modeling and Simulation with DPMN
+                </Link>
+                <div>with Prof. Gerd Wagner</div>
+                <div className="session-place">Room 4</div>
+              </div>
 
               <b>18:30 - 21:30</b>
 
-              <br />
-              <br />
+              <div className="session">
+                <div className="session-title">Conference Reception</div>
+                <div className="session-place">Noisteria</div>
+              </div>
 
-              <ul>
-                <li>Event Reception</li>
-              </ul>
             </p>
 
-            <h4 className="text-black mb-4 text-uppercase">
+            <hr/>
+
+            <h4 className="text-black mb-4 text-uppercase day">
               Tuesday, October 04
             </h4>
 
@@ -238,7 +249,8 @@ const ProgramOverviewPage = () => (
 
             </p>
 
-            <h4 className="text-black mb-4 text-uppercase">
+            <hr/>
+            <h4 className="text-black mb-4 text-uppercase day">
               Wednesday, October 05
             </h4>
 
@@ -354,7 +366,8 @@ const ProgramOverviewPage = () => (
 
             </p>
 
-            <h4 className="text-black mb-4 text-uppercase">
+            <hr/>
+            <h4 className="text-black mb-4 text-uppercase day">
               Thursday, October 06
             </h4>
 
@@ -478,7 +491,8 @@ const ProgramOverviewPage = () => (
               
             </p>
 
-            <h4 className="text-black mb-4 text-uppercase">
+            <hr/>
+            <h4 className="text-black mb-4 text-uppercase day">
               Friday, October 07
             </h4>
 
