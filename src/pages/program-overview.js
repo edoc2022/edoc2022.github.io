@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-05-09-2022.png';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-09-09-2022.png';
 
 const ProgramOverviewPage = () => (
   <Layout>
@@ -54,13 +54,17 @@ const ProgramOverviewPage = () => (
 
         <div className="row">
           <div className="col-lg-12 mx-auto">
-            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-05-09-2022.pdf'}>
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-09-09-2022.pdf'}>
               <img
                 src={unibzBuilding}
-                className="img-fluid"
+                className="img-fluid pb-4"
                 alt="Program overview of EDOC 2022 and CoopIS 2022."
               />
             </a>
+
+            <p className="text-black text-center">
+              (click to download)
+            </p>
           </div>
         </div>
       </div>
@@ -70,14 +74,6 @@ const ProgramOverviewPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-
-            <br />
-            <br />
-
-            <p className="text-black text-center">
-              (click to download)
-            </p>
-
             <h4 id='monday' className="text-black mb-4 text-uppercase">
               Monday, October 03
             </h4>
@@ -179,6 +175,32 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 1</a>
                 <div className="session-place">Room 2</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Quantifying Temporal Privacy Leakage in Continuous Event Data Publishing</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Majid Rafiei, Gamal Elkoumy and Wil M.P. van der Aalst</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A Distributed Architecture for Privacy-Preserving Optimization Using Genetic Algorithms and Multi-Party Computation</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Christoph G. Schuetz, Thomas Loruenser, Samuel Jaburek, Kevin Schuetz, Florian Wohner, Roman Karl and Eduard Gringinger</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A Data Connector Store for International Data Spaces</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Danniar Reza Firdausy, Patrício de Alencar Silva, Marten van Sinderen and Maria-Eugenia Iacob</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <div className="session">
@@ -248,7 +270,35 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 2</a>
                 <div className="session-place">Room 2</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Bi2E: Bidirectional Knowledge Graph Embeddings Based on Subject-Object Feature Spaces</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Zhe Wang, Xiaomei Li and Zhongwen Guo</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">PK-Graph: Partitioned k²-Trees to Enable Compact and Dynamic Graphs in Spark GraphX</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Bruno Morais, Miguel Coimbra and Luís Veiga</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Validating Vector-label Propagation for Graph Embedding</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Valerio Bellandi, Ernesto Damiani, Samira Maghool, Fedra Negri and Valerio Ghirimoldi</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
+
+              <b>15:30 - 17:30</b>
 
               <div className="session">
                 <div className="session-title">EDOC Doctoral Consortium</div>
@@ -351,6 +401,32 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 3</a>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Collaborative patterns for workflows with collaborative robots</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Stefan Samhaber and Maria Leitner </span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Enabling Multi-Process Discovery on Graph Databases </span>
+                      , by&nbsp;
+                      <span className="paper-authors">Ali Nour Eldin, Nour Assy, Meriana Kobeissi, Jonathan Baudot and Walid Gaaloul</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Data-Driven Evolution of Activity Forms in Object- and Process-Aware Information Systems</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Marius Breitmayer, Lisa Arnold and Manfred Reichert</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <b>13:30 - 15:00</b>
@@ -390,6 +466,32 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 4</a>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">DATA-IMP: An Interactive Approach to Specify Data Imputation Transformations on Large Datasets</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Michael Behringer, Manuel Fritz, Holger Schwarz and Bernhard Mitschang</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Dynamic Forest for Learning from Data Streams with Varying Feature Spaces</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Christian Schreckenberger, Christian Bartelt and Heiner Stuckenschmidt</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">At Design-Time Approach for Supervisory Control of Opacity</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Nourelhouda Souid, Kais Klai, Chiheb Ameur Abid and Samir Benahmed</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <b>15:30 - 17:00</b>
@@ -466,6 +568,48 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Short Papers Session</a>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Conformance Checking for Trace Fragments Using Infix- and Postfix-Alignments</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Daniel Schuster, Niklas Föcking, Sebastiaan J. van Zelst and Wil M. P. van der Aalst</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Generating Plugs and Data Sockets for Plug-and-Play Database Web Services</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Arihant Jain, Curtis Dyreson and Sourav S Bhowmick</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Design and Implementation of Education and Training Management System based on Blockchain</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Ran Chen, Xiaoming Wu, Xiangzhi Liu and Junlong Liang</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A Method for Integrated Modeling of KiPs and Contextual Goals</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Zeynep Ozturk Yurt, Rik Eshuis, Banu Aysolmaz, Anna Wilbik and Irene Vanderfeesten</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">An Experimental Study of Intuitive Representations of Process Task Annotations</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Myriel Fichtner, Urs A. Fichtner and Stefan Jablonski</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <b>13:30 - 15:00</b>
@@ -505,6 +649,32 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 5</a>
                 <div className="session-place">Room 3</div>
+
+                <ul>                  
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Random-value payment tokens for on-chain privacy-preserving payments</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Tiphaine Henry, Julien Hatin, Léo Kazmierczak, Nassim Laga, Walid Gaaloul and Emmanuel Bertin</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Relevance-based Big Data Exploration for Smart Road Maintenance</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Devis Bianchini, Valeria De Antonellis and Massimiliano Garda</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Automating process discovery through meta-learning</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Gabriel Marques Tavares, Sylvio Barbon Junior and Ernesto Damiani</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <b>15:30 - 16:30</b>

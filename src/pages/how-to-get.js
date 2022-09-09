@@ -12,17 +12,32 @@ const Venue = () => (
     <Header />
     <SimpleLogoHeader />
 
-    <section id="how-to-arrive" className="content-section text-center">
+    <section id="title" className="content-section text-center">
+      <div className="container">
+        <div className="row mx-auto justify-content-around">
+          <div className="col-lg-2 mx-auto" />
+          <div className="col-lg-4 mx-auto">
+            <div className="btn m-4 btn-primary">
+              <Link className="text-white" to='/how-to-get#bolzano'>Arriving in Bolzano</Link>
+            </div>
+          </div>
+          <div className="col-lg-4 mx-auto">
+            <div className="btn m-4 btn-primary">
+              <Link className="text-white" to='/how-to-get#noi'>Arriving at NOI</Link>
+            </div>
+          </div>
+          <div className="col-lg-2 mx-auto" />
+        </div>
+      </div>
+    </ section>
+
+    <section id="bolzano" className="content-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h1 className="text-black mb-4 text-uppercase">
+            <h2 className="text-black mb-5 text-uppercase">
               How to get to Bolzano
-            </h1>
-
-            <br />
-            <br />
-            <br />
+            </h2>
 
             <p className="text-black text-justify">
               Bolzano is located in the center of the Alps, next to the main
@@ -159,6 +174,52 @@ const Venue = () => (
               <Link to="http://www.altoadigebus.com">www.altoadigebus.com</Link>
               , <Link to="http://www.flixbus.it">www.flixbus.it</Link>,{' '}
               <Link to="http://www.busgroup.eu">www.busgroup.eu</Link>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="noi" className="content-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-black mb-5 text-uppercase">
+              How to get to the venue - NOI Techpark
+            </h2>
+
+            <p className="text-black text-justify">
+              <div>NOI TechPark is the science and technology park of South Tyrol.</div>
+              <div><b>Address:</b> Via Alessandro Volta, 13, 39100 Bolzano BZ, Italy</div>
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2653.903560211292!2d11.330419240678061!3d46.47854053603093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65f19ec400fde7e2!2sNOI%20Techpark!5e0!3m2!1sen!2snl!4v1662724825797!5m2!1sen!2snl"
+              className="img-fluid pb-5"
+              width="800"
+              style={{ border: 0, minHeight: 400 }}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" />
+
+            <p className="text-black text-justify">
+              <div className='session'><b>Arriving by Bus</b></div>
+
+              <div className='pb-4'>NOI is directly linked to the city of Bozen-Bolzano via several bus routes. The following routes run every 10 minutes from the city centre: 10B, 110 and 111.</div>
+
+              <div className='pb-4'>You can buy the bus tickets at the central bus station or at tobacconist shops. You can opt for the <a href='https://www.suedtirolmobil.info/en/tickets/ticket-finder/day-pass-bolzano-merano'>single bus ride (1,50€) or a daily ticket (4€)</a>. Another option is to <a href='https://www.suedtirolmobil.info/en/tickets/ticket-finder/mobilcard'>buy a Mobilcard</a>, which gives you one, three or seven consecutive days' worth of unlimited travel on public transport in the whole of South Tyrol.</div>
+
+              <div className='session'><b>Arriving by Car</b></div>
+
+              <div className='pb-4'>There are many free parking lots available around the building (Voltastraße / Via Volta and via Hypatiastraße/ Via Ipazia) or you can opt for NOI underground car parking in Via A. Volta 17 (1€/h). There you will also find a charging station for electric cars.</div>
+
+              <div className='session'><b>Arriving by Taxi</b></div>
+
+              <div className='pb-4'>You can call a taxi from this number: Tel. <a href="tel:+39-0471-97-33-33">+39 0471 97 33 33</a>.</div>
+
+              <div className='session'><b>Arriving by Train</b></div>
+
+              <div className='pb-4'>Bozen Zentrum railway station is 3 km, Bozen Süd/Messe railway station 1 km away. This station can be reached on foot in 15 minutes. There are trains to Meran and Bozen every 30 minutes. Train services towards Meran and Bozen Zentrum from Bozen Süd/Messe end around 22:00.</div>
             </p>
           </div>
         </div>

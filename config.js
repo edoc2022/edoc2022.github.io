@@ -36,6 +36,5 @@ module.exports = {
   ],
   email: 'edoc2022@unibz.it',
   // phone: '000-00000',
-  address: `Dominikanerplatz 3 - piazza Domenicani, 3
-  Bozen-Bolzano, Italy - 39100`,
+  address: `Via Alessandro Volta, 13, 39100 Bolzano BZ, Italy`,
 };

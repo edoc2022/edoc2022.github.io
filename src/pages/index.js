@@ -8,6 +8,7 @@ import Header from '../components/Header';
 
 import edocLogoWhite from './../assets/images/edoc2022-tyrol-date-place-white-contour-large.png';
 import unibzBuilding from './../assets/images/unibz-main-building.jpg';
+import noiBuilding from './../assets/images/NOI Techpark_Architecture.jpg';
 
 import unibz from './../assets/images/supporter-unibz.png';
 import twente from './../assets/images/supporter-twente.png';
@@ -36,29 +37,36 @@ const IndexPage = () => (
     <section id="links" className="content-section text-center">
       <div className="container">
         <div className="row justify-content-around">
-          <div className="col-1" />
-          <div className="col-3">
-            <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
+          {/* <div className="col-1" /> */}
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-2 btn-primary">
               <Link className="text-white" to="https://coopisconference.org/">
                 CoopIS 2022
               </Link>
             </div>
           </div>
-          <div className="col-3">
-            <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-2 btn-primary">
               <Link className="text-white" to="/registration">
                 Register here
               </Link>
             </div>
           </div>
-          <div className="col-3">
-            <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary">
-              <Link className="text-white" to="/#venue">
-                Venue
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-2 btn-primary">
+              <Link className="text-white" to="/program-overview">
+                Program
               </Link>
             </div>
           </div>
-          <div className="col-1" />
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-2 btn-primary">
+              <Link className="text-white" to="/how-to-get">
+                How to Arrive
+              </Link>
+            </div>
+          </div>
+          {/* <div className="col-1" /> */}
         </div>
       </div>
     </section>
@@ -133,26 +141,6 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="venue" className="content-section text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2 className="text-black mb-4">The Venue</h2>
-            <p className="text-black text-justify">
-              EDOC 2022 is hosted by the Free University of Bozen-Bolzano, and
-              happening on-site in the city of Bolzano, Northern Italy. The
-              valley of the river Adige, which carves the Italian Alps, is the
-              home of a vibrant research community with leading researchers in
-              the fields of ontology engineering, knowledge representation, and
-              enterprise architecture. In every available opportunity, Bolzano
-              welcomes you to come to visit, learn, and celebrate its nature,
-              history, and culture in a unique place in the heart of Europe.
-            </p>
-          </div>
-        </div>
 
         <iframe
           width="90%"
@@ -164,6 +152,32 @@ const IndexPage = () => (
           allowfullscreen
         ></iframe>
       </div>
+    </section>
+
+    <section id="venue" className="content-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-black mb-4">The Venue</h2>
+            <p className="text-black text-justify">
+              EDOC 2022 is organized by the Free University of Bozen-Bolzano at
+              the south-tyrolean center of innovation NOI Techpark,
+              happening on-site in the city of Bolzano, Northern Italy. The
+              valley of the river Adige, which carves the Italian Alps, is the
+              home of a vibrant research community with leading researchers in
+              the fields of ontology engineering, knowledge representation, and
+              enterprise architecture. In every available opportunity, Bolzano
+              welcomes you to come to visit, learn, and celebrate its nature,
+              history, and culture in a unique place in the heart of Europe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src={noiBuilding}
+        className="img-fluid"
+        alt="Black Monolith building at NOI Techpark."
+      />
     </section>
 
     <section id="supporters" className="content-section text-center">
