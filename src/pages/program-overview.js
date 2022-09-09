@@ -82,40 +82,40 @@ const ProgramOverviewPage = () => (
               Monday, October 03
             </h4>
 
-            <p className="text-black text-justify">
+            <p className="text-black text-left">
               <b>09:00 - 10:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 1</Link>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 1</a>
                 <div className="session-place">Room 2</div>
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>Workshop: IDAMS Session 1</Link>
+                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">Workshop: IDAMS Session 1</a>
                 <div className="session-place">Room 3</div>
               </div>
 
               <b>11:00 - 12:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 2</Link>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 2</a>
                 <div className="session-place">Room 2</div>
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://easychair.org/cfp/IDAMS2022'>Workshop: IDAMS Session 2</Link>
+                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">Workshop: IDAMS Session 2</a>
                 <div className="session-place">Room 3</div>
               </div>
 
               <b>13:30 - 15:00</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://tear-series.org'>Workshop: TEAR Session 3</Link>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 3</a>
                 <div className="session-place">Room 2</div>
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://www.soea4ee.org'>Workshop: SoEA4EE Session 1</Link>
+                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session 1</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -130,7 +130,7 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 17:00</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://www.soea4ee.org'>Workshop: SoEA4EE Session 2</Link>
+                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session 2</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -157,11 +157,11 @@ const ProgramOverviewPage = () => (
               Tuesday, October 04
             </h4>
 
-            <p className="text-black text-justify">
+            <p className="text-black text-left">
               <b>09:00 - 09:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Welcome Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Welcome Session</a>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -177,7 +177,7 @@ const ProgramOverviewPage = () => (
               <b>11:00 - 12:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Main Track Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 1</a>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -232,7 +232,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#digital-health-and=ethics-panel'>Panel: Digital Health and Ethics</Link>
-                <div className="session-speaker">with participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini, and hosted by Dr. Zoran Milosevic</div>
+                <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini, and hosted by Dr. Zoran Milosevic</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -246,7 +246,7 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 17:00</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Main Track Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 2</a>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -296,7 +296,7 @@ const ProgramOverviewPage = () => (
               Wednesday, October 05
             </h4>
 
-            <p className="text-black text-justify">
+            <p className="text-black text-left">
               <b>09:00 - 09:30</b>
 
               <div className="session">
@@ -349,7 +349,7 @@ const ProgramOverviewPage = () => (
 
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Main Track Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 3</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -388,7 +388,7 @@ const ProgramOverviewPage = () => (
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Main Track Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 4</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -415,7 +415,7 @@ const ProgramOverviewPage = () => (
               Thursday, October 06
             </h4>
 
-            <p className="text-black text-justify">
+            <p className="text-black text-left">
               <b>09:00 - 10:30</b>
 
               <div className="session">
@@ -464,7 +464,7 @@ const ProgramOverviewPage = () => (
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Industry Forum</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Short Papers Session</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -503,7 +503,7 @@ const ProgramOverviewPage = () => (
               </div>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Main Track Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 5</a>
                 <div className="session-place">Room 3</div>
               </div>
 
@@ -518,7 +518,7 @@ const ProgramOverviewPage = () => (
               <b>16:30 - 17:00</b>
 
               <div className="session">
-                <Link className="session-title-link" to='https://coopisconference.org/'>CoopIS Closing Session</Link>
+                <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Closing Session</a>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -544,7 +544,7 @@ const ProgramOverviewPage = () => (
               Friday, October 07
             </h4>
 
-            <p className="text-black text-justify">
+            <p className="text-black text-left">
               <b>09:00 - 10:30</b>
 
 
