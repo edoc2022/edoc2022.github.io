@@ -14,7 +14,13 @@ const RegistrationPage = () => (
     <Header />
     <SimpleLogoHeader />
 
-    <section id="title" className="content-section text-center">
+    <h2 className='bg-warning p-3 text-center py-4'>
+      <Link to="/registration" className='warning'>
+        Registration deadline: September 23, 2022
+      </Link>
+    </h2>
+
+    <section id="title" className="content-section text-center pt-5">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 mx-auto">
@@ -29,7 +35,7 @@ const RegistrationPage = () => (
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-5">
-              <div className="btn mr-4 ml-4 mt-4 mb-4 btn-primary text-white">
+              <div className="btn mb-4 btn-primary text-white">
                 <Link
                   className="text-white"
                   to="https://www.conftool.com/edoc2022"
@@ -66,8 +72,12 @@ const RegistrationPage = () => (
                   social events, and more. <br />
                   <b>Registration early-bird fee: EUR 750,00</b>
                   <br />
-                  <b>
+                  <s>
                     Registration late fee (after September 01, 2022): EUR 850,00
+                  </s>
+                  <br/>
+                  <b>
+                    Early-Bird Discount Extended!
                   </b>
                 </li>
                 <br />
@@ -78,8 +88,12 @@ const RegistrationPage = () => (
                   <br />
                   <b>Registration early-bird fee: EUR 300,00</b>
                   <br />
-                  <b>
+                  <s>
                     Registration late fee (after September 01, 2022): EUR 350,00
+                  </s>
+                  <br/>
+                  <b>
+                    Early-Bird Discount Extended!
                   </b>
                 </li>
               </ul>

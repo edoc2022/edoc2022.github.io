@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-09-09-2022.png';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-12-09-2022.png';
 
 const ProgramOverviewPage = () => (
   <Layout>
@@ -54,7 +54,7 @@ const ProgramOverviewPage = () => (
 
         <div className="row">
           <div className="col-lg-12 mx-auto">
-            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-09-09-2022.pdf'}>
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-12-09-2022.pdf'}>
               <img
                 src={unibzBuilding}
                 className="img-fluid pb-4"
@@ -509,6 +509,32 @@ const ProgramOverviewPage = () => (
                 <div className="session-title-link">Flash Talks and Posters Session</div>
                 <div className='session-detail'>Joint session between EDOC and CoopIS</div>
                 <div className="session-place">Room 2</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Optimized Throttling for OAuth-based Authorization Servers</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Peter Schuller, Julia Siedl, Nicolas Getto, Sebastian Thomas Schork, and Christian Zirpins</span>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A Concept and a Multitenant Web Application for Interactive Software Architecture Analysis</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Stefan Gudenkauf, Uwe Bachmann, and Niklas Hartmann</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">An ontology for software patterns: application to blockchain-based software development</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Nicolas Six, Camilo Correa-Restrepo, Nicolas Herbaut, and Camille Salinesi</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <b>18:00 - 22:00</b>
