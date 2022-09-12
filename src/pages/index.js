@@ -34,7 +34,13 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="links" className="content-section text-center">
+    <h2 className='bg-warning p-3 text-center py-4'>
+      <Link to="/registration" className='warning'>
+        Registration deadline: September 23, 2022
+      </Link>
+    </h2>
+
+    <section id="links" className="content-section text-center pt-5">
       <div className="container">
         <div className="row justify-content-around">
           {/* <div className="col-1" /> */}

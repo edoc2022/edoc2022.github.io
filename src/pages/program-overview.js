@@ -20,7 +20,7 @@ const ProgramOverviewPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h1 className="mx-auto pb-5 text-uppercase">Program</h1>
+            <h1 id="program" className="mx-auto pb-5 text-uppercase">Program</h1>
           </div>
         </div>
 
@@ -143,6 +143,10 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title">Conference Reception</div>
                 <div className="session-place">Noisteria</div>
+              </div>
+
+              <div className='btn btn-primary'>
+                <Link to='#program' className='text-white'>Back to the top</Link>
               </div>
 
             </p>
@@ -339,9 +343,14 @@ const ProgramOverviewPage = () => (
                 </ul>
               </div>
 
+              <div className='btn btn-primary'>
+                <Link to='#program' className='text-white'>Back to the top</Link>
+              </div>
+
             </p>
 
             <hr />
+
             <h4 id='wednesday' className="text-black mb-4 text-uppercase day">
               Wednesday, October 05
             </h4>
@@ -510,9 +519,14 @@ const ProgramOverviewPage = () => (
                 <div className="session-place">Castel Flavon</div>
               </div>
 
+              <div className='btn btn-primary'>
+                <Link to='#program' className='text-white'>Back to the top</Link>
+              </div>
+
             </p>
 
             <hr />
+
             <h4 id='thursday' className="text-black mb-4 text-uppercase day">
               Thursday, October 06
             </h4>
@@ -650,7 +664,7 @@ const ProgramOverviewPage = () => (
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 5</a>
                 <div className="session-place">Room 3</div>
 
-                <ul>                  
+                <ul>
                   <li>
                     <div className="paper">
                       <span className="paper-title">Random-value payment tokens for on-chain privacy-preserving payments</span>
@@ -707,9 +721,14 @@ const ProgramOverviewPage = () => (
                 <div className="session-place">Maretsch Castle</div>
               </div>
 
+              <div className='btn btn-primary'>
+                <Link to='#program' className='text-white'>Back to the top</Link>
+              </div>
+
             </p>
 
             <hr />
+
             <h4 id='friday' className="text-black mb-4 text-uppercase day">
               Friday, October 07
             </h4>
@@ -831,6 +850,10 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title-link">EDOC Closing Session</div>
                 <div className="session-place">Room 2</div>
+              </div>
+
+              <div className='btn btn-primary'>
+                <Link to='#program' className='text-white'>Back to the top</Link>
               </div>
             </p>
           </div>

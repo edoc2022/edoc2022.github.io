@@ -122,13 +122,13 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://ch.linkedin.com/in/dr-nikola-cihoric'>Clinician’s perspective on the advanced ontology requirements (oncology, ontology)</Link>
+                      <Link to='https://ch.linkedin.com/in/dr-nikola-cihoric'>Clinician's perspective on the advanced ontology requirements (oncology, ontology)</Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Nikola is a clinical doctor, radiation oncologist, clinical informatician, entrepreneur, and passionate pursuer of exceptional user experience and usability in software. He is oncology consultant at the Insell Group, Bern, Switzerland, and Founder and Senior Representative of Wemedoo AG, involved in designing and implementing cutting-edge technology solutions that will advance healthcare, improve clinical work, empower research, and expedite clinical trials.
+                      Nikola is a clinical doctor, radiation oncologist, clinical informatician, and passionate pursuer of exceptional user experience and usability in software. He is an oncology consultant at the Insel Group, Bern, Switzerland, and Founder of Wemedoo AG, involved in designing and implementing cutting-edge technology solutions that will advance healthcare, improve clinical work, empower research, and expedite clinical trials.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -227,13 +227,13 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://au.linkedin.com/in/zorandmilosevi'>Moderator</Link>
+                      <Link to='https://www.linkedin.com/in/zorandmilosevic/'>Moderator</Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Dr Zoran Milosevic is an interoperability and AI consultant with Best Practice Software, Australia https://bpsoftware.net/. He has been involved in many digital health interoperability projects and standards, in Australia, USA and Europe. He endeavours to bring the latest research results and established architecture practices from enterprise distributed systems, such as ISO/ITU-T RM-ODP standards, into the evolving digital health ecosystems.
+                      Dr Zoran Milosevic is an interoperability and AI consultant with <Link to="https://bpsoftware.net/">Best Practice Software</Link>, Australia. He has been involved in many digital health interoperability projects and standards, in Australia, USA and Europe. He endeavours to bring the latest research results and established architecture practices from enterprise distributed systems, such as ISO/ITU-T RM-ODP standards, into the evolving digital health ecosystems.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
