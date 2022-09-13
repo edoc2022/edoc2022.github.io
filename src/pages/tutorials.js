@@ -33,7 +33,7 @@ const TutorialsPage = () => (
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <h2 id="wagner" className="mx-auto my-0 text-uppercase text-center">
-              Gerd Wagner
+              Prof. Dr. Gerd Wagner
             </h2>
 
             <br />
