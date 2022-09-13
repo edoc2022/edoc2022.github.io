@@ -82,8 +82,35 @@ const ProgramOverviewPage = () => (
               <b>09:00 - 10:30</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 1</a>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Session: Studying Enterprise Architecture</a>
+                <div className="session-chair">Chair: Sybren de Kinderen</div>
                 <div className="session-place">Room 2</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Areas where Enterprise Architecture Contributes to Organizational Goals – A Quantitative Study</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Henk Plessius</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Achieving Alignment by Means of EA Artifacts</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Shang Gao</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Contextuality and Temporality of Enterprise Architecture Problems: A Comparative Case Study</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Samuli Pekkola</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <div className="session">
@@ -94,8 +121,35 @@ const ProgramOverviewPage = () => (
               <b>11:00 - 12:30</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 2</a>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Session: Enterprise Architecture Modeling</a>
+                <div className="session-chair">Chair: Dominik Bork</div>
                 <div className="session-place">Room 2</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Zooming in on Competences in Ontology-based Enterprise Architecture Modeling</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Henk Plessius</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A knowledge-graph based integrated digital EA maturity and performance framework</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Shang Gao</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Workplace Topology Model for Assessment of Static and  Dynamic Interactions Among Employees</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Samuli Pekkola</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
 
               <div className="session">
@@ -106,7 +160,8 @@ const ProgramOverviewPage = () => (
               <b>13:30 - 15:00</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">Workshop: TEAR Session 3</a>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
+                <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -119,7 +174,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/tutorials#wagner'>
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
-                <div className="session-speaker">with Prof. Gerd Wagner</div>
+                <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
                 <div className="session-place">Room 4</div>
               </div>
 
@@ -134,7 +189,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/tutorials#wagner'>
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
-                <div className="session-speaker">with Prof. Gerd Wagner</div>
+                <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
                 <div className="session-place">Room 4</div>
               </div>
 
@@ -313,7 +368,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">PhD Lessons Learned</span>
                       , by&nbsp;
-                      <span className="paper-authors">Claudenir Fonseca</span>
+                      <span className="paper-authors">Dr. Claudenir Fonseca</span>
                     </div>
                   </li>
 
@@ -506,8 +561,7 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 17:00</b>
 
               <div className="session">
-                <div className="session-title-link">Flash Talks and Posters Session</div>
-                <div className='session-detail'>Joint session between EDOC and CoopIS</div>
+                <div className="session-title-link">EDOC Forum Papers</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -563,7 +617,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#baldwin'>Keynote: "We Are All Digital Now"</Link>
                 <div>Platform Systems and Flow Processes in Modern Enterprises</div>
-                <div className="session-speaker">by Prof. Carliss Y. Baldwin</div>
+                <div className="session-speaker">by Prof. Dr. Carliss Y. Baldwin</div>
                 <div className="session-place">Room 2</div>
               </div>
 
