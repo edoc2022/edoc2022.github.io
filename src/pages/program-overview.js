@@ -832,7 +832,7 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <span className="paper-title">A Deep Perspective on the ArchiMate Modeling Language and Standard</span>
+                      <a href="https://doi.org/10.18417/emisa.15.2" target="_blank"><span className="paper-title">A Deep Perspective on the ArchiMate Modeling Language and Standard</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Colin Atkinson and Thomas Kühne</span>
                     </div>
@@ -840,7 +840,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Discovering instance and process spanning constraints from process execution logs</span>
+                    <a href="https://doi.org/10.1016/j.is.2019.101484" target="_blank"><span className="paper-title">Discovering instance and process spanning constraints from process execution logs</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Karolin Winter, Florian Stertz and Stefanie Rinderle-Ma</span>
                     </div>
@@ -848,7 +848,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Knowledge Graph OLAP: A multidimensional model and query operations for contextualized knowledge graphs</span>
+                    <a href="https://doi.org/10.3233/SW-200419" target="_blank"><span className="paper-title">Knowledge Graph OLAP: A multidimensional model and query operations for contextualized knowledge graphs</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Christoph Schuetz, Loris Bozzato, Bernd Neumayr, Michael Schrefl and Luciano Serafini</span>
                     </div>
@@ -900,7 +900,7 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Smart Contracts-Enabled Simulation for Hyperconnected Logistics</span>
+                      <a href="https://doi.org/10.1007/978-3-030-38677-1_6" target="_blank"><span className="paper-title">Smart Contracts-Enabled Simulation for Hyperconnected Logistics</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Quentin Betti, Benoit Montreuil, Raphael Khoury and Sylvain Hallé</span>
                     </div>
@@ -908,7 +908,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Extraction of dimension requirements from engineering drawings for supporting quality control in production processes</span>
+                      <a href="https://doi.org/10.1016/j.compind.2021.103442" target="_blank"><span className="paper-title">Extraction of dimension requirements from engineering drawings for supporting quality control in production processes</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Beate Scheibel, Juergen Mangler and Stefanie Rinderle-Ma</span>
                     </div>
@@ -916,7 +916,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Interactive Process Automation based on lightweight object detection in manufacturing processes</span>
+                      <a href="https://doi.org/10.1016/j.compind.2021.103482" target="_blank"><span className="paper-title">Interactive Process Automation based on lightweight object detection in manufacturing processes</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Amolkirat Singh Mangat, Stefanie Rinderle-Ma and Juergen Mangler</span>
                     </div>
