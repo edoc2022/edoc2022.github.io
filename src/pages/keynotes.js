@@ -37,7 +37,7 @@ const KeynotesPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
             <h2 id="baldwin" className="mx-auto my-0 text-uppercase">
-              Carliss Y. Baldwin
+              Prof. Dr. Carliss Y. Baldwin
             </h2>
 
             <br />
@@ -134,7 +134,7 @@ const KeynotesPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
             <h2 id="cabot" className="mx-auto my-0 text-uppercase">
-              Jordi Cabot
+              Prof. Dr. Jordi Cabot
             </h2>
 
             <br />
@@ -266,7 +266,7 @@ const KeynotesPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
             <h2 id="sartor" className="mx-auto my-0 text-uppercase">
-              Giovanni Sartor
+              Prof. Dr. Giovanni Sartor
             </h2>
 
             <br />

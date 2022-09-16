@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-12-09-2022.png';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-13-09-2022.png';
 
 const ProgramOverviewPage = () => (
   <Layout>
@@ -54,7 +54,7 @@ const ProgramOverviewPage = () => (
 
         <div className="row">
           <div className="col-lg-12 mx-auto">
-            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-12-09-2022.pdf'}>
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-13-09-2022.pdf'}>
               <img
                 src={unibzBuilding}
                 className="img-fluid pb-4"
@@ -790,7 +790,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#sartor'>Keynote: Modelling Ethical and Legal Norms/Explaining Compliance and Violation</Link>
-                <div className="session-speaker">by Prof. Giovanni Sartor</div>
+                <div className="session-speaker">by Prof. Dr. Giovanni Sartor</div>
                 <div className="session-place">Maretsch Castle</div>
               </div>
 
@@ -819,7 +819,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#cabot'>Keynote: Smart Modeling of Smart Software</Link>
-                <div className="session-speaker">by Prof. Jordi Cabot</div>
+                <div className="session-speaker">by Prof. Dr. Jordi Cabot</div>
                 <div className="session-place">Room 2</div>
               </div>
 
