@@ -89,9 +89,9 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Areas where Enterprise Architecture Contributes to Organizational Goals – A Quantitative Study</span>
+                      <span className="paper-title">Areas Where Enterprise Architecture Contributes to Organizational Goals – A Quantitative Study</span>
                       , by&nbsp;
-                      <span className="paper-authors">Henk Plessius</span>
+                      <span className="paper-authors">Henk Plessius, Marlies van Steenbergen, Pascal Ravesteijn and Johan Versendaal</span>
                     </div>
                   </li>
 
@@ -99,7 +99,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">Achieving Alignment by Means of EA Artifacts</span>
                       , by&nbsp;
-                      <span className="paper-authors">Shang Gao</span>
+                      <span className="paper-authors">Hong Guo and Shang Gao</span>
                     </div>
                   </li>
 
@@ -107,7 +107,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">Contextuality and Temporality of Enterprise Architecture Problems: A Comparative Case Study</span>
                       , by&nbsp;
-                      <span className="paper-authors">Samuli Pekkola</span>
+                      <span className="paper-authors">Ari Rouvari and Samuli Pekkola</span>
                     </div>
                   </li>
                 </ul>
@@ -128,17 +128,17 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <span className="paper-title">Zooming in on Competences in Ontology-based Enterprise Architecture Modeling</span>
+                      <span className="paper-title">Zooming in on Competences in Ontology-Based Enterprise Architecture Modeling</span>
                       , by&nbsp;
-                      <span className="paper-authors">Henk Plessius</span>
+                      <span className="paper-authors">Rodrigo Calhau and João Paulo Almeida</span>
                     </div>
                   </li>
 
                   <li>
                     <div className="paper">
-                      <span className="paper-title">A knowledge-graph based integrated digital EA maturity and performance framework</span>
+                      <span className="paper-title">A Knowledge-Graph Based Integrated Digital EA Maturity and Performance Framework</span>
                       , by&nbsp;
-                      <span className="paper-authors">Shang Gao</span>
+                      <span className="paper-authors">Nujud Alsufyani and Asif Gill</span>
                     </div>
                   </li>
 
@@ -146,7 +146,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">Workplace Topology Model for Assessment of Static and  Dynamic Interactions Among Employees</span>
                       , by&nbsp;
-                      <span className="paper-authors">Samuli Pekkola</span>
+                      <span className="paper-authors">Jānis Grabis</span>
                     </div>
                   </li>
                 </ul>
