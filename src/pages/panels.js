@@ -59,7 +59,7 @@ const PanelsPage = () => (
             </p>
 
             <p className="text-black text-justify">
-              In collaboration with the EDOC2022 conference, the renown medical software provider from Australia, Best Practice Software <Link to='https://bpsoftware.net/'>https://bpsoftware.net/</Link>, would like to stimulate conversation about challenges and opportunities from primary care perspective to the problem of designing patient-facing interoperable digital health ecosystems.  Each panel member will present their position statement to shed light on the challenges and highlight recent advances in the field. The presentations will be followed by a {'Q&A'} session with the audience.
+              In collaboration with the EDOC2022 conference, the renown medical software provider from Australia, <Link to="https://bpsoftware.net/">Best Practice Software</Link>, would like to stimulate conversation about challenges and opportunities from primary care perspective to the problem of designing patient-facing interoperable digital health ecosystems.  Each panel member will present their position statement to shed light on the challenges and highlight recent advances in the field. The presentations will be followed by a {'Q&A'} session with the audience.
             </p>
           </div>
 
