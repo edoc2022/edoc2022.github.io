@@ -69,7 +69,7 @@ const RegistrationPage = () => (
                   <b className="text-uppercase">Full Conference:</b> Gives
                   access to all week's activities, including EDOC, CoopIS,
                   workshops, demos, doctoral consortium, keynotes, panels,
-                  social events, and more. <br />
+                  the conference reception, the conference dinner, and a wine tasting. <br />
                   <b>Registration early-bird fee: EUR 750,00</b>
                   <br />
                   <s>
@@ -84,7 +84,7 @@ const RegistrationPage = () => (
                 <li>
                   <b className="text-uppercase">Workshop-Only:</b> Gives access
                   to the first day of activities, which includes the workshops,
-                  a tutorial, and a panel (TBC), as well as a social event.{' '}
+                  a tutorial, and the conference reception.{' '}
                   <br />
                   <b>Registration early-bird fee: EUR 300,00</b>
                   <br />

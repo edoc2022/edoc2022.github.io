@@ -114,8 +114,36 @@ const ProgramOverviewPage = () => (
               </div>
 
               <div className="session">
-                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">Workshop: IDAMS Session 1</a>
+                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">IDAMS Workshop Session: Fundamentals</a>
+                <div className="session-chair">Chair: Rainer Schmidt</div>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Constructing Digital Architectures Under Society 5.0: An Enterprise Architecture Perspective</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Jean Paul Sebastian Piest, Yoshimasa Masuda, and Maria-Eugenia Iacob</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Towards a Framework for Context Awareness Based on Textual Process Data</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Aleksandra Revina, Nina Rizun, and Ünal Aksu</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Digital Technologies Supporting Digitalization: A Maturity Model to Manage their Usage Risks</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Lamiae Benhayoun, and Imed Boughzala</span>
+                    </div>
+                  </li>
+                </ul>
+
               </div>
 
               <b>11:00 - 12:30</b>
@@ -150,11 +178,40 @@ const ProgramOverviewPage = () => (
                     </div>
                   </li>
                 </ul>
+
               </div>
 
               <div className="session">
-                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">Workshop: IDAMS Session 2</a>
+                <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">IDAMS Workshop Session: Model Extensions</a>
+                <div className="session-chair">Chair: Rainer Schmidt</div>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">A DSML for Modelling and Reasoning about Digital Twins</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Flavio Corradini, Arianna Fedeli, Fabrizio Fornari, Andrea Polini, and Barbara Re</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Adaptive Management of Cyber-Physical Workflows by Means of Case-Based Reasoning and Automated Planning</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Lukas Malburg, Florian Brand, Maximilian Hoffmann, and Ralph Bergmann</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">An Optimization Ontology for Goal Modelling Frameworks</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Novarun Deb, Swasti Khurana, Krishna Gaur, Raghu Raj Sodani, Akshat Dobriyal, Anuj Mohan Pillai, Sajib Mistry, and Aditya K. Ghose</span>
+                    </div>
+                  </li>
+                </ul>
+
               </div>
 
               <b>13:30 - 15:00</b>
