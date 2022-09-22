@@ -370,7 +370,8 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#digital-health-and-ethics-panel'>Panel: Digital Health and Ethics</Link>
-                <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini, and hosted by Dr. Zoran Milosevic</div>
+                <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini</div>
+                <div className="session-chair">Chair: Zoran Milosevic</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -481,6 +482,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/keynotes#mellor'>Keynote: Trustworthiness in Industrial IoT Systems</Link>
                 <div>Trends and Issues for the Future Collaborative and Computing Enterprise</div>
                 <div className='session-speaker'>by Stephen Mellor</div>
+                <div className="session-chair">Chair: Paolo Ceravolo</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -489,6 +491,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Enterprise Security</div>
+                <div className="session-chair">Chair: Silvain Hallé</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -554,6 +557,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Business Process Modeling and Monitoring</div>
+                <div className="session-chair">Chair: Francesca Zerbato</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -619,6 +623,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title-link">EDOC Forum Papers</div>
+                <div className="session-chair">Chair: Walid Gaaloul</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -675,6 +680,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/keynotes#baldwin'>Keynote: "We Are All Digital Now"</Link>
                 <div>Platform Systems and Flow Processes in Modern Enterprises</div>
                 <div className="session-speaker">by Prof. Dr. Carliss Y. Baldwin</div>
+                <div className="session-chair">Chair: João Paulo A. Almeida</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -683,6 +689,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Enterprise Architecture</div>
+                <div className="session-chair">Chair: Colin Atkinson</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -767,6 +774,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session:  Business Process Mining and Discovery</div>
+                <div className="session-chair">Chair: Iris Beerepoot</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -832,6 +840,8 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Process</Link>
+                <div className="session-speaker">with the participation of Dr. Chiara Ghidini, Prof. Hajo Reijers, Prof. Gerd Wagner, and Prof. Marco Montali</div>
+                <div className="session-chair">Chair: Prof. Fabrizio Maria Maggi</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -847,6 +857,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#sartor'>Keynote: Modelling Ethical and Legal Norms/Explaining Compliance and Violation</Link>
                 <div className="session-speaker">by Prof. Dr. Giovanni Sartor</div>
+                <div className="session-chair">Chair: Zoran Milosevic</div>
                 <div className="session-place">Maretsch Castle</div>
               </div>
 
@@ -876,6 +887,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#cabot'>Keynote: Smart Modeling of Smart Software</Link>
                 <div className="session-speaker">by Prof. Dr. Jordi Cabot</div>
+                <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Room 2</div>
               </div>
 
@@ -883,6 +895,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Journal-First Session 1</div>
+                <div className="session-chair">Chair: Marco Montali</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -917,6 +930,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Process Mining and Process-Driven Applications</div>
+                <div className="session-chair">Chair: Fabrizio Maria Maggi</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -951,6 +965,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Journal-First Session 2</div>
+                <div className="session-chair">Chair: Maria Leitner</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
