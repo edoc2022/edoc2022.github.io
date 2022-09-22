@@ -13,7 +13,7 @@ import nikola from '../assets/images/panel-dr-nikola-cihoric.jpeg';
 import luiz from '../assets/images/panel-dr-luiz-olavo-da-silva-santos.jpeg';
 import floriano from '../assets/images/panel-dr-floriano-zini.jpeg';
 import zoran from '../assets/images/panel-dr-zoran-milosevic.jpeg';
-import chiara from '../assets/images/panel-dr-chiara-ghidini.png';
+import chiara from '../assets/images/panel-dr-chiara-ghidini.jpg';
 import hajo from '../assets/images/panel-dr-hajo-reijers.jpeg';
 import gerd from '../assets/images/tutorial-gerd-wagner.jpg';
 import marco from '../assets/images/panel-dr-marco-montali.jpeg';
