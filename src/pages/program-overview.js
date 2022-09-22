@@ -369,7 +369,7 @@ const ProgramOverviewPage = () => (
               <b>13:30 - 14:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='/panels#digital-health-and=ethics-panel'>Panel: Digital Health and Ethics</Link>
+                <Link className="session-title-link" to='/panels#digital-health-and-ethics-panel'>Panel: Digital Health and Ethics</Link>
                 <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini, and hosted by Dr. Zoran Milosevic</div>
                 <div className="session-place">Room 2</div>
               </div>
@@ -831,8 +831,7 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 16:30</b>
 
               <div className="session">
-                <div className="session-title-link">Panel: Augmented Process</div>
-                {/* <Link className="session-title-link" to='/panels'>Panel: Augmented Process</Link> */}
+                <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Process</Link>
                 <div className="session-place">Room 2</div>
               </div>
 
