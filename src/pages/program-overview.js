@@ -220,6 +220,7 @@ const ProgramOverviewPage = () => (
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
                 <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
                 <div className="session-place">Room 2</div>
+                
               </div>
 
               <div className="session">
@@ -238,8 +239,36 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 17:00</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session 2</a>
+                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session</a>
                 <div className="session-place">Room 3</div>
+
+                <ul>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Workshop Opening</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Selmin Nurcan and Rainer Schmidt</span>
+                    </div>
+                  </li>
+                
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Visual Description of Digital IT Consulting Services using DITCOS-DN: Proposal and Evaluation of a Graphical Editor</span>
+                      , by&nbsp;
+                      <span className="paper-authors">Meikel Bode, Maya Daneva and Marten van Sinderen</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="paper">
+                      <span className="paper-title">Implementing a service-oriented rural smartness platform: lessons learned from a technical action research in West Java, Indonesia</span>
+                      , by&nbsp;
+                      <span className="paper-authors"> Iqbal Yulizar Mukti, Setiaji Setiaji, Indah Dwianti, Adina Aldea and Maria Iacob</span>
+                    </div>
+                  </li>
+                </ul>
+                
               </div>
 
               <div className="session">
@@ -901,7 +930,7 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <a href="https://doi.org/10.18417/emisa.15.2" target="_blank"><span className="paper-title">A Deep Perspective on the ArchiMate Modeling Language and Standard</span></a>
+                      <a href="https://doi.org/10.18417/emisa.15.2" target="_blank" rel="noreferrer"><span className="paper-title">A Deep Perspective on the ArchiMate Modeling Language and Standard</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Colin Atkinson and Thomas Kühne</span>
                     </div>
@@ -909,7 +938,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                    <a href="https://doi.org/10.1016/j.is.2019.101484" target="_blank"><span className="paper-title">Discovering instance and process spanning constraints from process execution logs</span></a>
+                    <a href="https://doi.org/10.1016/j.is.2019.101484" target="_blank" rel="noreferrer"><span className="paper-title">Discovering instance and process spanning constraints from process execution logs</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Karolin Winter, Florian Stertz and Stefanie Rinderle-Ma</span>
                     </div>
@@ -917,7 +946,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                    <a href="https://doi.org/10.3233/SW-200419" target="_blank"><span className="paper-title">Knowledge Graph OLAP: A multidimensional model and query operations for contextualized knowledge graphs</span></a>
+                    <a href="https://doi.org/10.3233/SW-200419" target="_blank" rel="noreferrer"><span className="paper-title">Knowledge Graph OLAP: A multidimensional model and query operations for contextualized knowledge graphs</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Christoph Schuetz, Loris Bozzato, Bernd Neumayr, Michael Schrefl and Luciano Serafini</span>
                     </div>
@@ -971,7 +1000,7 @@ const ProgramOverviewPage = () => (
                 <ul>
                   <li>
                     <div className="paper">
-                      <a href="https://doi.org/10.1007/978-3-030-38677-1_6" target="_blank"><span className="paper-title">Smart Contracts-Enabled Simulation for Hyperconnected Logistics</span></a>
+                      <a href="https://doi.org/10.1007/978-3-030-38677-1_6" target="_blank" rel="noreferrer"><span className="paper-title">Smart Contracts-Enabled Simulation for Hyperconnected Logistics</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Quentin Betti, Benoit Montreuil, Raphael Khoury and Sylvain Hallé</span>
                     </div>
@@ -979,7 +1008,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <a href="https://doi.org/10.1016/j.compind.2021.103442" target="_blank"><span className="paper-title">Extraction of dimension requirements from engineering drawings for supporting quality control in production processes</span></a>
+                      <a href="https://doi.org/10.1016/j.compind.2021.103442" target="_blank" rel="noreferrer"><span className="paper-title">Extraction of dimension requirements from engineering drawings for supporting quality control in production processes</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Beate Scheibel, Juergen Mangler and Stefanie Rinderle-Ma</span>
                     </div>
@@ -987,7 +1016,7 @@ const ProgramOverviewPage = () => (
 
                   <li>
                     <div className="paper">
-                      <a href="https://doi.org/10.1016/j.compind.2021.103482" target="_blank"><span className="paper-title">Interactive Process Automation based on lightweight object detection in manufacturing processes</span></a>
+                      <a href="https://doi.org/10.1016/j.compind.2021.103482" target="_blank" rel="noreferrer"><span className="paper-title">Interactive Process Automation based on lightweight object detection in manufacturing processes</span></a>
                       , by&nbsp;
                       <span className="paper-authors">Amolkirat Singh Mangat, Stefanie Rinderle-Ma and Juergen Mangler</span>
                     </div>
