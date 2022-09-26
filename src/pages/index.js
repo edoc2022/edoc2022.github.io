@@ -54,7 +54,7 @@ const IndexPage = () => (
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
               <Link className="text-white" to="/registration">
-                Register here
+                Registration
               </Link>
             </div>
           </div>

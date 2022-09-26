@@ -15,9 +15,9 @@ const RegistrationPage = () => (
     <SimpleLogoHeader />
 
     <h2 className='bg-warning p-3 text-center py-4'>
-      <Link to="/registration" className='warning'>
+      {/* <Link to="/registration" className='warning'> */}
         Registration deadline: September 23, 2022
-      </Link>
+      {/* </Link> */}
     </h2>
 
     <section id="title" className="content-section text-center pt-5">
@@ -40,7 +40,7 @@ const RegistrationPage = () => (
                   className="text-white"
                   to="https://www.conftool.com/edoc2022"
                 >
-                  Register here
+                  Manage your registration here
                 </Link>
               </div>
             </div>
