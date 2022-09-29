@@ -587,7 +587,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Business Process Modeling and Monitoring</div>
-                <div className="session-chair">Chair: Francesca Zerbato</div>
+                <div className="session-chair">Chair: Fabrizio Maria Maggi</div>
                 <div className="session-place">Room 2</div>
 
                 <ul>
@@ -960,7 +960,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Process Mining and Process-Driven Applications</div>
-                <div className="session-chair">Chair: Fabrizio Maria Maggi</div>
+                {/* <div className="session-chair">Chair: </div> */}
                 <div className="session-place">Room 2</div>
 
                 <ul>
