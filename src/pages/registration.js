@@ -16,7 +16,7 @@ const RegistrationPage = () => (
 
     <h2 className='bg-warning p-3 text-center py-4'>
       {/* <Link to="/registration" className='warning'> */}
-        Registration deadline: September 23, 2022
+      Registration closed. See you in Bolzano!
       {/* </Link> */}
     </h2>
 
