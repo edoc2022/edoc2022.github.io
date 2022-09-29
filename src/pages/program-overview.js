@@ -71,20 +71,29 @@ const ProgramOverviewPage = () => (
     </ section>
 
     <section id="title" className="content-section text-center">
+      
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h4 id='monday' className="text-black mb-4 text-uppercase">
+            <span class="anchor" id="monday"></span>
+            <h4 className="text-black mb-4 text-uppercase">
               Monday, October 03
             </h4>
 
             <p className="text-black text-left">
+
+              <b>08:30 - 09:00</b>
+              <div className="session">
+                <div className="session-title">Registration</div>
+                <div className="session-place">{' '}</div>
+              </div>
+
               <b>09:00 - 10:30</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Session: Studying Enterprise Architecture</a>
                 <div className="session-chair">Chair: Sybren de Kinderen</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -116,7 +125,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">IDAMS Workshop Session: Fundamentals</a>
                 <div className="session-chair">Chair: Rainer Schmidt</div>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -146,12 +155,18 @@ const ProgramOverviewPage = () => (
 
               </div>
 
+              <b>10:30 - 11:00</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
+
               <b>11:00 - 12:30</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Session: Enterprise Architecture Modeling</a>
                 <div className="session-chair">Chair: Dominik Bork</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -184,7 +199,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://easychair.org/cfp/IDAMS2022' target="_blank" rel="noopener noreferrer">IDAMS Workshop Session: Model Extensions</a>
                 <div className="session-chair">Chair: Rainer Schmidt</div>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -214,12 +229,18 @@ const ProgramOverviewPage = () => (
 
               </div>
 
+              <b>12:30 - 13:30</b>
+              <div className="session">
+                <div className="session-title">Lunch</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
+
               <b>13:30 - 15:00</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR/SoEA4EE Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
                 <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
                 
               </div>
 
@@ -228,14 +249,20 @@ const ProgramOverviewPage = () => (
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
                 <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
-                <div className="session-place">Room 4</div>
+                <div className="session-place">Seminar Room 3</div>
+              </div>
+
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
               </div>
 
               <b>15:30 - 17:00</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session</a>
-                <div className="session-place">Room 3</div>
+                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">SoEA4EE Workshop Session</a>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
 
@@ -271,7 +298,7 @@ const ProgramOverviewPage = () => (
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
                 <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
-                <div className="session-place">Room 4</div>
+                <div className="session-place">Seminar Room 3</div>
               </div>
 
               <b>18:30 - 21:30</b>
@@ -289,16 +316,24 @@ const ProgramOverviewPage = () => (
 
             <hr />
 
-            <h4 id='tuesday' className="text-black mb-4 text-uppercase day">
+            <span class="anchor" id="tuesday"></span>
+            <h4 className="text-black mb-4 text-uppercase day">
               Tuesday, October 04
             </h4>
 
             <p className="text-black text-left">
+
+              <b>08:30 - 09:00</b>
+              <div className="session">
+                <div className="session-title">Registration</div>
+                <div className="session-place">{' '}</div>
+              </div>
+
               <b>09:00 - 09:30</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Welcome Session</a>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <b>09:30 - 10:30</b>
@@ -307,14 +342,20 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/keynotes#isaacs'>Keynote: Understanding the Nature of Digital Twin</Link>
                 <div>Digital Twin Challenges {'&'} Values; Empowering Businesses</div>
                 <div className='session-speaker'>by Daniel Isaacs</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
+              </div>
+
+              <b>10:30 - 11:00</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
               </div>
 
               <b>11:00 - 12:30</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 1</a>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -345,7 +386,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Demonstration Track</div>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -390,13 +431,19 @@ const ProgramOverviewPage = () => (
                 </ul>
               </div>
 
+              <b>12:30 - 13:30</b>
+              <div className="session">
+                <div className="session-title">Lunch</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
+
               <b>13:30 - 14:30</b>
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#digital-health-and-ethics-panel'>Panel: Digital Health and Ethics</Link>
                 <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini</div>
                 <div className="session-chair">Chair: Zoran Milosevic</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <b>14:30 - 15:00</b>
@@ -404,14 +451,20 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title">Open Data Hub: Data Space to Promote Research, Development, and Innovation in Smart Green Regions</div>
                 <div className='session-speaker'>by Patrick Ohnewein</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
+              </div>
+
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
               </div>
 
               <b>15:30 - 17:00</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 2</a>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -439,12 +492,18 @@ const ProgramOverviewPage = () => (
                   </li>
                 </ul>
               </div>
+              
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>15:30 - 17:30</b>
 
               <div className="session">
                 <div className="session-title">EDOC Doctoral Consortium</div>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -489,16 +548,23 @@ const ProgramOverviewPage = () => (
 
             <hr />
 
-            <h4 id='wednesday' className="text-black mb-4 text-uppercase day">
+            <span class="anchor" id="wednesday"></span>
+            <h4 className="text-black mb-4 text-uppercase day">
               Wednesday, October 05
             </h4>
+
+            <b>08:30 - 09:00</b>
+            <div className="session">
+              <div className="session-title">Registration</div>
+              <div className="session-place">{' '}</div>
+            </div>
 
             <p className="text-black text-left">
               <b>09:00 - 09:30</b>
 
               <div className="session">
                 <div className="session-title">EDOC Welcome Session</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <b>09:30 - 10:30</b>
@@ -508,7 +574,13 @@ const ProgramOverviewPage = () => (
                 <div>Trends and Issues for the Future Collaborative and Computing Enterprise</div>
                 <div className='session-speaker'>by Stephen Mellor</div>
                 <div className="session-chair">Chair: Paolo Ceravolo</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
+              </div>
+
+              <b>10:30 - 11:00</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
               </div>
 
               <b>11:00 - 12:30</b>
@@ -517,7 +589,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Enterprise Security</div>
                 <div className="session-chair">Chair: Silvain Hallé</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -549,7 +621,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 3</a>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -578,12 +650,19 @@ const ProgramOverviewPage = () => (
                 </ul>
               </div>
 
+
+              <b>12:30 - 13:30</b>
+              <div className="session">
+                <div className="session-title">Lunch</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
+
               <b>13:30 - 15:00</b>
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Business Process Modeling and Monitoring</div>
                 <div className="session-chair">Chair: Fabrizio Maria Maggi</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
 
@@ -615,7 +694,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 4</a>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -643,13 +722,19 @@ const ProgramOverviewPage = () => (
                   </li>
                 </ul>
               </div>
+              
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>15:30 - 17:00</b>
 
               <div className="session">
                 <div className="session-title-link">EDOC Forum Papers</div>
                 <div className="session-chair">Chair: Walid Gaaloul</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -694,7 +779,8 @@ const ProgramOverviewPage = () => (
 
             <hr />
 
-            <h4 id='thursday' className="text-black mb-4 text-uppercase day">
+            <span class="anchor" id="thursday"></span>
+            <h4 className="text-black mb-4 text-uppercase day">
               Thursday, October 06
             </h4>
 
@@ -706,16 +792,21 @@ const ProgramOverviewPage = () => (
                 <div>Platform Systems and Flow Processes in Modern Enterprises</div>
                 <div className="session-speaker">by Prof. Dr. Carliss Y. Baldwin</div>
                 <div className="session-chair">Chair: João Paulo A. Almeida</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
+              <b>10:30 - 11:00</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>11:00 - 12:30</b>
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Enterprise Architecture</div>
                 <div className="session-chair">Chair: Colin Atkinson</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
 
@@ -750,7 +841,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Short Papers Session</a>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -794,13 +885,19 @@ const ProgramOverviewPage = () => (
                   </li>
                 </ul>
               </div>
+              
+              <b>12:30 - 13:30</b>
+              <div className="session">
+                <div className="session-title">Lunch</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>13:30 - 15:00</b>
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session:  Business Process Mining and Discovery</div>
                 <div className="session-chair">Chair: Iris Beerepoot</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -832,7 +929,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Main Track Session 5</a>
-                <div className="session-place">Room 3</div>
+                <div className="session-place">Seminar Room 3</div>
 
                 <ul>
                   <li>
@@ -860,6 +957,12 @@ const ProgramOverviewPage = () => (
                   </li>
                 </ul>
               </div>
+              
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>15:30 - 16:30</b>
 
@@ -867,14 +970,14 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Process</Link>
                 <div className="session-speaker">with the participation of Dr. Chiara Ghidini, Prof. Hajo Reijers, Prof. Gerd Wagner, and Prof. Marco Montali</div>
                 <div className="session-chair">Chair: Prof. Fabrizio Maria Maggi</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <b>16:30 - 17:00</b>
 
               <div className="session">
                 <a className="session-title-link" href='https://coopisconference.org/assets/files/CoopIS2022-Program.pdf' target="_blank" rel="noopener noreferrer">CoopIS Closing Session</a>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <b>19:00 - 20:30</b>
@@ -901,11 +1004,13 @@ const ProgramOverviewPage = () => (
 
             <hr />
 
-            <h4 id='friday' className="text-black mb-4 text-uppercase day">
+            <span class="anchor" id="friday"></span>
+            <h4 className="text-black mb-4 text-uppercase day">
               Friday, October 07
             </h4>
 
             <p className="text-black text-left">
+
               <b>09:00 - 10:30</b>
 
 
@@ -913,7 +1018,13 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/keynotes#cabot'>Keynote: Smart Modeling of Smart Software</Link>
                 <div className="session-speaker">by Prof. Dr. Jordi Cabot</div>
                 <div className="session-chair">Chair: Giancarlo Guizzardi</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
+              </div>
+
+              <b>10:30 - 11:00</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
               </div>
 
               <b>11:00 - 12:30</b>
@@ -921,7 +1032,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title">EDOC Journal-First Session 1</div>
                 <div className="session-chair">Chair: Marco Montali</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -950,13 +1061,18 @@ const ProgramOverviewPage = () => (
                 </ul>
               </div>
 
+              <b>12:30 - 13:30</b>
+              <div className="session">
+                <div className="session-title">Lunch</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>13:30 - 15:00</b>
 
               <div className="session">
                 <div className="session-title">EDOC Main Track Session: Process Mining and Process-Driven Applications</div>
                 {/* <div className="session-chair">Chair: </div> */}
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -984,6 +1100,12 @@ const ProgramOverviewPage = () => (
                   </li>
                 </ul>
               </div>
+              
+              <b>15:00 - 15:30</b>
+              <div className="session">
+                <div className="session-title">Coffee Break</div>
+                <div className="session-place">Crane Hall</div>
+              </div>
 
               <b>15:30 - 17:00</b>
 
@@ -991,7 +1113,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <div className="session-title">EDOC Journal-First Session 2</div>
                 {/* <div className="session-chair">Chair: Maria Leitner</div> */}
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
 
                 <ul>
                   <li>
@@ -1025,7 +1147,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title-link">EDOC Closing Session</div>
-                <div className="session-place">Room 2</div>
+                <div className="session-place">Seminar Room 2</div>
               </div>
 
               <div className='btn btn-primary'>
