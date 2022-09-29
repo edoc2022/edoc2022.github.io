@@ -376,19 +376,8 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Gerd Wagner is Professor of Internet Technology at
-                    Brandenburg University of Technology, Cottbus, Germany.
-                    After studying Mathematics, Philosophy and Informatics in
-                    Heidelberg, San Francisco and Berlin, he (1) investigated
-                    the semantics of negation in knowledge representation
-                    formalisms, (2) developed concepts and techniques for
-                    agent-oriented modeling and simulation, (3) participated in
-                    the development of a foundational ontology for conceptual
-                    modeling, the Unified Foundational Ontology (UFO), and (4)
-                    created a new Discrete Event Simulation paradigm: Object
-                    Event Modeling and Simulation (OEM{'&'}S), and a new process
-                    modeling language: the Discrete Event Process Modeling
-                    Notation (DPMN). He also maintains the website{' '}
+                    Gerd Wagner is Professor of Internet Technology at Brandenburg University of Technology, Cottbus, Germany.
+                    After studying Mathematics, Philosophy and Informatics in Heidelberg, San Francisco and Berlin, he (1) investigated the semantics of negation in knowledge representation formalisms, (2) developed concepts and techniques for agent-oriented modeling and simulation, (3) participated in the development of a foundational ontology for conceptual modeling, the Unified Foundational Ontology (UFO), and (4) created a new Discrete Event Simulation paradigm: Object Event Modeling and Simulation (OEM{'&'}S), and a new process modeling language: the Discrete Event Process Modeling Notation (DPMN). He also runs the websites <a href="https://dpmn.info">dpmn.info</a> and <a href="https://sim4edu.com">sim4edu.com</a>.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -423,7 +412,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Marco Montali is a Full Professor at the KRDB Research Centre for Knowledge and Data, Faculty of Computer Science. He devises techniques based on artificial intelligence, logic, and formal methods for the intelligent management of business processes and data. He loves connecting theory and practice. In 2015, He received the  “Marco Somalvico” Prize from the Italian Association for Artificial Intelligence. The prize is assigned to the best under-35 Italian researcher who contributed to the advancement of the state-of-the-art in Artificial Intelligence.
+                    Marco Montali is Full Professor and Vice-Dean for Studies at the Faculty of Computer Science, Free University of Bozen-Bolzano, Italy, where he also coordinates the MSc Program in Computational Data Science.  He develops novel, foundational and applied techniques grounded in artificial intelligence, logics, and formal methods, to create intelligent agents and information systems that combine processes and data, with a particular interest in the combination of model-driven and data-driven techniques. He has served as PC Chair of BPM 2018, RuleML+RR 2019, ICPM 2020, and CBI 2021, is serving as General Chair of ICPM 2022 and EDOC 2022, and is steering committee member of the IEEE task force on process mining. He is co-author of more than 230 papers, many of which in top-tier conferences and journals, and recipient of 10 best paper awards and 2 test-of-time awards. He received the “Marco Cadoli 2015” award, given by the Italian Association of Artificial Intelligence to the best under 35 Italian researcher who autonomously contributed to advance the state-of-the-art in Artificial Intelligence.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -458,7 +447,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Fabrizio Maria Maggi is currently Associate Professor at the Research Centre for Knowledge and Data (KRDB)—Faculty of Computer Science—Free University of Bozen-Bolzano. His research interest has focused in the last years on the application of Artificial Intelligence to Business Process Management. He authored more than 150 articles on process mining, declarative and hybrid business process notations, business constraint verification and monitoring, predictive business process monitoring. He serves as program committee member of the top conferences in the field of Business Process Management and Information Systems. He is leading the Rule Mining (RuM) initiative in collaboration with the University of Tartu aimed at providing tool support for declarative process mining
+                    Fabrizio Maria Maggi is currently Associate Professor at the Research Centre for Knowledge and Data (KRDB)—Faculty of Computer Science—Free University of Bozen-Bolzano. His research interest has focused in the last years on the application of Artificial Intelligence to Business Process Management. He authored more than 150 articles on process mining, declarative and hybrid business process notations, business constraint verification and monitoring, predictive business process monitoring. He serves as program committee member of the top conferences in the field of Business Process Management and Information Systems. He is leading the Rule Mining (RuM) initiative in collaboration with the University of Tartu aimed at providing tool support for declarative process mining.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
