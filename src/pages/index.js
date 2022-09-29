@@ -44,13 +44,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row justify-content-around">
           {/* <div className="col-1" /> */}
-          <div className="col-lg-3 mx-auto">
-            <div className="btn m-2 btn-primary">
-              <Link className="text-white" to="https://coopisconference.org/">
-                CoopIS 2022
-              </Link>
-            </div>
-          </div>
+          
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
               <Link className="text-white" to="/program-overview">
@@ -69,6 +63,13 @@ const IndexPage = () => (
             <div className="btn m-2 btn-primary">
               <Link className="text-white" to="/how-to-get">
                 How to Arrive
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-2 btn-primary">
+              <Link className="text-white" to="https://coopisconference.org/">
+                CoopIS 2022
               </Link>
             </div>
           </div>
