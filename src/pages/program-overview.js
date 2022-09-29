@@ -217,15 +217,10 @@ const ProgramOverviewPage = () => (
               <b>13:30 - 15:00</b>
 
               <div className="session">
-                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR Workshop Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
+                <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR/SoEA4EE Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
                 <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
                 <div className="session-place">Room 2</div>
                 
-              </div>
-
-              <div className="session">
-                <a className="session-title-link" href='https://www.soea4ee.org' target="_blank" rel="noopener noreferrer">Workshop: SoEA4EE Session 1</a>
-                <div className="session-place">Room 3</div>
               </div>
 
               <div className="session">
@@ -995,7 +990,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">EDOC Journal-First Session 2</div>
-                <div className="session-chair">Chair: Maria Leitner</div>
+                {/* <div className="session-chair">Chair: Maria Leitner</div> */}
                 <div className="session-place">Room 2</div>
 
                 <ul>
