@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-13-09-2022.png';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-29-09-2022.jpg';
 
 const ProgramOverviewPage = () => (
   <Layout>
@@ -54,7 +54,7 @@ const ProgramOverviewPage = () => (
 
         <div className="row">
           <div className="col-lg-12 mx-auto">
-            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-13-09-2022.pdf'}>
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-29-09-2022.pdf'}>
               <img
                 src={unibzBuilding}
                 className="img-fluid pb-4"
