@@ -87,7 +87,7 @@ export default class Header extends Component {
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://link.springer.com/book/10.1007/978-3-031-17604-3" target="_blank" rel="noopener noreferrer" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="https://link.springer.com/book/10.1007/978-3-031-17604-3" role="button" aria-haspopup="true" aria-expanded="false">
                   Proceedings
                 </a>
               </li>

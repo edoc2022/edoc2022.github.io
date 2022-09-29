@@ -54,7 +54,7 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
-              <a className="text-white" href="https://link.springer.com/book/10.1007/978-3-031-17604-3" target="_blank" rel="noopener noreferrer">
+              <a className="text-white" href="https://link.springer.com/book/10.1007/978-3-031-17604-3">
                 Proceedings
               </a>
             </div>
