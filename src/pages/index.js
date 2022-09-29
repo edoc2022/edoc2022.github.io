@@ -36,7 +36,7 @@ const IndexPage = () => (
 
     <h2 className='bg-warning p-3 text-center py-4'>
       <Link to="/registration" className='warning'>
-        Registration deadline: September 23, 2022
+        Registrations closed. See you in Bolzano!
       </Link>
     </h2>
 
@@ -53,16 +53,16 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
-              <Link className="text-white" to="/registration">
-                Registration
+              <Link className="text-white" to="/program-overview">
+                Program
               </Link>
             </div>
           </div>
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
-              <Link className="text-white" to="/program-overview">
-                Program
-              </Link>
+              <a className="text-white" href="https://link.springer.com/book/10.1007/978-3-031-17604-3" target="_blank" rel="noopener noreferrer">
+                Proceedings
+              </a>
             </div>
           </div>
           <div className="col-lg-3 mx-auto">
@@ -72,6 +72,7 @@ const IndexPage = () => (
               </Link>
             </div>
           </div>
+          
           {/* <div className="col-1" /> */}
         </div>
       </div>

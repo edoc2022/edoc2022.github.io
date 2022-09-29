@@ -86,6 +86,11 @@ export default class Header extends Component {
                   <Link className="dropdown-item" to="/workshops">Workshops</Link>
                 </div>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://link.springer.com/book/10.1007/978-3-031-17604-3" target="_blank" rel="noopener noreferrer" role="button" aria-haspopup="true" aria-expanded="false">
+                  Proceedings
+                </a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Venue
