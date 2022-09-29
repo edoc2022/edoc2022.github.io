@@ -407,7 +407,8 @@ const ProgramOverviewPage = () => (
               <b>14:30 - 15:00</b>
 
               <div className="session">
-                <div className="session-title-link">NOI Presentation</div>
+                <div className="session-title">Open Data Hub: Data Space to Promote Research, Development, and Innovation in Smart Green Regions</div>
+                <div className='session-speaker'>by Patrick Ohnewein</div>
                 <div className="session-place">Room 2</div>
               </div>
 
