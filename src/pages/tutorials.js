@@ -20,7 +20,7 @@ const TutorialsPage = () => (
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-10 mx-auto text-center">
-            <h1 className="mx-auto my-0 text-uppercase">tutorials</h1>
+            <h1 className="mx-auto my-0 text-uppercase">tutorial</h1>
           </div>
         </div>
 
@@ -93,11 +93,7 @@ const TutorialsPage = () => (
                     Event Modeling and Simulation (OEM{'&'}S), and a new process
                     modeling language: the Discrete Event Process Modeling
                     Notation (DPMN). He also maintains the website{' '}
-                    <a href="https://web-engineering.info/">
-                      web-engineering.info
-                    </a>{' '}
-                    and the web-based simulation portal
-                    <a href="https://sim4edu.com/">sim4edu.com</a>.
+                    <a href="https://web-engineering.info/"> web-engineering.info </a> and the web-based simulation portal <a href="https://sim4edu.com/">sim4edu.com</a>.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
