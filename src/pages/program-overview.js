@@ -301,12 +301,20 @@ const ProgramOverviewPage = () => (
                 <div className="session-place">Seminar Room 3</div>
               </div>
 
-              <b>18:30 - 21:30</b>
+              <b>17:00 - 17:30</b>
+
+              <div className="session">
+                <div className="session-title">Networking Time!</div>
+                <div className="session-place">{' '}</div>
+              </div>
+
+              <b>17:30 - 20:30</b>
 
               <div className="session">
                 <div className="session-title">Conference Reception</div>
                 <div className="session-place">Noisteria</div>
               </div>
+
 
               <div className='btn btn-primary'>
                 <Link to='#program' className='text-white'>Back to the top</Link>
@@ -763,12 +771,19 @@ const ProgramOverviewPage = () => (
                 </ul>
               </div>
 
+              <b>17:00 - 18:00</b>
+
+              <div className="session">
+                <div className="session-title">Networking Time!</div>
+                <div className="session-place">{' '}</div>
+              </div>
+
               <b>18:00 - 22:00</b>
 
               <div className="session">
                 <div className="session-title-link">Joint Conference Dinner {'&'} Awards Announcement</div>
-                <div className='session-detail'>transportation to and back included, please be at NOI on time!</div>
                 <div className="session-place">Castel Flavon</div>
+                <div className='session-detail'>There will be busses from NOI to Castel Flavon at 18:00 and 18:30, as well as busses from Castel Flavon to NOI and the city center at 21:30 and 22:00.</div>
               </div>
 
               <div className='btn btn-primary'>
