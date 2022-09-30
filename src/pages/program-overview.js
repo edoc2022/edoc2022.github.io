@@ -85,7 +85,7 @@ const ProgramOverviewPage = () => (
               <b>08:30 - 09:00</b>
               <div className="session">
                 <div className="session-title">Registration</div>
-                <div className="session-place">{' '}</div>
+                <div className="session-place">Seminar Area</div>
               </div>
 
               <b>09:00 - 10:30</b>
@@ -249,6 +249,7 @@ const ProgramOverviewPage = () => (
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
                 <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
+                <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Seminar Room 3</div>
               </div>
 
@@ -298,6 +299,7 @@ const ProgramOverviewPage = () => (
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
                 <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
+                <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Seminar Room 3</div>
               </div>
 
@@ -305,7 +307,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">Networking Time!</div>
-                <div className="session-place">{' '}</div>
+                <div className="session-place">Seminar Area</div>
               </div>
 
               <b>17:30 - 20:30</b>
@@ -334,7 +336,7 @@ const ProgramOverviewPage = () => (
               <b>08:30 - 09:00</b>
               <div className="session">
                 <div className="session-title">Registration</div>
-                <div className="session-place">{' '}</div>
+                <div className="session-place">Seminar Area</div>
               </div>
 
               <b>09:00 - 09:30</b>
@@ -564,7 +566,7 @@ const ProgramOverviewPage = () => (
             <b>08:30 - 09:00</b>
             <div className="session">
               <div className="session-title">Registration</div>
-              <div className="session-place">{' '}</div>
+              <div className="session-place">Seminar Area</div>
             </div>
 
             <p className="text-black text-left">
@@ -775,7 +777,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <div className="session-title">Networking Time!</div>
-                <div className="session-place">{' '}</div>
+                <div className="session-place">Seminar Area</div>
               </div>
 
               <b>18:00 - 22:00</b>
