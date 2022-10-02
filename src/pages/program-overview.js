@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-29-09-2022.jpg';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-02-10-2022.jpg';
 
 const ProgramOverviewPage = () => (
   <Layout>
@@ -54,7 +54,7 @@ const ProgramOverviewPage = () => (
 
         <div className="row">
           <div className="col-lg-12 mx-auto">
-            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-29-09-2022.pdf'}>
+            <a href={config.manifestStartUrl + '/EDOC-and-CoopIS-program-02-10-2022.pdf'}>
               <img
                 src={unibzBuilding}
                 className="img-fluid pb-4"
@@ -108,7 +108,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">Achieving Alignment by Means of EA Artifacts</span>
                       , by&nbsp;
-                      <span className="paper-authors">Hong Guo and Shang Gao</span>
+                      <span className="paper-authors">Hong Guo and Shang Gao</span>
                     </div>
                   </li>
 
@@ -173,7 +173,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">Zooming in on Competences in Ontology-Based Enterprise Architecture Modeling</span>
                       , by&nbsp;
-                      <span className="paper-authors">Rodrigo Calhau and João Paulo Almeida</span>
+                      <span className="paper-authors">Rodrigo Calhau and João Paulo Almeida</span>
                     </div>
                   </li>
 
@@ -781,12 +781,28 @@ const ProgramOverviewPage = () => (
                 <div className="session-place">Seminar Area</div>
               </div>
 
-              <b>18:00 - 22:00</b>
+              <b>18:00 - 18:30</b>
+
+              <div className="session">
+                <div className="session-title-link">Trasnportation from NOI to Castel Flavon</div>
+                <div className="session-place">NOI</div>
+                <div className='session-detail'>Busses will be available to transport participants from NOI to Castel Flavon. Departures are scheduled for 18:00 and 18:30. Castel Flavon cannot be easily accessed via public transit.</div>
+              </div>
+
+              <b>19:00 - 21:30</b>
 
               <div className="session">
                 <div className="session-title-link">Joint Conference Dinner {'&'} Awards Announcement</div>
                 <div className="session-place">Castel Flavon</div>
-                <div className='session-detail'>There will be busses from NOI to Castel Flavon at 18:00 and 18:30, as well as busses from Castel Flavon to NOI and the city center at 21:30 and 22:00.</div>
+                {/* <div className='session-detail'>There will be busses from NOI to Castel Flavon at 18:00 and 18:30, as well as busses from Castel Flavon to NOI and the city center at 21:30 and 22:00.</div> */}
+              </div>
+
+              <b>21:30 - 22:00</b>
+
+              <div className="session">
+                <div className="session-title-link">Transportation from Castel Flavon to NOI and to the city center</div>
+                <div className="session-place">Castel Flavon</div>
+                <div className='session-detail'>Busses will be available to transport participants back to the city with stops at NOI and in the city center. Departures are scheduled for at 21:30 and 22:00. Castel Flavon cannot be easily accessed via public transit.</div>
               </div>
 
               <div className='btn btn-primary'>
