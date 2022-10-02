@@ -7,8 +7,6 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 
 import People from '../assets/misc/people';
-import edocLogoWhite from '../assets/images/edoc2022-tyrol-white-contour-large.png';
-import { Link } from 'gatsby';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
 const {

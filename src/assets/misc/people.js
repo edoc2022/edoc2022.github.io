@@ -76,9 +76,11 @@ const People = {
   organizationCommittee: {
     name: "Local Organization Committee",
     members: [
-      { name: "Isadora Valle Sousa", institution: "Free University of Bozen-Bolzano - Italy" },
-      { name: "Riccardo Baratella", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Cristine Griffo", institution: "Free University of Bozen-Bolzano - Italy" },
       { name: "Elena Romanenko", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Hannes Hell", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Isadora Valle Sousa", institution: "Free University of Bozen-Bolzano - Italy" },
+      { name: "Ítalo Oliveira", institution: "Free University of Bozen-Bolzano - Italy" },
     ]
   },
   steeringCommittee: {
