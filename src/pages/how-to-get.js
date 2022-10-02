@@ -7,6 +7,10 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
+import noiMapOutside from '../assets/images/noi-map-1.jpeg';
+import noiMapGroundFloor from '../assets/images/noi-map-2.jpeg';
+import noiMapBasement from '../assets/images/noi-map-3.jpeg';
+
 const Venue = () => (
   <Layout>
     <Header />
@@ -15,21 +19,76 @@ const Venue = () => (
     <section id="title" className="content-section text-center">
       <div className="container">
         <div className="row mx-auto justify-content-around">
-          <div className="col-lg-2 mx-auto" />
           <div className="col-lg-4 mx-auto">
             <div className="btn m-4 btn-primary">
-              <Link className="text-white" to='/how-to-get#bolzano'>Arriving in Bolzano</Link>
+              <Link className="text-white" to="/how-to-get#noi-map">
+                NOI Techpark Map
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 mx-auto">
             <div className="btn m-4 btn-primary">
-              <Link className="text-white" to='/how-to-get#noi'>Arriving at NOI</Link>
+              <Link className="text-white" to="/how-to-get#noi">
+                Arriving at NOI
+              </Link>
             </div>
           </div>
-          <div className="col-lg-2 mx-auto" />
+          <div className="col-lg-4 mx-auto">
+            <div className="btn m-4 btn-primary">
+              <Link className="text-white" to="/how-to-get#bolzano">
+                Arriving in Bolzano
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
-    </ section>
+    </section>
+
+    <section id="noi-map" className="content-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-black mb-5 text-uppercase">
+              Inside the venue - NOI Techpark
+            </h2>
+
+            <p className="text-black text-justify">
+              The NOI Techpark provides an{' '}
+              <Link to="https://maps.noi.bz.it/en/">iterative map</Link> to
+              assist visitors getting around. Below you can find all relevant
+              areas inside NOI for you to enjoy EDOC and CoopIS.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-10 mx-auto">
+            <div className="mb-5">
+              <img
+                src={noiMapOutside}
+                className="img-fluid mb-5"
+                alt="NOI Techpark map."
+              />
+            </div>
+
+            <div className="mb-5">
+              <img
+                src={noiMapGroundFloor}
+                className="img-fluid mb-5"
+                alt="Black Monolith building ground level floor plan."
+              />
+            </div>
+
+            <div className="mb-5">
+              <img
+                src={noiMapBasement}
+                className="img-fluid mb-5"
+                alt="Black Monolith building level -1 floor plan."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="noi" className="content-section text-center">
       <div className="container">
@@ -40,8 +99,13 @@ const Venue = () => (
             </h2>
 
             <p className="text-black text-justify">
-              <div>NOI TechPark is the science and technology park of South Tyrol.</div>
-              <div><b>Address:</b> Via Alessandro Volta, 13, 39100 Bolzano BZ, Italy</div>
+              <div>
+                NOI TechPark is the science and technology park of South Tyrol.
+              </div>
+              <div>
+                <b>Address:</b> Via Alessandro Volta, 13, 39100 Bolzano BZ,
+                Italy
+              </div>
             </p>
 
             <iframe
@@ -51,26 +115,67 @@ const Venue = () => (
               style={{ border: 0, minHeight: 400 }}
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" />
+              referrerpolicy="no-referrer-when-downgrade"
+            />
 
             <p className="text-black text-justify">
-              <div className='session'><b>Arriving by Bus</b></div>
+              <div className="session">
+                <b>Arriving by Bus</b>
+              </div>
 
-              <div className='pb-4'>NOI is directly linked to the city of Bozen-Bolzano via several bus routes. The following routes run every 10 minutes from the city centre: 10B, 110 and 111.</div>
+              <div className="pb-4">
+                NOI is directly linked to the city of Bozen-Bolzano via several
+                bus routes. The following routes run every 10 minutes from the
+                city centre: 10B, 110 and 111.
+              </div>
 
-              <div className='pb-4'>You can buy the bus tickets at the central bus station or at tobacconist shops. You can opt for the <a href='https://www.suedtirolmobil.info/en/tickets/ticket-finder/day-pass-bolzano-merano'>single bus ride (1,50€) or a daily ticket (4€)</a>. Another option is to <a href='https://www.suedtirolmobil.info/en/tickets/ticket-finder/mobilcard'>buy a Mobilcard</a>, which gives you one, three or seven consecutive days' worth of unlimited travel on public transport in the whole of South Tyrol.</div>
+              <div className="pb-4">
+                You can buy the bus tickets at the central bus station or at
+                tobacconist shops. You can opt for the{' '}
+                <a href="https://www.suedtirolmobil.info/en/tickets/ticket-finder/day-pass-bolzano-merano">
+                  single bus ride (1,50€) or a daily ticket (4€)
+                </a>
+                . Another option is to{' '}
+                <a href="https://www.suedtirolmobil.info/en/tickets/ticket-finder/mobilcard">
+                  buy a Mobilcard
+                </a>
+                , which gives you one, three or seven consecutive days' worth of
+                unlimited travel on public transport in the whole of South
+                Tyrol.
+              </div>
 
-              <div className='session'><b>Arriving by Car</b></div>
+              <div className="session">
+                <b>Arriving by Car</b>
+              </div>
 
-              <div className='pb-4'>There are many free parking lots available around the building (Voltastraße / Via Volta and via Hypatiastraße/ Via Ipazia) or you can opt for NOI underground car parking in Via A. Volta 17 (1€/h). There you will also find a charging station for electric cars.</div>
+              <div className="pb-4">
+                There are many free parking lots available around the building
+                (Voltastraße / Via Volta and via Hypatiastraße/ Via Ipazia) or
+                you can opt for NOI underground car parking in Via A. Volta 17
+                (1€/h). There you will also find a charging station for electric
+                cars.
+              </div>
 
-              <div className='session'><b>Arriving by Taxi</b></div>
+              <div className="session">
+                <b>Arriving by Taxi</b>
+              </div>
 
-              <div className='pb-4'>You can call a taxi from this number: Tel. <a href="tel:+39-0471-97-33-33">+39 0471 97 33 33</a>.</div>
+              <div className="pb-4">
+                You can call a taxi from this number: Tel.{' '}
+                <a href="tel:+39-0471-97-33-33">+39 0471 97 33 33</a>.
+              </div>
 
-              <div className='session'><b>Arriving by Train</b></div>
+              <div className="session">
+                <b>Arriving by Train</b>
+              </div>
 
-              <div className='pb-4'>Bozen Zentrum railway station is 3 km, Bozen Süd/Messe railway station 1 km away. This station can be reached on foot in 15 minutes. There are trains to Meran and Bozen every 30 minutes. Train services towards Meran and Bozen Zentrum from Bozen Süd/Messe end around 22:00.</div>
+              <div className="pb-4">
+                Bozen Zentrum railway station is 3 km, Bozen Süd/Messe railway
+                station 1 km away. This station can be reached on foot in 15
+                minutes. There are trains to Meran and Bozen every 30 minutes.
+                Train services towards Meran and Bozen Zentrum from Bozen
+                Süd/Messe end around 22:00.
+              </div>
             </p>
           </div>
         </div>

@@ -65,22 +65,12 @@ export default class Header extends Component {
             <ul className="navbar-nav ml-auto">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Calls
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link className="dropdown-item" to="/call-for-papers">Papers</Link>
-                  <Link className="dropdown-item" to="/call-doctoral-consortium">Doctoral Consortium</Link>
-                  <Link className="dropdown-item" to="/call-demonstrations">Demonstrations</Link>
-                  <Link className="dropdown-item" to="/call-journal-first">Journal-First</Link>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Program
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/program-overview">Detailed Program</Link>
                   <Link className="dropdown-item" to="/keynotes">Keynotes</Link>
+                  <Link className="dropdown-item" to="/online">Online Program</Link>
                   <Link className="dropdown-item" to="/panels">Panels</Link>
                   <Link className="dropdown-item" to="/tutorials">Tutorial</Link>
                   <Link className="dropdown-item" to="/workshops">Workshops</Link>
@@ -101,11 +91,18 @@ export default class Header extends Component {
                   <Link className="dropdown-item" to="/accommodation">Accommodation</Link>
                 </div>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/organization">Organization</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/registration">Registration</Link>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Conference
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/call-for-papers">Call for Papers</Link>
+                  <Link className="dropdown-item" to="/call-doctoral-consortium">Call for Doctoral Consortium</Link>
+                  <Link className="dropdown-item" to="/call-demonstrations">Call for Demonstrations</Link>
+                  <Link className="dropdown-item" to="/call-journal-first">Call for Journal-First Papers</Link>
+                  <Link className="dropdown-item" to="/organization">Organization</Link>
+                  <Link className="dropdown-item" to="/registration">Registration</Link>
+                </div>
               </li>
             </ul>
           </div>
