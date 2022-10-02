@@ -239,7 +239,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR/SoEA4EE Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
-                <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
+                <div className="session-speaker">by Colin Atkinson</div>
                 <div className="session-chair">Chair: Sybren de Kinderen</div>
                 <div className="session-place">Seminar Room 2</div>
                 
@@ -249,7 +249,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/tutorials#wagner'>
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
-                <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
+                <div className="session-speaker">by Gerd Wagner</div>
                 <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Seminar Room 3</div>
               </div>
@@ -299,7 +299,7 @@ const ProgramOverviewPage = () => (
                 <Link className="session-title-link" to='/tutorials#wagner'>
                   Tutorial: Business Process Modeling and Simulation with DPMN
                 </Link>
-                <div className="session-speaker">by Prof. Dr. Gerd Wagner</div>
+                <div className="session-speaker">by Gerd Wagner</div>
                 <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Seminar Room 3</div>
               </div>
@@ -452,7 +452,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#digital-health-and-ethics-panel'>Panel: Digital Health and Ethics</Link>
-                <div className="session-speaker">with the participation of Dr. Giorgio Cangioli, Dr. Nikola Cihoric, Dr. Luiz Olavo da Silva Santos, and Dr. Floriano Zini</div>
+                <div className="session-speaker">with the participation of Giorgio Cangioli, Nikola Cihoric, Luiz Olavo da Silva Santos, and Floriano Zini</div>
                 <div className="session-chair">Chair: Zoran Milosevic</div>
                 <div className="session-place">Seminar Room 2</div>
               </div>
@@ -521,7 +521,7 @@ const ProgramOverviewPage = () => (
                     <div className="paper">
                       <span className="paper-title">PhD Lessons Learned</span>
                       , by&nbsp;
-                      <span className="paper-authors">Dr. Claudenir Fonseca</span>
+                      <span className="paper-authors">Claudenir Fonseca</span>
                     </div>
                   </li>
 
@@ -808,7 +808,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#baldwin'>Keynote: "We Are All Digital Now"</Link>
                 <div>Platform Systems and Flow Processes in Modern Enterprises</div>
-                <div className="session-speaker">by Prof. Dr. Carliss Y. Baldwin</div>
+                <div className="session-speaker">by Carliss Y. Baldwin</div>
                 <div className="session-chair">Chair: João Paulo A. Almeida</div>
                 <div className="session-place">Seminar Room 2</div>
               </div>
@@ -986,8 +986,8 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Business Process Management Systems</Link>
-                <div className="session-speaker">with the participation of Dr. Chiara Ghidini, Prof. Hajo Reijers, Prof. Gerd Wagner, and Prof. Marco Montali</div>
-                <div className="session-chair">Chair: Prof. Fabrizio Maria Maggi</div>
+                <div className="session-speaker">with the participation of Chiara Ghidini, Hajo Reijers, Gerd Wagner, and Marco Montali</div>
+                <div className="session-chair">Chair: Fabrizio Maria Maggi</div>
                 <div className="session-place">Seminar Room 2</div>
               </div>
 
@@ -1002,7 +1002,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#sartor'>Keynote: Modelling Ethical and Legal Norms/Explaining Compliance and Violation</Link>
-                <div className="session-speaker">by Prof. Dr. Giovanni Sartor</div>
+                <div className="session-speaker">by Giovanni Sartor</div>
                 <div className="session-chair">Chair: Zoran Milosevic</div>
                 <div className="session-place">Maretsch Castle</div>
               </div>
@@ -1034,7 +1034,7 @@ const ProgramOverviewPage = () => (
 
               <div className="session">
                 <Link className="session-title-link" to='/keynotes#cabot'>Keynote: Smart Modeling of Smart Software</Link>
-                <div className="session-speaker">by Prof. Dr. Jordi Cabot</div>
+                <div className="session-speaker">by Jordi Cabot</div>
                 <div className="session-chair">Chair: Giancarlo Guizzardi</div>
                 <div className="session-place">Seminar Room 2</div>
               </div>
