@@ -240,6 +240,7 @@ const ProgramOverviewPage = () => (
               <div className="session">
                 <a className="session-title-link" href='https://tear-series.org' target="_blank" rel="noopener noreferrer">TEAR/SoEA4EE Keynote: Making Enterprise Architecture Viewpoint Frameworks Fitter for Purpose</a>
                 <div className="session-speaker">by Prof. Dr. Colin Atkinson</div>
+                <div className="session-chair">Chair: Sybren de Kinderen</div>
                 <div className="session-place">Seminar Room 2</div>
                 
               </div>
@@ -984,7 +985,7 @@ const ProgramOverviewPage = () => (
               <b>15:30 - 16:30</b>
 
               <div className="session">
-                <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Process</Link>
+                <Link className="session-title-link" to='/panels#augmented-process-panel'>Panel: Augmented Business Process Management Systems</Link>
                 <div className="session-speaker">with the participation of Dr. Chiara Ghidini, Prof. Hajo Reijers, Prof. Gerd Wagner, and Prof. Marco Montali</div>
                 <div className="session-chair">Chair: Prof. Fabrizio Maria Maggi</div>
                 <div className="session-place">Seminar Room 2</div>

@@ -42,14 +42,8 @@ const PanelsPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
             <h2 id="digital-health-and-ethics-panel" className="mx-auto my-0 text-uppercase">
-              Towards Flexible Digital Health Ecosystems
+              Towards Flexible Digital Health Ecosystems: Challenges and Opportunities from International Experience
             </h2>
-
-            <br />
-
-            <h3 className="mx-auto my-0 text-uppercase">
-              Challenges and Opportunities from International Experience
-            </h3>
 
             <br />
             <br />
@@ -256,7 +250,7 @@ const PanelsPage = () => (
         <div className="row align-items-center">
           <div className="col-lg-8 mx-auto text-center">
             <h2 id="augmented-process-panel" className="mx-auto my-0 text-uppercase">
-              Augmented Process Panel
+            Augmented Business Process Management Systems
             </h2>
 
             <br />
