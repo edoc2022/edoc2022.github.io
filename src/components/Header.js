@@ -70,7 +70,7 @@ export default class Header extends Component {
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/program-overview">Detailed Program</Link>
                   <Link className="dropdown-item" to="/keynotes">Keynotes</Link>
-                  <Link className="dropdown-item" to="/online">Online Program</Link>
+                  {/* <Link className="dropdown-item" to="/online">Online Program</Link> */}
                   <Link className="dropdown-item" to="/panels">Panels</Link>
                   <Link className="dropdown-item" to="/tutorials">Tutorial</Link>
                   <Link className="dropdown-item" to="/workshops">Workshops</Link>

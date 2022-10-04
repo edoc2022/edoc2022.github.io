@@ -27,22 +27,20 @@ const PanelsPage = () => (
 
     <section id="keynotes" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center pb-5">
           <div className="col-lg-10 mx-auto text-center">
             <h1 className="mx-auto my-0 text-uppercase">panels</h1>
           </div>
         </div>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
         <div className="row align-items-center">
-          <div className="col-lg-8 mx-auto text-center">
-            <h2 id="digital-health-and-ethics-panel" className="mx-auto my-0 text-uppercase">
-              Towards Flexible Digital Health Ecosystems: Challenges and Opportunities from International Experience
+          <div className="col-lg-8 mx-auto text-center py-5">
+            <h2
+              id="digital-health-and-ethics-panel"
+              className="mx-auto my-0 text-uppercase"
+            >
+              Towards Flexible Digital Health Ecosystems: Challenges and
+              Opportunities from International Experience
             </h2>
 
             <br />
@@ -50,21 +48,38 @@ const PanelsPage = () => (
             <br />
 
             <p className="text-black text-justify">
-              Digital health requirements increasingly require crossing organisational and jurisdictional boundaries while engaging patients to pro-actively participate in their own care. This in turn requires delivery of interoperability solutions over standards-based APIs leveraging common agreement on the clinical semantics, as well as patient-controlled access to their data by various providers, private and government based.
+              Digital health requirements increasingly require crossing
+              organisational and jurisdictional boundaries while engaging
+              patients to pro-actively participate in their own care. This in
+              turn requires delivery of interoperability solutions over
+              standards-based APIs leveraging common agreement on the clinical
+              semantics, as well as patient-controlled access to their data by
+              various providers, private and government based.
             </p>
 
             <p className="text-black text-justify">
-              The concepts of interoperability, ontology, computable policy expressions for privacy, consent and ethics, trust, analytics, ML, AI, IoT and Digital Twins, are widely discussed within EDOC community and the purpose of this panel is to bring together digital health practitioners and EDOC researchers in discussing challenges and opportunities relating to designing, operating and evolving flexible digital health ecosystems.
+              The concepts of interoperability, ontology, computable policy
+              expressions for privacy, consent and ethics, trust, analytics, ML,
+              AI, IoT and Digital Twins, are widely discussed within EDOC
+              community and the purpose of this panel is to bring together
+              digital health practitioners and EDOC researchers in discussing
+              challenges and opportunities relating to designing, operating and
+              evolving flexible digital health ecosystems.
             </p>
 
             <p className="text-black text-justify">
-              In collaboration with the EDOC2022 conference, the renown medical software provider from Australia, <Link to="https://bpsoftware.net/">Best Practice Software</Link>, would like to stimulate conversation about challenges and opportunities from primary care perspective to the problem of designing patient-facing interoperable digital health ecosystems.  Each panel member will present their position statement to shed light on the challenges and highlight recent advances in the field. The presentations will be followed by a {'Q&A'} session with the audience.
+              In collaboration with the EDOC2022 conference, the renown medical
+              software provider from Australia,{' '}
+              <Link to="https://bpsoftware.net/">Best Practice Software</Link>,
+              would like to stimulate conversation about challenges and
+              opportunities from primary care perspective to the problem of
+              designing patient-facing interoperable digital health ecosystems.
+              Each panel member will present their position statement to shed
+              light on the challenges and highlight recent advances in the
+              field. The presentations will be followed by a {'Q&A'} session
+              with the audience.
             </p>
           </div>
-
-          <br />
-          <br />
-          <br />
 
           <div className="row justify-content-center align-items-center no-gutters bg-black">
             <div className="col-lg-6 text-center">
@@ -81,18 +96,28 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Giorgio Cangioli (Italy)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Giorgio Cangioli (Italy)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://healthmanagement.org/viewProfile/124034/Giorgio_Cangioli'>International clinical standards perspective (interoperability, FAIR, FHIR).</Link>
+                      <Link to="https://healthmanagement.org/viewProfile/124034/Giorgio_Cangioli">
+                        International clinical standards perspective
+                        (interoperability, FAIR, FHIR).
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Giorgio is a Senior Consultant - Technical Lead, Vice-Chair HL7 Italy, Board member HL7 Europe, HL7 International Technical Steering Committee and CDA Management Group member, Co-facilitator of HL7 International Patient Summary (IPS) and FAIRness for FHIR projects, and  ISO/TC 215 WG1, WG3 and WG6 member.
+                      Giorgio is a Senior Consultant - Technical Lead,
+                      Vice-Chair HL7 Italy, Board member HL7 Europe, HL7
+                      International Technical Steering Committee and CDA
+                      Management Group member, Co-facilitator of HL7
+                      International Patient Summary (IPS) and FAIRness for FHIR
+                      projects, and ISO/TC 215 WG1, WG3 and WG6 member.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -116,18 +141,30 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Nikola Cihoric (Switzerland)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Nikola Cihoric (Switzerland)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://ch.linkedin.com/in/dr-nikola-cihoric'>Clinician's perspective on the advanced ontology requirements (oncology, ontology)</Link>
+                      <Link to="https://ch.linkedin.com/in/dr-nikola-cihoric">
+                        Clinician's perspective on the advanced ontology
+                        requirements (oncology, ontology)
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Nikola is a clinical doctor, radiation oncologist, clinical informatician, and passionate pursuer of exceptional user experience and usability in software. He is an oncology consultant at the Insel Group, Bern, Switzerland, and Founder of Wemedoo AG, involved in designing and implementing cutting-edge technology solutions that will advance healthcare, improve clinical work, empower research, and expedite clinical trials.
+                      Nikola is a clinical doctor, radiation oncologist,
+                      clinical informatician, and passionate pursuer of
+                      exceptional user experience and usability in software. He
+                      is an oncology consultant at the Insel Group, Bern,
+                      Switzerland, and Founder of Wemedoo AG, involved in
+                      designing and implementing cutting-edge technology
+                      solutions that will advance healthcare, improve clinical
+                      work, empower research, and expedite clinical trials.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -151,18 +188,30 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Luiz Olavo da Silva Santos (The Netherlands)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Luiz Olavo da Silva Santos (The Netherlands)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://scholar.google.nl/citations?user=ZppZjc4AAAAJ&hl=en'>Policy perspective, from the use of FAIR and GDPR for digital health research (FAIR, Digital Twins)</Link>
+                      <Link to="https://scholar.google.nl/citations?user=ZppZjc4AAAAJ&hl=en">
+                        Policy perspective, from the use of FAIR and GDPR for
+                        digital health research (FAIR, Digital Twins)
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Dr. Luiz Olavo is an Associate Prof at The University of Twente, and an Associate Professor in the BioSemantics Group at the Leiden University Medica Center, in Leiden, the Netherlands. He has been closely involved in the FAIR principles (findable, accessible, interoperable and reusable) movement, and published a highly cited paper The FAIR Guiding Principles for scientific data management and stewardship, in 2016.
+                      Dr. Luiz Olavo is an Associate Prof at The University of
+                      Twente, and an Associate Professor in the BioSemantics
+                      Group at the Leiden University Medica Center, in Leiden,
+                      the Netherlands. He has been closely involved in the FAIR
+                      principles (findable, accessible, interoperable and
+                      reusable) movement, and published a highly cited paper The
+                      FAIR Guiding Principles for scientific data management and
+                      stewardship, in 2016.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -186,18 +235,34 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Floriano Zini (Italy)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Floriano Zini (Italy)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.unibz.it/en/faculties/computer-science/academic-staff/person/29416-floriano-luca-zini'>Local perspective on the use of ML/AI for several industry projects in Bolzano area; Free University of Bozen-Bolzano, Smart Data Factory - Knowledge and Technology Transfer Lab</Link>
+                      <Link to="https://www.unibz.it/en/faculties/computer-science/academic-staff/person/29416-floriano-luca-zini">
+                        Local perspective on the use of ML/AI for several
+                        industry projects in Bolzano area; Free University of
+                        Bozen-Bolzano, Smart Data Factory - Knowledge and
+                        Technology Transfer Lab
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Floriano is an academic technologist at Smart Data Factory, the technology transfer laboratory of the Faculty of Computer Science at the Free University of Bozen-Bolzano. Over the past 10 years, his research activity has focused on the design, development and evaluation of mobile and web-based information systems for personalized health care, through the application of Human Computer Interaction and Artificial Intelligence methodologies and algorithms, particularly Machine Learning. 
+                      Floriano is an academic technologist at Smart Data
+                      Factory, the technology transfer laboratory of the Faculty
+                      of Computer Science at the Free University of
+                      Bozen-Bolzano. Over the past 10 years, his research
+                      activity has focused on the design, development and
+                      evaluation of mobile and web-based information systems for
+                      personalized health care, through the application of Human
+                      Computer Interaction and Artificial Intelligence
+                      methodologies and algorithms, particularly Machine
+                      Learning.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -221,18 +286,32 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Zoran Milosevic (Australia)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Zoran Milosevic (Australia)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.linkedin.com/in/zorandmilosevic/'>Moderator</Link>
+                      <Link to="https://www.linkedin.com/in/zorandmilosevic/">
+                        Moderator
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      Dr. Zoran Milosevic is an interoperability and AI consultant with <Link to="https://bpsoftware.net/">Best Practice Software</Link>, Australia. He has been involved in many digital health interoperability projects and standards, in Australia, USA and Europe. He endeavours to bring the latest research results and established architecture practices from enterprise distributed systems, such as ISO/ITU-T RM-ODP standards, into the evolving digital health ecosystems.
+                      Dr. Zoran Milosevic is an interoperability and AI
+                      consultant with{' '}
+                      <Link to="https://bpsoftware.net/">
+                        Best Practice Software
+                      </Link>
+                      , Australia. He has been involved in many digital health
+                      interoperability projects and standards, in Australia, USA
+                      and Europe. He endeavours to bring the latest research
+                      results and established architecture practices from
+                      enterprise distributed systems, such as ISO/ITU-T RM-ODP
+                      standards, into the evolving digital health ecosystems.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -240,7 +319,6 @@ const PanelsPage = () => (
               </div>
             </div>
           </div>
-
         </div>
 
         <br />
@@ -248,31 +326,39 @@ const PanelsPage = () => (
         <br />
 
         <div className="row align-items-center">
-          <div className="col-lg-8 mx-auto text-center">
-            <h2 id="augmented-process-panel" className="mx-auto my-0 text-uppercase">
-            Augmented Business Process Management Systems
+          <div className="col-lg-8 mx-auto text-center py-5">
+            <h2
+              id="augmented-process-panel"
+              className="mx-auto my-0 text-uppercase"
+            >
+              Augmented Business Process Management and Enterprise Information
+              Systems
             </h2>
 
             <br />
             <br />
             <br />
 
-            {/* <p className="text-black text-justify">
-              Digital health requirements increasingly require crossing organisational and jurisdictional boundaries while engaging patients to pro-actively participate in their own care. This in turn requires delivery of interoperability solutions over standards-based APIs leveraging common agreement on the clinical semantics, as well as patient-controlled access to their data by various providers, private and government based.
-            </p>
-
             <p className="text-black text-justify">
-              The concepts of interoperability, ontology, computable policy expressions for privacy, consent and ethics, trust, analytics, ML, AI, IoT and Digital Twins, are widely discussed within EDOC community and the purpose of this panel is to bring together digital health practitioners and EDOC researchers in discussing challenges and opportunities relating to designing, operating and evolving flexible digital health ecosystems.
+              In a recent{' '}
+              <Link to="https://arxiv.org/abs/2201.12855">
+                research manifesto
+              </Link>
+              , promiment researchers at the intersection of artificial
+              intelligence and business process management have layed out the
+              vision of "augmented business process management systems" (ABPMs).
+              In their definition, an ABPMS is an AI-empowered, trustworthy, and
+              process-aware information system that reasons and acts upon data
+              within a set of constraints and assumptions, with the aim to
+              continuously adapt and improve a set of business processes with
+              respect to one or more performance indicators. How does an ABPMS
+              differ to a standard BPMS and a generic AI system? What
+              opportunities emerge from the interplay of AI and BPM? What are
+              the implications for enterprise information systems? We will try
+              to answer these and more questions in a lively panel with
+              colleagues and friends.
             </p>
-
-            <p className="text-black text-justify">
-              In collaboration with the EDOC2022 conference, the renown medical software provider from Australia, <Link to="https://bpsoftware.net/">Best Practice Software</Link>, would like to stimulate conversation about challenges and opportunities from primary care perspective to the problem of designing patient-facing interoperable digital health ecosystems.  Each panel member will present their position statement to shed light on the challenges and highlight recent advances in the field. The presentations will be followed by a {'Q&A'} session with the audience.
-            </p> */}
           </div>
-
-          <br />
-          <br />
-          <br />
 
           <div className="row justify-content-center align-items-center no-gutters bg-black">
             <div className="col-lg-6 text-center">
@@ -289,18 +375,35 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Dr. Chiara Ghidini (Italy)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Dr. Chiara Ghidini (Italy)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.fbk.eu'>Fondazione Bruno Kessler (FBK).</Link>
+                      <Link to="https://www.fbk.eu">
+                        Fondazione Bruno Kessler (FBK).
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Chiara Ghidini is a senior Research Scientist at Fondazione Bruno Kessler (FBK), Trento, Italy, where she heads the Process & Data Intelligence (PDI) research unit and is responsible of the scientific ordination of the new centre of digital Health & Well Being. Her scientific work in the areas of Semantic Web, Knowledge Engineering and Representation, and Process Mining is internationally well known and recognised. She has actively been involved in the organisation of several andconferences and has served as programme co-chair for EKAW 2018, ISWC 2019 and BPM 2020. She has been involved in a number of international and national research projects, and is currently vice-president of the Italian Association for Artificial Intelligence (AIxIA).
+                      Chiara Ghidini is a senior Research Scientist at
+                      Fondazione Bruno Kessler (FBK), Trento, Italy, where she
+                      heads the Process & Data Intelligence (PDI) research unit
+                      and is responsible of the scientific ordination of the new
+                      centre of digital Health & Well Being. Her scientific work
+                      in the areas of Semantic Web, Knowledge Engineering and
+                      Representation, and Process Mining is internationally well
+                      known and recognised. She has actively been involved in
+                      the organisation of several andconferences and has served
+                      as programme co-chair for EKAW 2018, ISWC 2019 and BPM
+                      2020. She has been involved in a number of international
+                      and national research projects, and is currently
+                      vice-president of the Italian Association for Artificial
+                      Intelligence (AIxIA).
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -324,18 +427,31 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Prof. Hajo Reijers (Netherlands)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Prof. Hajo Reijers (Netherlands)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.uu.nl/en'>Utrecht University</Link>
+                      <Link to="https://www.uu.nl/en">Utrecht University</Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Hajo Reijers is a full professor in the Department of Information and Computing Sciences of Utrecht University, where he leads the Business Process (BPM) Management & Analytics group. He is also a part-time, full professor in the Department of Mathematics and Computer Science of Eindhoven University of Technology. Previously, he worked for various management consultancy companies and led the BPM research group at Lexmark. Hajo's research and teaching focus on BPM, data analytics, and information systems engineering. On these and other topics, he published over 300 scientific papers, chapters in edited books, and articles in professional journals.
+                      Hajo Reijers is a full professor in the Department of
+                      Information and Computing Sciences of Utrecht University,
+                      where he leads the Business Process (BPM) Management &
+                      Analytics group. He is also a part-time, full professor in
+                      the Department of Mathematics and Computer Science of
+                      Eindhoven University of Technology. Previously, he worked
+                      for various management consultancy companies and led the
+                      BPM research group at Lexmark. Hajo's research and
+                      teaching focus on BPM, data analytics, and information
+                      systems engineering. On these and other topics, he
+                      published over 300 scientific papers, chapters in edited
+                      books, and articles in professional journals.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -359,19 +475,38 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Prof. Gerd Wagner (Germany)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Prof. Gerd Wagner (Germany)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.b-tu.de/'> Brandenburg University of Technology</Link>
+                      <Link to="https://www.b-tu.de/">
+                        {' '}
+                        Brandenburg University of Technology
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Gerd Wagner is Professor of Internet Technology at Brandenburg University of Technology, Cottbus, Germany.
-                    After studying Mathematics, Philosophy and Informatics in Heidelberg, San Francisco and Berlin, he (1) investigated the semantics of negation in knowledge representation formalisms, (2) developed concepts and techniques for agent-oriented modeling and simulation, (3) participated in the development of a foundational ontology for conceptual modeling, the Unified Foundational Ontology (UFO), and (4) created a new Discrete Event Simulation paradigm: Object Event Modeling and Simulation (OEM{'&'}S), and a new process modeling language: the Discrete Event Process Modeling Notation (DPMN). He also runs the websites <a href="https://dpmn.info">dpmn.info</a> and <a href="https://sim4edu.com">sim4edu.com</a>.
+                      Gerd Wagner is Professor of Internet Technology at
+                      Brandenburg University of Technology, Cottbus, Germany.
+                      After studying Mathematics, Philosophy and Informatics in
+                      Heidelberg, San Francisco and Berlin, he (1) investigated
+                      the semantics of negation in knowledge representation
+                      formalisms, (2) developed concepts and techniques for
+                      agent-oriented modeling and simulation, (3) participated
+                      in the development of a foundational ontology for
+                      conceptual modeling, the Unified Foundational Ontology
+                      (UFO), and (4) created a new Discrete Event Simulation
+                      paradigm: Object Event Modeling and Simulation (OEM{'&'}
+                      S), and a new process modeling language: the Discrete
+                      Event Process Modeling Notation (DPMN). He also runs the
+                      websites <a href="https://dpmn.info">
+                        dpmn.info
+                      </a> and <a href="https://sim4edu.com">sim4edu.com</a>.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -395,18 +530,41 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Prof. Marco Montali (Italy)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Prof. Marco Montali (Italy)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.unibz.it/'>Free University of Bozen-Bolzano</Link>
+                      <Link to="https://www.unibz.it/">
+                        Free University of Bozen-Bolzano
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Marco Montali is Full Professor and Vice-Dean for Studies at the Faculty of Computer Science, Free University of Bozen-Bolzano, Italy, where he also coordinates the MSc Program in Computational Data Science.  He develops novel, foundational and applied techniques grounded in artificial intelligence, logics, and formal methods, to create intelligent agents and information systems that combine processes and data, with a particular interest in the combination of model-driven and data-driven techniques. He has served as PC Chair of BPM 2018, RuleML+RR 2019, ICPM 2020, and CBI 2021, is serving as General Chair of ICPM 2022 and EDOC 2022, and is steering committee member of the IEEE task force on process mining. He is co-author of more than 230 papers, many of which in top-tier conferences and journals, and recipient of 10 best paper awards and 2 test-of-time awards. He received the “Marco Cadoli 2015” award, given by the Italian Association of Artificial Intelligence to the best under 35 Italian researcher who autonomously contributed to advance the state-of-the-art in Artificial Intelligence.
+                      Marco Montali is Full Professor and Vice-Dean for Studies
+                      at the Faculty of Computer Science, Free University of
+                      Bozen-Bolzano, Italy, where he also coordinates the MSc
+                      Program in Computational Data Science. He develops novel,
+                      foundational and applied techniques grounded in artificial
+                      intelligence, logics, and formal methods, to create
+                      intelligent agents and information systems that combine
+                      processes and data, with a particular interest in the
+                      combination of model-driven and data-driven techniques. He
+                      has served as PC Chair of BPM 2018, RuleML+RR 2019, ICPM
+                      2020, and CBI 2021, is serving as General Chair of ICPM
+                      2022 and EDOC 2022, and is steering committee member of
+                      the IEEE task force on process mining. He is co-author of
+                      more than 230 papers, many of which in top-tier
+                      conferences and journals, and recipient of 10 best paper
+                      awards and 2 test-of-time awards. He received the “Marco
+                      Cadoli 2015” award, given by the Italian Association of
+                      Artificial Intelligence to the best under 35 Italian
+                      researcher who autonomously contributed to advance the
+                      state-of-the-art in Artificial Intelligence.
                     </p>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
@@ -430,18 +588,35 @@ const PanelsPage = () => (
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
                   <div className="project-text w-100 my-auto text-justify">
-                    <h4 className="mb-0 text-white-50">Prof. Fabrizio Maria Maggi (Italy)</h4>
+                    <h4 className="mb-0 text-white-50">
+                      Prof. Fabrizio Maria Maggi (Italy)
+                    </h4>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to='https://www.linkedin.com/in/zorandmilosevic/'>Moderator</Link>
+                      <Link to="https://www.linkedin.com/in/zorandmilosevic/">
+                        Moderator
+                      </Link>
                     </p>
 
                     <br />
 
                     <p className="mb-0 text-white-50">
-                    Fabrizio Maria Maggi is currently Associate Professor at the Research Centre for Knowledge and Data (KRDB)—Faculty of Computer Science—Free University of Bozen-Bolzano. His research interest has focused in the last years on the application of Artificial Intelligence to Business Process Management. He authored more than 150 articles on process mining, declarative and hybrid business process notations, business constraint verification and monitoring, predictive business process monitoring. He serves as program committee member of the top conferences in the field of Business Process Management and Information Systems. He is leading the Rule Mining (RuM) initiative in collaboration with the University of Tartu aimed at providing tool support for declarative process mining.
+                      Fabrizio Maria Maggi is currently Associate Professor at
+                      the Research Centre for Knowledge and Data (KRDB)—Faculty
+                      of Computer Science—Free University of Bozen-Bolzano. His
+                      research interest has focused in the last years on the
+                      application of Artificial Intelligence to Business Process
+                      Management. He authored more than 150 articles on process
+                      mining, declarative and hybrid business process notations,
+                      business constraint verification and monitoring,
+                      predictive business process monitoring. He serves as
+                      program committee member of the top conferences in the
+                      field of Business Process Management and Information
+                      Systems. He is leading the Rule Mining (RuM) initiative in
+                      collaboration with the University of Tartu aimed at
+                      providing tool support for declarative process mining.
                     </p>
                     <hr className="d-none d-lg-block mb-0 mr-0" />
                   </div>
@@ -449,7 +624,6 @@ const PanelsPage = () => (
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
