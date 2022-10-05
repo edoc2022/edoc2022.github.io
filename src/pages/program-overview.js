@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-03-10-2022.jpg';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-05-10-2022.jpg';
 
 function AnchorToStaticFile(props) {
   return (
@@ -33,7 +33,7 @@ function PdfIcon(props) {
       fill="currentColor"
       class="bi bi-filetype-pdf"
       viewBox="0 0 16 16"
-      className='pl-2'
+      className="pl-2"
     >
       <path
         fill-rule="evenodd"
@@ -58,39 +58,49 @@ const ProgramOverviewPage = () => (
           </div>
         </div>
 
-        <div className="row mx-auto pb-5 justify-content-around">
-          <div className="col-lg-2 mx-auto">
+        <div className="row mx-auto pb-2 justify-content-around">
+          <div className="col-lg-3 mx-auto">
             <div className="btn m-4 btn-primary">
               <Link className="text-white" to="/program-overview#monday">
                 Monday
               </Link>
             </div>
           </div>
-          <div className="col-lg-2 mx-auto">
+          <div className="col-lg-3 mx-auto">
             <div className="btn m-4 btn-primary">
               <Link className="text-white" to="/program-overview#tuesday">
                 Tuesday
               </Link>
             </div>
           </div>
-          <div className="col-lg-2 mx-auto">
+          <div className="col-lg-3 mx-auto">
             <div className="btn m-4 btn-primary">
               <Link className="text-white" to="/program-overview#wednesday">
                 Wednesday
               </Link>
             </div>
           </div>
-          <div className="col-lg-2 mx-auto">
+        </div>
+        
+        <div className="row mx-auto pb-5 justify-content-around">
+          <div className="col-lg-3 mx-auto">
             <div className="btn m-4 btn-primary">
               <Link className="text-white" to="/program-overview#thursday">
                 Thursday
               </Link>
             </div>
           </div>
-          <div className="col-lg-2 mx-auto">
+          <div className="col-lg-3 mx-auto">
             <div className="btn m-4 btn-primary">
               <Link className="text-white" to="/program-overview#friday">
                 Friday
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-3 mx-auto">
+            <div className="btn m-4 btn-primary">
+              <Link className="text-white" to="/program-overview#monday-10">
+                Monday, 10
               </Link>
             </div>
           </div>
@@ -101,7 +111,7 @@ const ProgramOverviewPage = () => (
             <a
               href={
                 config.manifestStartUrl +
-                '/EDOC-and-CoopIS-program-03-10-2022.pdf'
+                '/EDOC-and-CoopIS-program-05-10-2022.pdf'
               }
               target="_blank"
               rel="noopener noreferrer"
@@ -207,8 +217,8 @@ const ProgramOverviewPage = () => (
                   <li>
                     <div className="paper">
                       <span className="paper-title">
-                        Constructing Digital Architectures Under Society 5.0:
-                        An Enterprise Architecture Perspective
+                        Constructing Digital Architectures Under Society 5.0: An
+                        Enterprise Architecture Perspective
                       </span>
                       , by&nbsp;
                       <span className="paper-authors">
@@ -216,7 +226,7 @@ const ProgramOverviewPage = () => (
                         Maria-Eugenia Iacob
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/idams-piest.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -232,7 +242,7 @@ const ProgramOverviewPage = () => (
                         Aleksandra Revina, Nina Rizun, and Ünal Aksu
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/idams-revina.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -249,7 +259,7 @@ const ProgramOverviewPage = () => (
                       </span>
                       &nbsp;
                       <AnchorToStaticFile staticPath="/pre-proceedings/idams-benhayoun.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -312,7 +322,7 @@ const ProgramOverviewPage = () => (
                       , by&nbsp;
                       <span className="paper-authors">Jānis Grabis</span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/tear-grabis.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -620,7 +630,7 @@ const ProgramOverviewPage = () => (
                         Steffen Becker
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-demo-weller.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -638,7 +648,7 @@ const ProgramOverviewPage = () => (
                         Becker
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-demo-speth.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -655,7 +665,7 @@ const ProgramOverviewPage = () => (
                         and Dominik Bork
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-demo-glaser.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -670,7 +680,7 @@ const ProgramOverviewPage = () => (
                         Keti Lila, Marco Franceschetti and Julius Köpke
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-demo-lila.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -686,7 +696,7 @@ const ProgramOverviewPage = () => (
                         Orlenys López-Pintado, Iryna Halenok and Marlon Dumas
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-demo-pintado.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -819,7 +829,7 @@ const ProgramOverviewPage = () => (
                       , by&nbsp;
                       <span className="paper-authors">Hamid Ahaggach</span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-dc-ahaggach.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -833,7 +843,7 @@ const ProgramOverviewPage = () => (
                       , by&nbsp;
                       <span className="paper-authors">Isadora Valle Sousa</span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-dc-sousa.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -847,7 +857,7 @@ const ProgramOverviewPage = () => (
                       , by&nbsp;
                       <span className="paper-authors">Kaoutar Sadouki</span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-dc-sadouki.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -1148,7 +1158,7 @@ const ProgramOverviewPage = () => (
                         Thomas Schork, and Christian Zirpins
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-forum-schuller.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -1164,7 +1174,7 @@ const ProgramOverviewPage = () => (
                         Stefan Gudenkauf, Uwe Bachmann, and Niklas Hartmann
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-forum-gudenkauf.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -1181,7 +1191,7 @@ const ProgramOverviewPage = () => (
                         and Camille Salinesi
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-forum-six.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                     </div>
                   </li>
@@ -1202,7 +1212,7 @@ const ProgramOverviewPage = () => (
                         (online presentation)
                       </span>
                       <AnchorToStaticFile staticPath="/pre-proceedings/edoc-forum-roychoudhury.pdf">
-                        <PdfIcon/>
+                        <PdfIcon />
                       </AnchorToStaticFile>
                       <iframe
                         width="90%"
@@ -1861,6 +1871,34 @@ const ProgramOverviewPage = () => (
                 <Link to="#program" className="text-white">
                   Back to the top
                 </Link>
+              </div>
+            </p>
+
+            <hr />
+
+            <span class="anchor" id="monday-10"></span>
+            <h4 className="text-black mb-4 text-uppercase">
+              Monday, October 10
+            </h4>
+
+            <p className="text-black text-left">
+              <b>18:00 - 19:00</b>
+
+              <div className="session">
+                <Link
+                  className="session-title-link"
+                  to="/panels#conceptual-modeling-panel"
+                >
+                  Panel: Different Perspectives of Conceptual Modelling
+                </Link>
+                <div className="session-speaker">
+                  with the participation of Marco Wobben, Tomás Sabat, Clifford
+                  Heath, and Heather Hedden
+                </div>
+                <div className="session-chair">Chair: Enrico Franconi</div>
+                <div className="session-place">
+                  Online - Free Registration Required
+                </div>
               </div>
             </p>
           </div>
