@@ -101,7 +101,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to="www.casetalk.com">CEO of CaseTalk</Link>
+                      <Link to="https://casetalk.com">CEO of CaseTalk</Link>
                     </p>
 
                     <br />
@@ -150,7 +150,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to="www.vaticle.com">COO of Vaticle - TypeDB</Link>
+                      <Link to="https://vaticle.com">COO of Vaticle - TypeDB</Link>
                     </p>
 
                     <br />
@@ -192,7 +192,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to="www.dataconstellation.com">
+                      <Link to="http://dataconstellation.com">
                         CEO of Data Constellation
                       </Link>
                     </p>
@@ -248,7 +248,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to="www.semantic-web.com">
+                      <Link to="https://semantic-web.com">
                         Semantic Web Company
                       </Link>
                     </p>
@@ -300,7 +300,7 @@ const PanelsPage = () => (
                     <br />
 
                     <p className="mb-0 text-white-50">
-                      <Link to="www.unibz.it">
+                      <Link to="https://unibz.it">
                         Free University of Bozen-Bolzano (Moderator)
                       </Link>
                     </p>
