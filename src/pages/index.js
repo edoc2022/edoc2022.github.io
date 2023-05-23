@@ -34,8 +34,8 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <h2 className='bg-warning p-3 text-center py-4'>
-      <Link to="/registration" className='warning'>
+    <h2 className="bg-warning p-3 text-center py-4">
+      <Link to="/registration" className="warning">
         Registration closed. See you in Bolzano!
       </Link>
     </h2>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row justify-content-around">
           {/* <div className="col-1" /> */}
-          
+
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
               <Link className="text-white" to="/program-overview">
@@ -54,16 +54,22 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
-              <a className="text-white" href="https://link.springer.com/book/10.1007/978-3-031-17604-3">
-                Proceedings
+              <a
+                className="text-white"
+                href="https://link.springer.com/book/10.1007/978-3-031-17604-3"
+              >
+                Proceedings (main volume)
               </a>
             </div>
           </div>
           <div className="col-lg-3 mx-auto">
             <div className="btn m-2 btn-primary">
-              <Link className="text-white" to="/how-to-get">
-                How to Arrive
-              </Link>
+              <a
+                className="text-white"
+                href="http://link.springer.com/openurl.asp?genre=issue&issn=1865-1348&volume=466"
+              >
+                Proceedings (workshops)
+              </a>
             </div>
           </div>
           <div className="col-lg-3 mx-auto">
@@ -73,7 +79,7 @@ const IndexPage = () => (
               </Link>
             </div>
           </div>
-          
+
           {/* <div className="col-1" /> */}
         </div>
       </div>
@@ -169,14 +175,14 @@ const IndexPage = () => (
             <h2 className="text-black mb-4">The Venue</h2>
             <p className="text-black text-justify">
               EDOC 2022 is organized by the Free University of Bozen-Bolzano at
-              the south-tyrolean center of innovation NOI Techpark,
-              happening on-site in the city of Bolzano, Northern Italy. The
-              valley of the river Adige, which carves the Italian Alps, is the
-              home of a vibrant research community with leading researchers in
-              the fields of ontology engineering, knowledge representation, and
-              enterprise architecture. In every available opportunity, Bolzano
-              welcomes you to come to visit, learn, and celebrate its nature,
-              history, and culture in a unique place in the heart of Europe.
+              the south-tyrolean center of innovation NOI Techpark, happening
+              on-site in the city of Bolzano, Northern Italy. The valley of the
+              river Adige, which carves the Italian Alps, is the home of a
+              vibrant research community with leading researchers in the fields
+              of ontology engineering, knowledge representation, and enterprise
+              architecture. In every available opportunity, Bolzano welcomes you
+              to come to visit, learn, and celebrate its nature, history, and
+              culture in a unique place in the heart of Europe.
             </p>
           </div>
         </div>

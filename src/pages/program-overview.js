@@ -9,7 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 import SimpleLogoHeader from '../components/SimpleLogoHeader';
 
-import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-05-10-2022.jpg';
+import unibzBuilding from './../assets/images/EDOC-and-CoopIS-program-10-10-2022.jpg';
 
 function AnchorToStaticFile(props) {
   return (
@@ -111,7 +111,7 @@ const ProgramOverviewPage = () => (
             <a
               href={
                 config.manifestStartUrl +
-                '/EDOC-and-CoopIS-program-05-10-2022.pdf'
+                '/EDOC-and-CoopIS-program-10-10-2022.pdf'
               }
               target="_blank"
               rel="noopener noreferrer"
@@ -1882,7 +1882,7 @@ const ProgramOverviewPage = () => (
             </h4>
 
             <p className="text-black text-left">
-              <b>18:00 - 19:00</b>
+              <b>17:00 - 18:00</b> <s className='pl-3'>18:00 - 19:00</s>
 
               <div className="session">
                 <Link

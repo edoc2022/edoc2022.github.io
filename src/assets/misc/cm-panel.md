@@ -1,5 +1,7 @@
 Title: Different Perspectives of Conceptual Modelling
 
+
+
 Marco Wobben (CEO of CaseTalk; casetalk.com)
 
 Bio: Hi, my name is Marco Wobben. I started my career as an independent software developer in the early nineties. As an entrepreneur I continued development of the FCO-IM casetool in 2001 under the name of CaseTalk. As owner of the company, consultant, developer, trainer and presenter, I'm considered the driving force behind CaseTalk and I'm enjoying every bit of it.
